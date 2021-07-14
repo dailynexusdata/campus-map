@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src='dist/bundle.js' defer></script>
+        <title>UCSB Campus Map</title>
+    </head>
+
+    <body style='width: 100%; display: flex; justify-content: center; margin: 0;'>
+        <main style='width: 700px; display: flex; align-items: center; flex-direction: column'>
+            <div style="width: 100%;">
+                <h1>UCSB Campus Map</h1>
+            </div>
+            <div id="map" style='width: 600px; height: 500px;'></div>
+            <div style="width: 600px; display: flex; justify-content: space-between; margin: 10px">
+                <button id="switchMapButton">Switch Map</button>
+            </div>
+        </main>
+    </body>
+
+</html>
