@@ -130,24 +130,86 @@ const getPath = (startId, endId, data) => {
    * Implement search algorithms here
    *
    */
+  var q = [];
+  var visited = new Set();
+  var prev = new Map();
+  q.push(startId);
+  visited.add(startId);
   const links = data.bikePath.links;
-
-  console.log(links);
-
+  console.log(getChildren(startId,data));
+  while(q.length>0){
+    const node = q.shift();
+    if(node===endId){
+      console.log(prev);
+      return getMap(prev,startId,endId);
+      
+    }
+    const newChildren = [];
+    for(const child of getChildren(node,data)){
+      if(!visited.has(child)){
+        prev.set(child,node);
+        visited.add(child);
+        newChildren.push(child);
+      }
+    }
+    q = q.concat(newChildren);
+  }
   // output the id's of the nodes to visit
   // this gets passed directly into the drawPath() function
-  return [1, 2, 3, 4, 5];
+  //console.log(prev);
+  return getMap(prev,startId,endId);
 };
 
 const update = () => {
-  drawPath(getPath(1, 5, state.data), state.data);
+  drawPath(getPath(212, 25, state.data), state.data);
 };
 
 (async () => {
-  const data = await d3.json("dist/data.json"); // I just have fake data to test
+  const data = await d3.json("editor/data/data.json"); // I just have fake data to test
 
   console.log(data);
   setupMap(data);
   state.data = data;
   update();
 })();
+
+
+//Just a helper function to get the closest neighbor
+const getShort = (neighborID,data) => {
+  var neighbors = [];
+  const links = data.bikePath.links;
+  for(let i = 0;i<links.length;i++){
+    if(links[i].source==neighborID){
+      var neighbor = (links[i].target,links[i].distance);
+      neighbors.push(neighbor);
+    }
+  }
+  neighbors.sort((a,b) => (a[1]>b[1]) ? 1 : -1);
+  return neighbors[0][0];
+};
+
+//Helper function to get children of a node
+const getChildren = (parentID,data) => {
+  var children= [];
+  const links = data.bikePath.links;
+  for(var i = 0;i<links.length;i++){
+    if(links[i].source===parentID){
+      var child = [links[i].target,links[i].distance];
+      //console.log(child);
+      children.push(child);
+    }
+  }
+  //console.log(children);
+  children.sort((a,b) => (a[1]>b[1]) ? 1 : -1);
+  return children.map((x) => x[0]);
+};
+
+//Helper function to decode map
+const getMap= (resMap,start,end) => {
+  var path = [];
+  path.push(end);
+  while(!path.includes(start)){
+    path.push(resMap.get(path[path.length-1]));
+  }
+  return path.reverse();
+}
