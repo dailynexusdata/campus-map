@@ -9,6 +9,7 @@ const state = {
   overlay: null,
   reverseBikeLink: true,
   svg: null,
+  buildingSelection: false,
 };
 
 let data = null;
@@ -27,5 +28,6 @@ const update = () => {
   if (state.showBikePath) {
     // in bikePathMapping.js
     addBikePathBubbles();
+    addBuildingCircles();
   }
 };

@@ -33,6 +33,26 @@ $("#bikePathReverseButton").on("click", function () {
   setButtonGreen(this, state.reverseBikeLink);
 });
 
+$("#buildingOutlineButton").on("click", function () {
+  state.buildingSelection = !state.buildingSelection;
+  data.buildings.push({ geometry: [] });
+  setButtonGreen(this, state.buildingSelection);
+});
+
+$("#buildingUndoButton").on("click", () => {
+  data.buildings[data.buildings.length - 1].geometry.pop();
+
+  if (data.buildings[data.buildings.length - 1].geometry.length === 0) {
+    data.buildings.pop();
+  }
+  update();
+});
+
+$("#buildingNameInput").on("input", function () {
+  data.buildings[data.buildings.length - 1].name = this.value;
+  console.log(data);
+});
+
 // starts as green:
 $("#bikePathReverseButton").css({ "background-color": "green" });
 

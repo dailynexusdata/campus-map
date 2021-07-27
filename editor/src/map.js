@@ -66,6 +66,8 @@ const setupMap = (data) => {
       //add bikePathNode from bikePathMapping.js
       addBikePathNode(e.latlng);
       update();
+    } else if (state.buildingSelection) {
+      addBuildingNode(e.latlng);
     }
   });
 

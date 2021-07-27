@@ -100,7 +100,6 @@ const addBikePathBubbles = () => {
           .append("line")
           .attr("class", "bikePathLink")
           .attr("x1", (d) => {
-            console.log(d);
             const point = data.bikePath.nodes.find(({ id }) => id === d.source);
             return getLatLng(point).x;
           })
