@@ -50,7 +50,6 @@ const bikePathLine = d3
   .y((d) => getLatLng(d).y);
 
 const addBikePathBubbles = () => {
-  console.log(data.bikePath.nodes);
   state.svg
     .selectAll(".bikePathBubble")
     .data(data.bikePath.nodes)
@@ -81,6 +80,9 @@ const addBikePathBubbles = () => {
                 .style("fill", "red");
 
               addBikePathLink(selectedId);
+            } else if (state.bikeLotEntranceSelection) {
+              data.bikeLot[data.bikeLot.length - 1].entrance = selectedId;
+              console.log(data.bikeLot);
             }
             update();
           }),
@@ -152,3 +154,59 @@ const addBikePathBubbles = () => {
 };
 
 // theres got to be a better way to get the nodes than this...
+
+const addBikeLotNode = ({ lat, lng }) => {
+  const point = { lat, lng };
+  data.bikeLot[data.bikeLot.length - 1].geometry.push(point);
+  console.log(JSON.stringify(data.bikeLot[data.bikeLot.length - 1]));
+  addBikeLotArea();
+};
+
+const addBikeLotArea = () => {
+  const buildingArea = d3
+    .line()
+    .x((d) => getLatLng(d).x)
+    .y((d) => getLatLng(d).y);
+
+  console.log(data.bikeLot);
+
+  state.svg
+    .selectAll(".bikeLotArea")
+    .data(data.bikeLot)
+    .join(
+      (enter) => {
+        enter
+          .append("path")
+          .attr("class", "bikeLotArea")
+          .attr("d", (d) => buildingArea(d.geometry))
+          .attr("fill", "rgba(144,238,144,0.2)");
+      },
+      (update) => {
+        update.attr("d", (d) => buildingArea(d.geometry));
+      }
+    );
+
+  state.svg
+    .selectAll(".bikeLotCircles")
+    .data(
+      data.bikeLot.reduce((acc, curr) => {
+        return [...acc, ...curr.geometry];
+      }, [])
+    )
+    .join(
+      (enter) => {
+        enter
+          .append("circle")
+          .attr("class", "bikeLotCircles")
+          .attr("cx", (d) => getLatLng(d).x)
+          .attr("cy", (d) => getLatLng(d).y)
+          .attr("r", 5)
+          .attr("fill", "black");
+      },
+      (update) => {
+        update
+          .attr("cx", (d) => getLatLng(d).x)
+          .attr("cy", (d) => getLatLng(d).y);
+      }
+    );
+};

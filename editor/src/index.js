@@ -10,6 +10,8 @@ const state = {
   reverseBikeLink: true,
   svg: null,
   buildingSelection: false,
+  bikeLotSelection: false,
+  bikeLotEntranceSelection: false,
 };
 
 let data = null;
@@ -29,5 +31,6 @@ const update = () => {
     // in bikePathMapping.js
     addBikePathBubbles();
     addBuildingCircles();
+    addBikeLotArea();
   }
 };

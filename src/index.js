@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import { path } from "d3";
 import * as L from "leaflet";
 
 import COLORS from "./colors";
@@ -46,7 +47,9 @@ const setupMap = (data) => {
   const overlay = d3.select(state.map.getPanes().overlayPane);
   state.svg = overlay.select("svg");
 
-  state.map.on("click", function (e) {});
+  state.map.on("click", function (e) {
+    console.log(e.latlng);
+  });
 
   // call update function when move map
   // from index.js
@@ -159,14 +162,33 @@ const getPath = (startId, endId, data) => {
   return getMap(prev, startId, endId);
 };
 
+// idk if this is a good idea
+// + we could do it for the stuff in the drawing function
+const pathCache = {
+  start: -1,
+  end: -1,
+  path: [],
+};
+
 const update = () => {
-  drawPath(getPath(212, 25, state.data), state.data);
+  const startIdx = 212;
+  const endIdx = 25;
+
+  if (
+    pathCache.start !== startIdx ||
+    pathCache.end !== endIdx ||
+    pathCache.path.length === 0
+  ) {
+    pathCache.start = startIdx;
+    pathCache.end = endIdx;
+    pathCache.path = getPath(startIdx, endIdx, state.data);
+  }
+  drawPath(pathCache.path, state.data);
 };
 
 (async () => {
   const data = await d3.json("editor/data/data.json"); // I just have fake data to test
 
-  console.log(data);
   setupMap(data);
   state.data = data;
   update();

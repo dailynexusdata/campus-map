@@ -53,6 +53,27 @@ $("#buildingNameInput").on("input", function () {
   console.log(data);
 });
 
+$("#bikeLotOutlineButton").on("click", function () {
+  state.bikeLotSelection = !state.bikeLotSelection;
+  if (state.bikeLotSelection) {
+    data.bikeLot.push({ geometry: [] });
+  }
+  setButtonGreen(this, state.bikeLotSelection);
+});
+
+$("#bikeLotUndoButton").on("click", () => {
+  data.bikeLot[data.bikeLot.length - 1].geometry.pop();
+
+  if (data.bikeLot[data.bikeLot.length - 1].geometry.length === 0) {
+    data.bikeLot.pop();
+  }
+  update();
+});
+
+$("#bikeLotEntranceButton").on("click", function () {
+  state.bikeLotEntranceSelection = !state.bikeLotEntranceSelection;
+  setButtonGreen(this, state.bikeLotEntranceSelection);
+});
 // starts as green:
 $("#bikePathReverseButton").css({ "background-color": "green" });
 

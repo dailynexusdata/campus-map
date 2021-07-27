@@ -68,6 +68,8 @@ const setupMap = (data) => {
       update();
     } else if (state.buildingSelection) {
       addBuildingNode(e.latlng);
+    } else if (state.bikeLotSelection) {
+      addBikeLotNode(e.latlng);
     }
   });
 
