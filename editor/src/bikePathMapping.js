@@ -84,7 +84,7 @@ const addBikePathBubbles = () => {
               const [insideLot, insideLotPos] = getBikePathInside(d);
               if (insideLot) {
                 data.bikeLot[insideLotPos].entrance = d.id;
-                d.bikePath = insideLot.id;
+                d.bikeLot = insideLot.id;
                 console.log("Successfully selected lot!");
               } else {
                 alert("node is not inside a bikepath lot!");
