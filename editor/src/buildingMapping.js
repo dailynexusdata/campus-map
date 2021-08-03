@@ -1,12 +1,12 @@
 const addBuildingNode = ({ lat, lng }) => {
   const point = { lat, lng };
   data.buildings[data.buildings.length - 1].geometry.push(point);
-  console.log(JSON.stringify(data.buildings[data.buildings.length - 1]));
+  // console.log(JSON.stringify(data.buildings[data.buildings.length - 1]));
   addBuildingCircles();
 };
 
 const addBuildingCircles = () => {
-  console.log(getBuilding({ lat: 34.41226895883256, lng: -119.8572859168053 }));
+  // console.log(getBuilding({ lat: 34.41226895883256, lng: -119.8572859168053 }));
 
   const buildingArea = d3
     .line()

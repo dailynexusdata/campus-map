@@ -63,12 +63,12 @@ const addBikePathBubbles = () => {
           .attr("r", 7)
           .attr("pointer-events", "visible") // we need this to be able to click through the map
           .style("fill", "red")
-          .on("click", function (event, { id: selectedId }) {
+          .on("click", function (event, d) {
             if (state.deleteBikePath) {
               // deleting node
               // filter out all of the nodes with this id:
               data.bikePath.nodes = data.bikePath.nodes.filter(
-                ({ id }) => id !== selectedId
+                ({ id }) => id !== d.id
               );
             } else if (state.addBikeLink) {
               // adding link
@@ -81,8 +81,14 @@ const addBikePathBubbles = () => {
 
               addBikePathLink(selectedId);
             } else if (state.bikeLotEntranceSelection) {
-              data.bikeLot[data.bikeLot.length - 1].entrance = selectedId;
-              console.log(data.bikeLot);
+              const [insideLot, insideLotPos] = getBikePathInside(d);
+              if (insideLot) {
+                data.bikeLot[insideLotPos].entrance = d.id;
+                d.bikePath = insideLot.id;
+                console.log("Successfully selected lot!");
+              } else {
+                alert("node is not inside a bikepath lot!");
+              }
             }
             update();
           }),
@@ -153,12 +159,21 @@ const addBikePathBubbles = () => {
     );
 };
 
+const getBikePathInside = (point) => {
+  let pos = -1;
+  const p1 = data.bikeLot.find(({ geometry }, i) => {
+    pos = i;
+    return inside(point, geometry);
+  });
+  return [p1, pos];
+};
+
 // theres got to be a better way to get the nodes than this...
 
 const addBikeLotNode = ({ lat, lng }) => {
   const point = { lat, lng };
   data.bikeLot[data.bikeLot.length - 1].geometry.push(point);
-  console.log(JSON.stringify(data.bikeLot[data.bikeLot.length - 1]));
+  // console.log(JSON.stringify(data.bikeLot[data.bikeLot.length - 1]));
   addBikeLotArea();
 };
 
@@ -168,7 +183,7 @@ const addBikeLotArea = () => {
     .x((d) => getLatLng(d).x)
     .y((d) => getLatLng(d).y);
 
-  console.log(data.bikeLot);
+  // console.log(data.bikeLot);
 
   state.svg
     .selectAll(".bikeLotArea")

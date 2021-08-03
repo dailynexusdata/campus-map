@@ -56,7 +56,9 @@ $("#buildingNameInput").on("input", function () {
 $("#bikeLotOutlineButton").on("click", function () {
   state.bikeLotSelection = !state.bikeLotSelection;
   if (state.bikeLotSelection) {
-    data.bikeLot.push({ geometry: [] });
+    const id = Math.max(...data.bikeLot.map((d) => d.id), 0) + 1;
+
+    data.bikeLot.push({ geometry: [], id });
   }
   setButtonGreen(this, state.bikeLotSelection);
 });
@@ -83,6 +85,6 @@ $("#saveButton").on("click", () => {
     url: "http://localhost:3330/save",
     data: { data: JSON.stringify(data) },
     success: "yes",
-    dataType: "application/json",
+    dataType: "json",
   });
 });

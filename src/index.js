@@ -1,8 +1,15 @@
 import * as d3 from "d3";
-import { path } from "d3";
 import * as L from "leaflet";
+import "./styles.scss";
 
 import COLORS from "./colors";
+
+const container = d3.select("#campusMapSearch");
+
+container.html(`<div id="map" style='width: 600px; height: 500px;'></div>
+<div style="width: 600px; display: flex; justify-content: flex-end; margin: 10px">
+    <button id="switchMapButton" class='campusMapButton'>Switch Map</button>
+</div>`);
 
 const simpleMap = L.tileLayer(
   "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
@@ -24,6 +31,11 @@ const satelliteMap = L.tileLayer(
 const state = {
   mapType: "simple",
   map: null,
+  // startId: 212,
+  // endId: 25,
+  startId: 76,
+  endId: 34,
+  queue: [],
 };
 
 $("#switchMapButton").on("click", () => {
@@ -37,6 +49,51 @@ $("#switchMapButton").on("click", () => {
     state.mapType = "simple";
   }
 });
+
+let clicks = [];
+
+const clickAnimation = (clicks) => {
+  state.svg
+    .selectAll(".clickPulse")
+    .data(clicks)
+    .join((enter) => {
+      enter
+        .append("circle")
+        .attr("class", "clickPulse")
+        .attr("cx", (d) => getLatLng(d[0]).x)
+        .attr("cy", (d) => getLatLng(d[0]).y)
+        .attr("r", ([_, r]) => r)
+        .attr("fill", "none")
+        .attr("stroke", "black")
+        .attr("stroke-width", 3)
+        .transition()
+        .duration(1000)
+        .attr("r", 0)
+        .remove()
+        .on("end", (d) => {
+          clicks.splice(clicks.indexOf(d), 1);
+        });
+    });
+};
+
+const distance = (p1, p2) => {
+  //https://stackoverflow.com/a/18883819
+  const toRad = (x) => (x * Math.PI) / 180;
+
+  const R = 6371;
+  const dLat = toRad(p2.lat - p1.lat);
+  const dLon = toRad(p2.lng - p1.lng);
+  const lat1 = toRad(p1.lat);
+  const lat2 = toRad(p2.lat);
+
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const d = R * c;
+  return d;
+};
+
 const setupMap = (data) => {
   // set map view
   state.map = L.map("map").setView(Object.values(data.mapCenter), data.mapZoom);
@@ -48,7 +105,21 @@ const setupMap = (data) => {
   state.svg = overlay.select("svg");
 
   state.map.on("click", function (e) {
-    console.log(e.latlng);
+    const closestNode = data.bikePath.nodes.reduce((acc, p) => {
+      const pDistance = distance(p, e.latlng);
+      const accDistance = distance(acc, e.latlng);
+      return accDistance < pDistance ? acc : p;
+    });
+    state.queue.push(closestNode);
+
+    if (state.queue.length === 2) {
+      state.startId = state.queue[0].id;
+      state.endId = state.queue[1].id;
+      state.queue = [];
+      update();
+    }
+    clicks.push([e.latlng, 20]);
+    clickAnimation(clicks);
   });
 
   // call update function when move map
@@ -171,17 +242,14 @@ const pathCache = {
 };
 
 const update = () => {
-  const startIdx = 212;
-  const endIdx = 25;
-
   if (
-    pathCache.start !== startIdx ||
-    pathCache.end !== endIdx ||
+    pathCache.start !== state.startId ||
+    pathCache.end !== state.endId ||
     pathCache.path.length === 0
   ) {
-    pathCache.start = startIdx;
-    pathCache.end = endIdx;
-    pathCache.path = getPath(startIdx, endIdx, state.data);
+    pathCache.start = state.startId;
+    pathCache.end = state.endId;
+    pathCache.path = getPath(state.startId, state.endId, state.data);
   }
   drawPath(pathCache.path, state.data);
 };
@@ -192,6 +260,12 @@ const update = () => {
   setupMap(data);
   state.data = data;
   update();
+
+  // setTimeout(() => {
+  //   state.startId = 212;
+  //   state.endId = 25;
+  //   update();
+  // }, 4000);
 })();
 
 //Just a helper function to get the closest neighbor

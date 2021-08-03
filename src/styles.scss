@@ -1,0 +1,14 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.campusMapButton {
+  background-color: white;
+  font-size: 14pt;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #adadad22;
+  }
+}
