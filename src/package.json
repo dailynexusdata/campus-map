@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^6.2.0",
+    "leaflet": "^1.7.1",
     "sass": "^1.37.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",

@@ -1,6 +1,7 @@
 import * as d3 from "d3";
 import * as L from "leaflet";
 import "./styles.scss";
+import "leaflet/dist/leaflet.css";
 
 import COLORS from "./colors";
 
