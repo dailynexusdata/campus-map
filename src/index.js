@@ -68,7 +68,7 @@ const clickAnimation = (clicks) => {
         .attr("stroke", "black")
         .attr("stroke-width", 3)
         .transition()
-        .duration(1000)
+        .duration(500)
         .attr("r", 0)
         .remove()
         .on("end", (d) => {
@@ -135,7 +135,6 @@ const setupMap = (data) => {
 
 const getLatLng = ({ lat, lng }) => {
   const ll = new L.latLng(lat, lng);
-  const { x, y } = state.map.latLngToLayerPoint(ll);
   return state.map.latLngToLayerPoint(ll);
 };
 
