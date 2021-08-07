@@ -79,7 +79,7 @@ const addBikePathBubbles = () => {
                 .duration(1000)
                 .style("fill", "red");
 
-              addBikePathLink(selectedId);
+              addBikePathLink(d.id);
             } else if (state.bikeLotEntranceSelection) {
               const [insideLot, insideLotPos] = getBikePathInside(d);
               if (insideLot) {

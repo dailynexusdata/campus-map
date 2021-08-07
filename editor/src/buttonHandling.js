@@ -1,15 +1,16 @@
-$("#bikePathButton").on("click", () => {
+const setButtonGreen = (el, condition) => {
+  $(el).css({ "background-color": condition ? "green" : "" });
+};
+
+$("#bikePathButton").on("click", function () {
   state.showBikePath = !state.showBikePath;
   d3.selectAll(".bikePathBubble").attr("fill-opacity", state.showBikePath + 0);
   d3.selectAll(".bikePathLink").attr(
     "stroke-width",
     state.showBikePath ? 5 : 0
   );
+  setButtonGreen(this, state.showBikePath);
 });
-
-const setButtonGreen = (el, condition) => {
-  $(el).css({ "background-color": condition ? "green" : "" });
-};
 
 $("#bikePathNodeAddButton").on("click", function () {
   state.addBikePath = !state.addBikePath;
@@ -35,14 +36,18 @@ $("#bikePathReverseButton").on("click", function () {
 
 $("#buildingOutlineButton").on("click", function () {
   state.buildingSelection = !state.buildingSelection;
-  data.buildings.push({ geometry: [] });
+  if (state.buildingSelection) {
+    data.buildings.push({ geometry: [] });
+  }
   setButtonGreen(this, state.buildingSelection);
 });
 
 $("#buildingUndoButton").on("click", () => {
   data.buildings[data.buildings.length - 1].geometry.pop();
-
-  if (data.buildings[data.buildings.length - 1].geometry.length === 0) {
+  if (
+    data.buildings[data.buildings.length - 1].geometry.length === 0 &&
+    data.buildings.length > 1
+  ) {
     data.buildings.pop();
   }
   update();
@@ -77,7 +82,47 @@ $("#bikeLotEntranceButton").on("click", function () {
   setButtonGreen(this, state.bikeLotEntranceSelection);
 });
 // starts as green:
+$("#bikePathButton").css({ "background-color": "green" });
 $("#bikePathReverseButton").css({ "background-color": "green" });
+
+$("#walkingPathButton")
+  .on("click", function () {
+    state.showWalkingPath = !state.showWalkingPath;
+    d3.selectAll(".walkingPathBubble").attr(
+      "fill-opacity",
+      state.showWalkingPath + 0
+    );
+    d3.selectAll(".walkingPathLink").attr(
+      "stroke-width",
+      state.showWalkingPath ? 5 : 0
+    );
+    setButtonGreen(this, state.showWalkingPath);
+  })
+  .css({ "background-color": "green" });
+
+$("#walkingPathNodeAddButton").on("click", function () {
+  state.addWalkingPath = !state.addWalkingPath;
+  setButtonGreen(this, state.addWalkingPath);
+});
+
+$("#walkingPathNodeDeleteButton").on("click", function () {
+  state.deleteWalkingPath = !state.deleteWalkingPath;
+  setButtonGreen(this, state.deleteWalkingPath);
+});
+$("#walkingPathLinkAddButton").on("click", function () {
+  state.addWalkingLink = !state.addWalkingLink;
+  setButtonGreen(this, state.addWalkingLink);
+});
+$("#walkingPathLinkDeleteButton").on("click", function () {
+  state.deleteWalkingLink = !state.deleteWalkingLink;
+  setButtonGreen(this, state.deleteWalkingLink);
+});
+$("#walkingPathReverseButton")
+  .on("click", function () {
+    state.reverseWalkLink = !state.reverseWalkLink;
+    setButtonGreen(this, state.reverseWalkLink);
+  })
+  .css({ "background-color": "green" });
 
 $("#saveButton").on("click", () => {
   $.ajax({

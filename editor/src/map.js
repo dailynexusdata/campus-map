@@ -70,6 +70,9 @@ const setupMap = (data) => {
       addBuildingNode(e.latlng);
     } else if (state.bikeLotSelection) {
       addBikeLotNode(e.latlng);
+    } else if (state.addWalkingPath) {
+      addWalkingPathNode(e.latlng);
+      update();
     }
   });
 

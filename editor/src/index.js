@@ -8,10 +8,16 @@ const state = {
   deleteBikeLink: false,
   overlay: null,
   reverseBikeLink: true,
+  reverseWalkLink: true,
   svg: null,
   buildingSelection: false,
   bikeLotSelection: false,
   bikeLotEntranceSelection: false,
+  showWalkingPath: true,
+  addWalkingPath: false,
+  deleteWalkingPath: false,
+  addWalkingLink: false,
+  deleteWalkingLink: false,
 };
 
 let data = null;
@@ -30,9 +36,12 @@ const update = () => {
   if (state.showBikePath) {
     // in bikePathMapping.js
     addBikePathBubbles();
-    addBuildingCircles();
     addBikeLotArea();
   }
+  if (state.showWalkingPath) {
+    addWalkingPathBubbles();
+  }
+  addBuildingCircles();
 };
 
 const inside = (point, vs) => {

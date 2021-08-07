@@ -8,6 +8,8 @@ const addBuildingNode = ({ lat, lng }) => {
 const addBuildingCircles = () => {
   // console.log(getBuilding({ lat: 34.41226895883256, lng: -119.8572859168053 }));
 
+  console.log(data.buildings);
+
   const buildingArea = d3
     .line()
     .x((d) => getLatLng(d).x)
