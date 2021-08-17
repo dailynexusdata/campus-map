@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-const makePlot = (mapData) => {
+const makePlot = (goldData, mapData) => {
   const container = d3.select("#lectureLocations");
   container.selectAll("*").remove();
 
@@ -30,11 +30,24 @@ const makePlot = (mapData) => {
 
   const locations = svg.selectAll("buildings").data(mapData.features).join("g");
 
+  // the current selected department is just the first one
+  const department = goldData[0];
+
   locations
     .append("path")
     .attr("d", path)
     .attr("stroke", "black")
-    .attr("fill", (d, i) => colors(i / 2));
+    .attr("fill", (d) => {
+      const lectureHall = d.properties.name;
+      console.log(lectureHall);
+
+      // loc is one of the items in the specific lecture -- may have to change key:
+      const lectureData = department.find(
+        (loc) => lectureHall === loc.building
+      );
+
+      return colors(+lectureData.pct);
+    });
 
   locations
     .append("text")
