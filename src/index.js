@@ -5,6 +5,8 @@ import "leaflet/dist/leaflet.css";
 
 import COLORS from "./colors";
 
+import makeLectureLocations from "./lectureLocations";
+
 const container = d3.select("#campusMapSearch");
 
 container.html(`<div id="map" style='width: 600px; height: 500px;'></div>
@@ -209,38 +211,38 @@ const getPath = (startId, endId, data) => {
   var prev = new Map();
   var weights = new Map();
   q.push(startId);
-  visited.add((startId,0));
+  visited.add((startId, 0));
   const links = data.bikePath.links;
-  console.log(getChildren(startId,data));
-  console.log(startId,endId);
-  while(q.length>0){
+  console.log(getChildren(startId, data));
+  console.log(startId, endId);
+  while (q.length > 0) {
     //Get next node in the queue
     const node = q.shift();
 
     //Check if it has been visted, if so skip
-    if(visited.has(node)){
+    if (visited.has(node)) {
       continue;
     }
     //If it is the end id then you found the path
     //with the least weight
-    if(node===endId){
+    if (node === endId) {
       console.log(prev);
-      return getMap(prev,startId,endId);
+      return getMap(prev, startId, endId);
     }
     //Otherwise add the children to the queue
     const newChildren = [];
-    for(const child of getChildren(node,data)){
+    for (const child of getChildren(node, data)) {
       //Add Children to queue with weight included
-      if(!visited.has(child)){
-        prev.set(child,node);
+      if (!visited.has(child)) {
+        prev.set(child, node);
         newChildren.push(child);
-        weights.set(child,weights[node]+getRelation(node,child,data));
+        weights.set(child, weights[node] + getRelation(node, child, data));
       }
     }
     //Add the unvisited children to the queue
     q = q.concat(newChildren);
     visited.add(node);
-    q.sort((a,b) => (weights[a]>weights[b]) ? 1 : -1 );
+    q.sort((a, b) => (weights[a] > weights[b] ? 1 : -1));
   }
   // output the id's of the nodes to visit
   // this gets passed directly into the drawPath() function
@@ -324,12 +326,17 @@ const getMap = (resMap, start, end) => {
 };
 
 //Helper function that returns distance between parent and child
-const getRelation = (parent,child,data) => {
+const getRelation = (parent, child, data) => {
   const links = data.bikePath.links;
-  for(var i = 0;i<links.length;i++){
-    if(links[i].source===parent && links[i].target===child){
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].source === parent && links[i].target === child) {
       return links[i].distance;
     }
   }
   return -1;
 };
+
+(async () => {
+  const mapData = await d3.json("dist/buildings.json");
+  makeLectureLocations(mapData);
+})();
