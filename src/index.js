@@ -34,8 +34,8 @@ const state = {
   map: null,
   // startId: 212,
   // endId: 25,
-  startId: 76,
-  endId: 34,
+  startId: 212,
+  endId: 25,
   queue: [],
 };
 
@@ -211,8 +211,8 @@ const getPath = (startId, endId, data) => {
   q.push(startId);
   visited.add((startId,0));
   const links = data.bikePath.links;
-  console.log(getChildren(startId,data));
-  console.log(startId,endId);
+  //console.log(getChildren(startId,data));
+  //console.log(startId,endId);
   while(q.length>0){
     //Get next node in the queue
     const node = q.shift();
@@ -224,7 +224,10 @@ const getPath = (startId, endId, data) => {
     //If it is the end id then you found the path
     //with the least weight
     if(node===endId){
-      console.log(prev);
+      //console.log(prev);
+      var path = getMap(prev,startId,endId);
+      //Testing getDist func
+      console.log(getPathDist(path,data));
       return getMap(prev,startId,endId);
     }
     //Otherwise add the children to the queue
@@ -242,10 +245,13 @@ const getPath = (startId, endId, data) => {
     visited.add(node);
     q.sort((a,b) => (weights[a]>weights[b]) ? 1 : -1 );
   }
+  var path = getMap(prev,startId,endId);
+  //Testing getDist func
+  console.log(getPathDist(path,data));
   // output the id's of the nodes to visit
   // this gets passed directly into the drawPath() function
   //console.log(prev);
-  return getMap(prev, startId, endId);
+  return path;
 };
 
 // idk if this is a good idea
@@ -332,4 +338,17 @@ const getRelation = (parent,child,data) => {
     }
   }
   return -1;
+};
+
+//Helper Function, given a path returns the distance
+//If path doesn't exist then -1 is returned
+const getPathDist = (path,data) => {
+  const links = data.bikePath.links;
+  var currDist = 0;
+  for(var i = 0;i<path.length-1;i++){
+    if(getRelation(path[i],path[i+1],data)===-1){return -1;}
+    currDist+=getRelation(path[i],path[i+1],data);
+  }
+  var currArr = [currDist];
+  return currArr;
 };
