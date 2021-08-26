@@ -13,6 +13,7 @@ const state = {
   buildingSelection: false,
   bikeLotSelection: false,
   bikeLotEntranceSelection: false,
+  bikeLotExitSelection: false,
   showWalkingPath: true,
   addWalkingPath: false,
   deleteWalkingPath: false,

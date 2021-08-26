@@ -12,12 +12,11 @@ const makeCoordinates = ({ geometry }) => {
 };
 
 const makeFeature = (building) => {
-  const feat = {
+  return {
     type: "Feature",
     geometry: { type: "Polygon", coordinates: makeCoordinates(building) },
     properties: { name: building.name },
   };
-  return feat;
 };
 
 buildingData.forEach((building) => {

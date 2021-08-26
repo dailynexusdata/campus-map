@@ -81,6 +81,12 @@ $("#bikeLotEntranceButton").on("click", function () {
   state.bikeLotEntranceSelection = !state.bikeLotEntranceSelection;
   setButtonGreen(this, state.bikeLotEntranceSelection);
 });
+
+$("#bikeLotExitButton").on("click", function () {
+  state.bikeLotExitSelection = !state.bikeLotExitSelection;
+  setButtonGreen(this, state.bikeLotExitSelection);
+});
+
 // starts as green:
 $("#bikePathButton").css({ "background-color": "green" });
 $("#bikePathReverseButton").css({ "background-color": "green" });

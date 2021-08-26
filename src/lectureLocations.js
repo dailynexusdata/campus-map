@@ -31,22 +31,23 @@ const makePlot = (goldData, mapData) => {
   const locations = svg.selectAll("buildings").data(mapData.features).join("g");
 
   // the current selected department is just the first one
-  const department = goldData[0];
+  // const department = goldData[0];
 
   locations
     .append("path")
     .attr("d", path)
     .attr("stroke", "black")
     .attr("fill", (d) => {
-      const lectureHall = d.properties.name;
-      console.log(lectureHall);
+      // const lectureHall = d.properties.name;
+      // console.log(lectureHall);
 
-      // loc is one of the items in the specific lecture -- may have to change key:
-      const lectureData = department.find(
-        (loc) => lectureHall === loc.building
-      );
+      // // loc is one of the items in the specific lecture -- may have to change key:
+      // const lectureData = department.find(
+      //   (loc) => lectureHall === loc.building
+      // );
 
-      return colors(+lectureData.pct);
+      // return colors(+lectureData.pct);
+      return "red";
     });
 
   locations

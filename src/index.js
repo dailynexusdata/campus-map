@@ -338,6 +338,6 @@ const getRelation = (parent, child, data) => {
 
 (async () => {
   const mapData = await d3.json("dist/buildings.json");
-  const goldData = await d3.json("dist/goldBuildings.json");
+  const goldData = null; //await d3.json("dist/goldBuildings.json");
   makeLectureLocations(goldData, mapData);
 })();

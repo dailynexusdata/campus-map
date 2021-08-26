@@ -96,6 +96,15 @@ const addWalkingPathBubbles = () => {
                 .style("fill", "purple");
 
               addWalkingPathLink(d.id);
+            } else if (state.bikeLotExitSelection) {
+              const [insideLot, insideLotPos] = getBikePathInside(d);
+              if (insideLot) {
+                data.bikeLot[insideLotPos].exit = d.id;
+                d.bikeLot = insideLot.id;
+                console.log("Successfully selected lot!");
+              } else {
+                alert("node is not inside a bikepath lot!");
+              }
             }
             update();
           }),
