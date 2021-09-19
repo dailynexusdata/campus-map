@@ -1,0 +1,65 @@
+<osm version="0.6" generator="CGImap 0.8.5 (139546 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234883" visible="true" version="7" changeset="105052583" timestamp="2021-05-20T22:12:41Z" user="jrpear" uid="11683918">
+<nd ref="2302825689"/>
+<nd ref="8751295745"/>
+<nd ref="2302825692"/>
+<nd ref="2302825694"/>
+<nd ref="2302825697"/>
+<nd ref="2302825699"/>
+<nd ref="2302825703"/>
+<nd ref="2302825701"/>
+<nd ref="2302825706"/>
+<nd ref="448132236"/>
+<nd ref="2302825711"/>
+<nd ref="2302825709"/>
+<nd ref="2302825713"/>
+<nd ref="2302825715"/>
+<nd ref="2302825717"/>
+<nd ref="2302825719"/>
+<nd ref="2302825734"/>
+<nd ref="2302825736"/>
+<nd ref="6874996416"/>
+<nd ref="2302825738"/>
+<nd ref="2302825740"/>
+<nd ref="2302825742"/>
+<nd ref="2302825744"/>
+<nd ref="2302825748"/>
+<nd ref="2302825746"/>
+<nd ref="2302825754"/>
+<nd ref="2302825750"/>
+<nd ref="2302825752"/>
+<nd ref="6874996415"/>
+<nd ref="2302825758"/>
+<nd ref="2302825756"/>
+<nd ref="2302825760"/>
+<nd ref="2302825526"/>
+<nd ref="2302825431"/>
+<nd ref="2302825524"/>
+<nd ref="2302825403"/>
+<nd ref="2302825397"/>
+<nd ref="2302825427"/>
+<nd ref="2302825415"/>
+<nd ref="2302825450"/>
+<nd ref="2302825522"/>
+<nd ref="2302825412"/>
+<nd ref="6874996414"/>
+<nd ref="2302825420"/>
+<nd ref="2302825418"/>
+<nd ref="2302825528"/>
+<nd ref="2302825546"/>
+<nd ref="2302825433"/>
+<nd ref="2302825437"/>
+<nd ref="2302825439"/>
+<nd ref="2302825442"/>
+<nd ref="2302825444"/>
+<nd ref="2302825446"/>
+<nd ref="2302825448"/>
+<nd ref="2302825410"/>
+<nd ref="2302825689"/>
+<tag k="building" v="dormitory"/>
+<tag k="building:levels" v="8"/>
+<tag k="name" v="San Miguel Hall"/>
+<tag k="ref" v="553"/>
+<tag k="short_name" v="San Mig"/>
+</way>
+</osm>

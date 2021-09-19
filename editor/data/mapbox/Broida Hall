@@ -1,0 +1,45 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1015084 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221258377" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:52Z" user="sctrojan79" uid="2601744">
+<nd ref="2303038394"/>
+<nd ref="2303038400"/>
+<nd ref="2303038396"/>
+<nd ref="2303038403"/>
+<nd ref="2303038402"/>
+<nd ref="4612618452"/>
+<nd ref="2303038399"/>
+<nd ref="2303038393"/>
+<nd ref="2303038397"/>
+<nd ref="2303038398"/>
+<nd ref="2303038395"/>
+<nd ref="2303038401"/>
+<nd ref="2303038404"/>
+<nd ref="2303038339"/>
+<nd ref="2303038330"/>
+<nd ref="2303038333"/>
+<nd ref="2303038336"/>
+<nd ref="2303038329"/>
+<nd ref="2303038332"/>
+<nd ref="2303038321"/>
+<nd ref="2303038323"/>
+<nd ref="2303038322"/>
+<nd ref="2303038327"/>
+<nd ref="2303038324"/>
+<nd ref="2303038331"/>
+<nd ref="2303038325"/>
+<nd ref="2303038326"/>
+<nd ref="2303038337"/>
+<nd ref="2303038328"/>
+<nd ref="2303038334"/>
+<nd ref="2303038338"/>
+<nd ref="2303038347"/>
+<nd ref="2303038352"/>
+<nd ref="2303038342"/>
+<nd ref="2303038354"/>
+<nd ref="4612618451"/>
+<nd ref="2303038341"/>
+<nd ref="2303038394"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Broida Hall"/>
+<tag k="ref" v="572"/>
+</way>
+</osm>

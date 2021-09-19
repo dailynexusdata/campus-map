@@ -1,0 +1,26 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3037020 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221242398" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:51Z" user="sctrojan79" uid="2601744">
+<nd ref="2302889344"/>
+<nd ref="2302889338"/>
+<nd ref="2302889342"/>
+<nd ref="2302889340"/>
+<nd ref="2302889346"/>
+<nd ref="2302889348"/>
+<nd ref="2302889354"/>
+<nd ref="2302889351"/>
+<nd ref="2302889361"/>
+<nd ref="2302889359"/>
+<nd ref="2302889356"/>
+<nd ref="2302889363"/>
+<nd ref="2302889367"/>
+<nd ref="2302889365"/>
+<nd ref="2302889369"/>
+<nd ref="2302889371"/>
+<nd ref="2302889373"/>
+<nd ref="2302889377"/>
+<nd ref="2302889344"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Materials Research Laboratory"/>
+<tag k="ref" v="615"/>
+</way>
+</osm>

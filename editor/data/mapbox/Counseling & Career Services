@@ -1,0 +1,55 @@
+<osm version="0.6" generator="CGImap 0.8.5 (948311 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221238566" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:46Z" user="sctrojan79" uid="2601744">
+<nd ref="2302861346"/>
+<nd ref="2302861358"/>
+<nd ref="2302861348"/>
+<nd ref="2302861336"/>
+<nd ref="2302861332"/>
+<nd ref="2302861361"/>
+<nd ref="2302861326"/>
+<nd ref="2302861360"/>
+<nd ref="2302861330"/>
+<nd ref="2302861354"/>
+<nd ref="2302861327"/>
+<nd ref="2302861344"/>
+<nd ref="2302861334"/>
+<nd ref="2302861363"/>
+<nd ref="2302861356"/>
+<nd ref="2302861352"/>
+<nd ref="2302861350"/>
+<nd ref="2302861364"/>
+<nd ref="2302861365"/>
+<nd ref="2302861366"/>
+<nd ref="2302861367"/>
+<nd ref="2302861370"/>
+<nd ref="2302861369"/>
+<nd ref="2302861368"/>
+<nd ref="2302861371"/>
+<nd ref="2302861373"/>
+<nd ref="2302861372"/>
+<nd ref="2302861374"/>
+<nd ref="2302861375"/>
+<nd ref="2302861376"/>
+<nd ref="2302861378"/>
+<nd ref="2302861380"/>
+<nd ref="2302861379"/>
+<nd ref="2302861377"/>
+<nd ref="2302861381"/>
+<nd ref="2302861384"/>
+<nd ref="2302861387"/>
+<nd ref="2302861383"/>
+<nd ref="2302861385"/>
+<nd ref="2302861386"/>
+<nd ref="2302861388"/>
+<nd ref="2302861389"/>
+<nd ref="2302861390"/>
+<nd ref="2302861394"/>
+<nd ref="2302861391"/>
+<nd ref="2302861393"/>
+<nd ref="2302861392"/>
+<nd ref="2302861346"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Counseling & Career Services"/>
+<tag k="ref" v="599"/>
+</way>
+</osm>

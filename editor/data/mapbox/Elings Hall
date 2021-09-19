@@ -1,0 +1,23 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1015084 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221258744" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:52Z" user="sctrojan79" uid="2601744">
+<nd ref="2303043195"/>
+<nd ref="2303043196"/>
+<nd ref="2303043185"/>
+<nd ref="449491439"/>
+<nd ref="2303043184"/>
+<nd ref="2303043183"/>
+<nd ref="2303043187"/>
+<nd ref="2303043186"/>
+<nd ref="2303043188"/>
+<nd ref="2303043189"/>
+<nd ref="2303043191"/>
+<nd ref="2303043190"/>
+<nd ref="2303043192"/>
+<nd ref="2303043193"/>
+<nd ref="2303043194"/>
+<nd ref="2303043195"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Elings Hall (CNSI)"/>
+<tag k="ref" v="266"/>
+</way>
+</osm>

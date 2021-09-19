@@ -1,0 +1,52 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1474545 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234882" visible="true" version="3" changeset="45225254" timestamp="2017-01-16T20:06:43Z" user="sctrojan79" uid="2601744">
+<nd ref="2302825530"/>
+<nd ref="2302825532"/>
+<nd ref="2302825534"/>
+<nd ref="2302825537"/>
+<nd ref="2302825540"/>
+<nd ref="2302825542"/>
+<nd ref="2302825544"/>
+<nd ref="2302825549"/>
+<nd ref="2302825560"/>
+<nd ref="2302825551"/>
+<nd ref="2302825554"/>
+<nd ref="2302825568"/>
+<nd ref="2302825557"/>
+<nd ref="2302825561"/>
+<nd ref="2302825558"/>
+<nd ref="2302825567"/>
+<nd ref="2302825562"/>
+<nd ref="2302825564"/>
+<nd ref="2302825565"/>
+<nd ref="2302825563"/>
+<nd ref="2302825566"/>
+<nd ref="2302825572"/>
+<nd ref="2302825573"/>
+<nd ref="2302825583"/>
+<nd ref="2302825571"/>
+<nd ref="2302825574"/>
+<nd ref="2302825585"/>
+<nd ref="2302825592"/>
+<nd ref="2302825609"/>
+<nd ref="2302825575"/>
+<nd ref="2302825594"/>
+<nd ref="2302825578"/>
+<nd ref="2302825590"/>
+<nd ref="2302825581"/>
+<nd ref="2302825588"/>
+<nd ref="2302825577"/>
+<nd ref="2302825582"/>
+<nd ref="2302825600"/>
+<nd ref="2302825601"/>
+<nd ref="2302825595"/>
+<nd ref="2302825597"/>
+<nd ref="2302825606"/>
+<nd ref="2302825604"/>
+<nd ref="2302825611"/>
+<nd ref="2302825530"/>
+<tag k="building" v="commercial"/>
+<tag k="name" v="University Center (UCEN)"/>
+<tag k="ref" v="558"/>
+</way>
+</osm>

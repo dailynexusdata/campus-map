@@ -1,0 +1,29 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3942216 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221407228" visible="true" version="6" changeset="99202500" timestamp="2021-02-13T04:43:54Z" user="omnibeet" uid="10145113">
+<nd ref="2304299359"/>
+<nd ref="8419324504"/>
+<nd ref="8419324505"/>
+<nd ref="2304299361"/>
+<nd ref="2304299363"/>
+<nd ref="8419359326"/>
+<nd ref="2304299365"/>
+<nd ref="2304299367"/>
+<nd ref="2304299369"/>
+<nd ref="2304299371"/>
+<nd ref="2324936388"/>
+<nd ref="2304299373"/>
+<nd ref="2324936380"/>
+<nd ref="8419324467"/>
+<nd ref="2304299377"/>
+<nd ref="2304299375"/>
+<nd ref="2304299378"/>
+<nd ref="8419359325"/>
+<nd ref="2304299294"/>
+<nd ref="8419722402"/>
+<nd ref="2304299359"/>
+<tag k="building" v="dormitory"/>
+<tag k="layer" v="1"/>
+<tag k="name" v="Miranda"/>
+<tag k="ref" v="881"/>
+</way>
+</osm>

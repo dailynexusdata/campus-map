@@ -1,0 +1,23 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3822634 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221407649" visible="true" version="5" changeset="99197812" timestamp="2021-02-12T22:13:53Z" user="omnibeet" uid="10145113">
+<nd ref="2304301487"/>
+<nd ref="8419385414"/>
+<nd ref="8419324444"/>
+<nd ref="8419324445"/>
+<nd ref="8419385412"/>
+<nd ref="8419324446"/>
+<nd ref="2304301494"/>
+<nd ref="2304301495"/>
+<nd ref="2304301496"/>
+<nd ref="2304301497"/>
+<nd ref="2304301500"/>
+<nd ref="2304301499"/>
+<nd ref="2304301501"/>
+<nd ref="8419385409"/>
+<nd ref="8419385411"/>
+<nd ref="2304301487"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="La Cumbre"/>
+<tag k="ref" v="884"/>
+</way>
+</osm>

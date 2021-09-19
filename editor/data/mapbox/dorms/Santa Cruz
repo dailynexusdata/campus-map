@@ -1,0 +1,38 @@
+<osm version="0.6" generator="CGImap 0.8.5 (326507 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221235379" visible="true" version="4" changeset="105051591" timestamp="2021-05-20T21:35:06Z" user="jrpear" uid="11683918">
+<nd ref="2278532849"/>
+<nd ref="2302830024"/>
+<nd ref="2302830019"/>
+<nd ref="2302830022"/>
+<nd ref="2302830021"/>
+<nd ref="2302830023"/>
+<nd ref="2302830025"/>
+<nd ref="2302830026"/>
+<nd ref="2302830034"/>
+<nd ref="2302830027"/>
+<nd ref="2302830030"/>
+<nd ref="2302830028"/>
+<nd ref="2302830032"/>
+<nd ref="2302830029"/>
+<nd ref="2302830031"/>
+<nd ref="2302830035"/>
+<nd ref="2302830036"/>
+<nd ref="2302830043"/>
+<nd ref="2302830047"/>
+<nd ref="2302830041"/>
+<nd ref="2302830037"/>
+<nd ref="2302830042"/>
+<nd ref="2302830045"/>
+<nd ref="2302830038"/>
+<nd ref="2302830044"/>
+<nd ref="2302830046"/>
+<nd ref="2302830040"/>
+<nd ref="2302830039"/>
+<nd ref="2302830048"/>
+<nd ref="2302830049"/>
+<nd ref="2278532849"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="Santa Cruz Hall"/>
+<tag k="ref" v="548"/>
+</way>
+</osm>

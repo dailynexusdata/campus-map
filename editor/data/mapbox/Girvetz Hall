@@ -1,0 +1,36 @@
+<osm version="0.6" generator="CGImap 0.8.5 (938450 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404599" visible="true" version="3" changeset="96228301" timestamp="2020-12-22T04:38:08Z" user="clarke22" uid="703694">
+<nd ref="2304277087"/>
+<nd ref="2304277088"/>
+<nd ref="2304277089"/>
+<nd ref="2304277091"/>
+<nd ref="2304277090"/>
+<nd ref="2304277109"/>
+<nd ref="2304277110"/>
+<nd ref="2304277121"/>
+<nd ref="2304277118"/>
+<nd ref="8250597690"/>
+<nd ref="2304277119"/>
+<nd ref="2304277116"/>
+<nd ref="2304277134"/>
+<nd ref="2304277136"/>
+<nd ref="2304277137"/>
+<nd ref="2304277132"/>
+<nd ref="2304277138"/>
+<nd ref="2304277135"/>
+<nd ref="2304277133"/>
+<nd ref="2304277017"/>
+<nd ref="2304277018"/>
+<nd ref="2304277021"/>
+<nd ref="2304277025"/>
+<nd ref="2304277024"/>
+<nd ref="2304277023"/>
+<nd ref="2304277022"/>
+<nd ref="2304277020"/>
+<nd ref="2304277019"/>
+<nd ref="2304277087"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Girvetz Hall"/>
+<tag k="ref" v="564"/>
+</way>
+</osm>

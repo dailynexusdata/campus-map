@@ -1,0 +1,54 @@
+<osm version="0.6" generator="CGImap 0.8.5 (221666 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234034" visible="true" version="3" changeset="105052675" timestamp="2021-05-20T22:15:10Z" user="jrpear" uid="11683918">
+<nd ref="8751307783"/>
+<nd ref="2302818342"/>
+<nd ref="2302818343"/>
+<nd ref="2302818276"/>
+<nd ref="2302818278"/>
+<nd ref="2302818282"/>
+<nd ref="2302818284"/>
+<nd ref="2302818286"/>
+<nd ref="2302818288"/>
+<nd ref="2302818290"/>
+<nd ref="2302818292"/>
+<nd ref="2302818294"/>
+<nd ref="2302818296"/>
+<nd ref="2302818298"/>
+<nd ref="2302818300"/>
+<nd ref="2302818302"/>
+<nd ref="2302818304"/>
+<nd ref="2302818306"/>
+<nd ref="2302818308"/>
+<nd ref="2302818310"/>
+<nd ref="2302818312"/>
+<nd ref="2302818314"/>
+<nd ref="2302818316"/>
+<nd ref="2302818318"/>
+<nd ref="2302818320"/>
+<nd ref="2302818322"/>
+<nd ref="2302818324"/>
+<nd ref="2302818326"/>
+<nd ref="2302818328"/>
+<nd ref="2302818330"/>
+<nd ref="2302818332"/>
+<nd ref="2302818334"/>
+<nd ref="2302818336"/>
+<nd ref="2302818337"/>
+<nd ref="2302818338"/>
+<nd ref="2302818339"/>
+<nd ref="2302818340"/>
+<nd ref="2302818341"/>
+<nd ref="8751307784"/>
+<nd ref="2302818262"/>
+<nd ref="2302818264"/>
+<nd ref="2302818266"/>
+<nd ref="2302818268"/>
+<nd ref="2302818270"/>
+<nd ref="2302818272"/>
+<nd ref="2302818274"/>
+<nd ref="8751307783"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Life Sciences"/>
+<tag k="ref" v="235"/>
+</way>
+</osm>

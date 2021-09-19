@@ -1,0 +1,52 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3559486 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="945281333" visible="true" version="1" changeset="105052227" timestamp="2021-05-20T22:00:05Z" user="omnibeet" uid="10145113">
+<nd ref="2296537121"/>
+<nd ref="2296537120"/>
+<nd ref="2296537119"/>
+<nd ref="449337304"/>
+<nd ref="2296537118"/>
+<nd ref="2296537117"/>
+<nd ref="2296537116"/>
+<nd ref="2296537115"/>
+<nd ref="2296537114"/>
+<nd ref="2296537113"/>
+<nd ref="2296537112"/>
+<nd ref="2296537111"/>
+<nd ref="2296537110"/>
+<nd ref="2296537109"/>
+<nd ref="2296537108"/>
+<nd ref="2296537107"/>
+<nd ref="2296537106"/>
+<nd ref="2296537105"/>
+<nd ref="2296537104"/>
+<nd ref="2296537103"/>
+<nd ref="2296537102"/>
+<nd ref="2296537101"/>
+<nd ref="449337305"/>
+<nd ref="2296537100"/>
+<nd ref="2296537099"/>
+<nd ref="2296537097"/>
+<nd ref="8751292762"/>
+<nd ref="8751292761"/>
+<nd ref="8751292760"/>
+<nd ref="8751292759"/>
+<nd ref="8751292758"/>
+<nd ref="8751292757"/>
+<nd ref="8751292756"/>
+<nd ref="8751292755"/>
+<nd ref="8751292754"/>
+<nd ref="8751292753"/>
+<nd ref="8751292752"/>
+<nd ref="8751292751"/>
+<nd ref="8751292750"/>
+<nd ref="8751292749"/>
+<nd ref="8751292748"/>
+<nd ref="8751292747"/>
+<nd ref="2296537121"/>
+<tag k="amenity" v="parking"/>
+<tag k="capacity:disabled" v="yes"/>
+<tag k="fee" v="yes"/>
+<tag k="name" v="Lot 12"/>
+<tag k="parking" v="surface"/>
+</way>
+</osm>

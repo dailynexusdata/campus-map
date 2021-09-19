@@ -1,0 +1,55 @@
+<osm version="0.6" generator="CGImap 0.8.5 (776502 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234880" visible="true" version="5" changeset="90496330" timestamp="2020-09-07T00:15:23Z" user="omnibeet" uid="10145113">
+<nd ref="2302825452"/>
+<nd ref="1576521559"/>
+<nd ref="2302825461"/>
+<nd ref="2302825454"/>
+<nd ref="2302825456"/>
+<nd ref="2302825458"/>
+<nd ref="2302825463"/>
+<nd ref="2302825467"/>
+<nd ref="2302825469"/>
+<nd ref="2302825473"/>
+<nd ref="2302825477"/>
+<nd ref="2302825475"/>
+<nd ref="2302825471"/>
+<nd ref="2302825481"/>
+<nd ref="2302825483"/>
+<nd ref="6953260456"/>
+<nd ref="2302825485"/>
+<nd ref="2302825487"/>
+<nd ref="2302825489"/>
+<nd ref="2302825491"/>
+<nd ref="2302825494"/>
+<nd ref="2302825496"/>
+<nd ref="2302825498"/>
+<nd ref="2302825501"/>
+<nd ref="2302825503"/>
+<nd ref="2302825507"/>
+<nd ref="2302825505"/>
+<nd ref="2302825510"/>
+<nd ref="2302825520"/>
+<nd ref="2302045891"/>
+<nd ref="2302825423"/>
+<nd ref="2302825425"/>
+<nd ref="2302825429"/>
+<nd ref="2302825386"/>
+<nd ref="2302825388"/>
+<nd ref="2302825399"/>
+<nd ref="2302825401"/>
+<nd ref="2302825392"/>
+<nd ref="2302825390"/>
+<nd ref="2302825395"/>
+<nd ref="2302825406"/>
+<nd ref="2302825408"/>
+<nd ref="1576412504"/>
+<nd ref="2302825435"/>
+<nd ref="448100616"/>
+<nd ref="2302825452"/>
+<tag k="building" v="dormitory"/>
+<tag k="building:levels" v="8"/>
+<tag k="name" v="San Nicolas Hall"/>
+<tag k="ref" v="561"/>
+<tag k="short_name" v="San Nic"/>
+</way>
+</osm>

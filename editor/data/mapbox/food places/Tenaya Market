@@ -1,0 +1,21 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.5 (2919573 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="558190391" visible="true" version="6" changeset="70214283" timestamp="2019-05-14T02:33:23Z" user="fpdotmonkey" uid="9944545">
+<nd ref="5382480093"/>
+<nd ref="5382480094"/>
+<nd ref="5382480095"/>
+<nd ref="5570276174"/>
+<nd ref="5570276172"/>
+<nd ref="5224046334"/>
+<nd ref="5382480093"/>
+<tag k="addr:housenumber" v="7101"/>
+<tag k="addr:unit" v="A"/>
+<tag k="building" v="yes"/>
+<tag k="building:levels" v="1"/>
+<tag k="name" v="Tenaya Market"/>
+<tag k="opening_hours" v="10:00-22:00"/>
+<tag k="payment:cash" v="yes"/>
+<tag k="payment:credit_cards" v="yes"/>
+<tag k="shop" v="convenience"/>
+</way>
+</osm>

@@ -1,0 +1,16 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3784161 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="572324769" visible="true" version="3" changeset="58248012" timestamp="2018-04-19T23:04:00Z" user="escallic" uid="2110789">
+<nd ref="5498500373"/>
+<nd ref="5565365803"/>
+<nd ref="5498500372"/>
+<nd ref="5498500374"/>
+<nd ref="5498500384"/>
+<nd ref="5537337707"/>
+<nd ref="5498500365"/>
+<nd ref="5565365804"/>
+<nd ref="5498500373"/>
+<tag k="building" v="dormitory"/>
+<tag k="building:levels" v="10"/>
+<tag k="name" v="Santa Catalina North Tower"/>
+</way>
+</osm>

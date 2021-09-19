@@ -1,0 +1,85 @@
+<osm version="0.6" generator="CGImap 0.8.5 (590828 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221401396" visible="true" version="3" changeset="75591491" timestamp="2019-10-12T04:02:23Z" user="omnibeet" uid="10145113">
+<nd ref="2304251339"/>
+<nd ref="2304251321"/>
+<nd ref="2304251324"/>
+<nd ref="2304251329"/>
+<nd ref="2304251326"/>
+<nd ref="2304251332"/>
+<nd ref="2304251341"/>
+<nd ref="2304251335"/>
+<nd ref="2304251344"/>
+<nd ref="2304251347"/>
+<nd ref="2304251350"/>
+<nd ref="2304251357"/>
+<nd ref="2304251363"/>
+<nd ref="2304251354"/>
+<nd ref="2304251360"/>
+<nd ref="2304251367"/>
+<nd ref="2304251370"/>
+<nd ref="2304251372"/>
+<nd ref="2304251375"/>
+<nd ref="2304251378"/>
+<nd ref="2304251383"/>
+<nd ref="2304251380"/>
+<nd ref="2304251198"/>
+<nd ref="2304251200"/>
+<nd ref="2304251201"/>
+<nd ref="2304251203"/>
+<nd ref="2304251205"/>
+<nd ref="2304251207"/>
+<nd ref="2304251208"/>
+<nd ref="2304251210"/>
+<nd ref="2304251212"/>
+<nd ref="2304251213"/>
+<nd ref="2304251215"/>
+<nd ref="2304251217"/>
+<nd ref="2304251219"/>
+<nd ref="2304251318"/>
+<nd ref="2304251220"/>
+<nd ref="2304251222"/>
+<nd ref="2304251224"/>
+<nd ref="2304251225"/>
+<nd ref="2304251229"/>
+<nd ref="2304251227"/>
+<nd ref="2304251231"/>
+<nd ref="2304251232"/>
+<nd ref="2304251234"/>
+<nd ref="2304251244"/>
+<nd ref="2304251236"/>
+<nd ref="2304251239"/>
+<nd ref="2304251237"/>
+<nd ref="2304251273"/>
+<nd ref="2304251242"/>
+<nd ref="2304251246"/>
+<nd ref="2304251259"/>
+<nd ref="2304251249"/>
+<nd ref="2304251276"/>
+<nd ref="2304251253"/>
+<nd ref="2304251261"/>
+<nd ref="2304251256"/>
+<nd ref="2304251252"/>
+<nd ref="2304251270"/>
+<nd ref="2304251264"/>
+<nd ref="2304251267"/>
+<nd ref="2304251282"/>
+<nd ref="2304251285"/>
+<nd ref="2304251279"/>
+<nd ref="2304251292"/>
+<nd ref="2304251287"/>
+<nd ref="2304251289"/>
+<nd ref="2304251290"/>
+<nd ref="2304251296"/>
+<nd ref="2304251302"/>
+<nd ref="2304251299"/>
+<nd ref="2304251305"/>
+<nd ref="2304251314"/>
+<nd ref="2304251311"/>
+<nd ref="2304251308"/>
+<nd ref="2304251339"/>
+<tag k="building" v="dormitory"/>
+<tag k="building:levels" v="3"/>
+<tag k="name" v="Mountain Cluster"/>
+<tag k="ref" v="587"/>
+</way>
+</osm>

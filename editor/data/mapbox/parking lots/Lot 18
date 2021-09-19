@@ -1,0 +1,23 @@
+<osm version="0.6" generator="CGImap 0.8.5 (104721 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="38140509" visible="true" version="6" changeset="64130444" timestamp="2018-11-02T23:32:28Z" user="escallic" uid="2110789">
+<nd ref="448887213"/>
+<nd ref="448887212"/>
+<nd ref="448887211"/>
+<nd ref="448887215"/>
+<nd ref="448887210"/>
+<nd ref="448887209"/>
+<nd ref="448887208"/>
+<nd ref="448887207"/>
+<nd ref="448887206"/>
+
+<nd ref="448887214"/>
+<nd ref="448887213"/>
+<tag k="amenity" v="parking"/>
+<tag k="building" v="yes"/>
+<tag k="capacity" v="907"/>
+<tag k="capacity:disabled" v="yes"/>
+<tag k="fee" v="yes"/>
+<tag k="name" v="Lot 18/Mesa"/>
+<tag k="parking" v="multi-storey"/>
+</way>
+</osm>

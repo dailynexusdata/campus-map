@@ -1,0 +1,71 @@
+<osm version="0.6" generator="CGImap 0.8.5 (279229 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221236506" visible="true" version="4" changeset="45225254" timestamp="2017-01-16T20:06:45Z" user="sctrojan79" uid="2601744">
+<nd ref="2302846767"/>
+<nd ref="2302846761"/>
+<nd ref="2302846765"/>
+<nd ref="2302847314"/>
+<nd ref="2302846422"/>
+<nd ref="2302846893"/>
+<nd ref="2302847597"/>
+<nd ref="2302847775"/>
+<nd ref="2302847842"/>
+<nd ref="2302846507"/>
+<nd ref="2302846863"/>
+<nd ref="2302846941"/>
+<nd ref="2302846971"/>
+<nd ref="2302847137"/>
+<nd ref="2302847427"/>
+<nd ref="2302847316"/>
+<nd ref="2302846902"/>
+<nd ref="2302847707"/>
+<nd ref="2302847846"/>
+<nd ref="2302846516"/>
+<nd ref="2302846831"/>
+<nd ref="2302847049"/>
+<nd ref="2302847109"/>
+<nd ref="2302847253"/>
+<nd ref="2302847249"/>
+<nd ref="2302846634"/>
+<nd ref="2302846708"/>
+<nd ref="2302847261"/>
+<nd ref="2302847514"/>
+<nd ref="2302847520"/>
+<nd ref="2302847538"/>
+<nd ref="2302847547"/>
+<nd ref="2302847578"/>
+<nd ref="2302847556"/>
+<nd ref="2302847592"/>
+<nd ref="2302847653"/>
+<nd ref="2302847639"/>
+<nd ref="2302847844"/>
+<nd ref="2302846526"/>
+<nd ref="2302847050"/>
+<nd ref="2302847241"/>
+<nd ref="2302846545"/>
+<nd ref="2302846646"/>
+<nd ref="2302846753"/>
+<nd ref="2302847353"/>
+<nd ref="2302847355"/>
+<nd ref="2302847368"/>
+<nd ref="2302847361"/>
+<nd ref="2302847365"/>
+<nd ref="2302847372"/>
+<nd ref="2302847375"/>
+<nd ref="2302847377"/>
+<nd ref="2302847379"/>
+<nd ref="2302847385"/>
+<nd ref="2302847382"/>
+<nd ref="2302847394"/>
+<nd ref="2302847413"/>
+<nd ref="2302847397"/>
+<nd ref="2302847407"/>
+<nd ref="2302847410"/>
+<nd ref="2302847404"/>
+<nd ref="2302847401"/>
+<nd ref="2302847418"/>
+<nd ref="2302846767"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Student Resource Building"/>
+<tag k="ref" v="221"/>
+</way>
+</osm>

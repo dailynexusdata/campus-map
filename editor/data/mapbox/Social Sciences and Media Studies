@@ -1,0 +1,37 @@
+<osm version="0.6" generator="CGImap 0.8.5 (723083 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221239594" visible="true" version="3" changeset="96228301" timestamp="2020-12-22T04:38:08Z" user="clarke22" uid="703694">
+<nd ref="8250597630"/>
+<nd ref="8250597629"/>
+<nd ref="8250597640"/>
+<nd ref="2302864307"/>
+<nd ref="8250597639"/>
+<nd ref="8250597638"/>
+<nd ref="8250597637"/>
+<nd ref="8250597636"/>
+<nd ref="2302864095"/>
+<nd ref="8250597631"/>
+<nd ref="2302864173"/>
+<nd ref="2302864304"/>
+<nd ref="8250597645"/>
+<nd ref="8250597644"/>
+<nd ref="8250597643"/>
+<nd ref="8250597642"/>
+<nd ref="8250597641"/>
+<nd ref="2302864138"/>
+<nd ref="8250597650"/>
+<nd ref="8250597649"/>
+<nd ref="8250597648"/>
+<nd ref="2302864178"/>
+<nd ref="8250597634"/>
+<nd ref="8250597635"/>
+<nd ref="2302864180"/>
+<nd ref="2302864198"/>
+<nd ref="8250597647"/>
+<nd ref="8250597646"/>
+<nd ref="8250597630"/>
+<tag k="building" v="university"/>
+<tag k="layer" v="1"/>
+<tag k="name" v="Social Sciences and Media Studies"/>
+<tag k="ref" v="276"/>
+</way>
+</osm>

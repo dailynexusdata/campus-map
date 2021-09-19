@@ -1,0 +1,19 @@
+<osm version="0.6" generator="CGImap 0.8.5 (4152804 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404879" visible="true" version="3" changeset="45225254" timestamp="2017-01-16T20:06:58Z" user="sctrojan79" uid="2601744">
+<nd ref="2304279434"/>
+<nd ref="2304279421"/>
+<nd ref="2304279435"/>
+<nd ref="2304279436"/>
+<nd ref="2304279420"/>
+<nd ref="2304279429"/>
+<nd ref="2304279417"/>
+<nd ref="2304279427"/>
+<nd ref="2304279422"/>
+<nd ref="2304279425"/>
+<nd ref="2304279428"/>
+<nd ref="2304279442"/>
+<nd ref="2304279434"/>
+<tag k="building" v="university"/>
+<tag k="ref" v="477"/>
+</way>
+</osm>

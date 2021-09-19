@@ -1,0 +1,25 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1015084 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221409862" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:07:03Z" user="sctrojan79" uid="2601744">
+<nd ref="2304323451"/>
+<nd ref="2304323465"/>
+<nd ref="2304323447"/>
+<nd ref="2304323448"/>
+<nd ref="2304323454"/>
+<nd ref="2304323462"/>
+<nd ref="2304323464"/>
+<nd ref="2304323455"/>
+<nd ref="2304323445"/>
+<nd ref="2304323457"/>
+<nd ref="2304323450"/>
+<nd ref="2304323469"/>
+<nd ref="2304323467"/>
+<nd ref="2304323458"/>
+<nd ref="2304323461"/>
+<nd ref="2304323446"/>
+<nd ref="2304323456"/>
+<nd ref="2304323451"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Physical Sciences South"/>
+<tag k="ref" v="672"/>
+</way>
+</osm>

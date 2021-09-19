@@ -1,0 +1,60 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1191314 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221241518" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:50Z" user="sctrojan79" uid="2601744">
+<nd ref="2302882451"/>
+<nd ref="2302882446"/>
+<nd ref="2302882440"/>
+<nd ref="2302882443"/>
+<nd ref="2302882437"/>
+<nd ref="2302882448"/>
+<nd ref="2302882454"/>
+<nd ref="2302882471"/>
+<nd ref="2302882463"/>
+<nd ref="2302882492"/>
+<nd ref="2302882457"/>
+<nd ref="2302882460"/>
+<nd ref="2302882509"/>
+<nd ref="2302882486"/>
+<nd ref="2302882466"/>
+<nd ref="2302882494"/>
+<nd ref="2302882503"/>
+<nd ref="2302882469"/>
+<nd ref="2302882483"/>
+<nd ref="2302882480"/>
+<nd ref="2302882474"/>
+<nd ref="2302882476"/>
+<nd ref="2302882497"/>
+<nd ref="2302882489"/>
+<nd ref="2302882506"/>
+<nd ref="2302882512"/>
+<nd ref="2302882500"/>
+<nd ref="2302882534"/>
+<nd ref="2302882544"/>
+<nd ref="2302882524"/>
+<nd ref="2302882530"/>
+<nd ref="2302882527"/>
+<nd ref="2302882553"/>
+<nd ref="2302882537"/>
+<nd ref="2302882559"/>
+<nd ref="2302882556"/>
+<nd ref="2302882565"/>
+<nd ref="2302882540"/>
+<nd ref="2302882571"/>
+<nd ref="2302882574"/>
+<nd ref="2302882568"/>
+<nd ref="2302882562"/>
+<nd ref="2302882547"/>
+<nd ref="2302882577"/>
+<nd ref="2302882550"/>
+<nd ref="2302882580"/>
+<nd ref="2302882634"/>
+<nd ref="2302882583"/>
+<nd ref="2302882601"/>
+<nd ref="2302882615"/>
+<nd ref="2302882586"/>
+<nd ref="2302882598"/>
+<nd ref="2302882451"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Ellison Hall"/>
+<tag k="ref" v="563"/>
+</way>
+</osm>

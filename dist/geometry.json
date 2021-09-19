@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.4148738, -119.8405306]
+      },
+      "properties": { "name": "Courtyard Cafe" }
+    }
+  ]
+}

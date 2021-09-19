@@ -1,0 +1,30 @@
+<osm version="0.6" generator="CGImap 0.8.5 (18180 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404492" visible="true" version="3" changeset="71263605" timestamp="2019-06-14T18:43:51Z" user="Edward" uid="364">
+<nd ref="2304275509"/>
+<nd ref="2304275511"/>
+<nd ref="2304275510"/>
+<nd ref="2304275507"/>
+<nd ref="2304275498"/>
+<nd ref="2797878297"/>
+<nd ref="2304275508"/>
+<nd ref="2304275502"/>
+<nd ref="2304275505"/>
+<nd ref="2304275506"/>
+<nd ref="2304275516"/>
+<nd ref="2304275512"/>
+<nd ref="2304275521"/>
+<nd ref="2304275529"/>
+<nd ref="2304275518"/>
+<nd ref="2304275525"/>
+<nd ref="2304275509"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Art, Design & Architecture Museum"/>
+<tag k="operator" v="University of California, Santa Barbara"/>
+<tag k="phone" v="+1 (805) 893-2951"/>
+<tag k="ref" v="534"/>
+<tag k="tourism" v="museum"/>
+<tag k="website" v="http://www.museum.ucsb.edu/"/>
+<tag k="wikidata" v="Q4796632"/>
+<tag k="wikipedia" v="en:Art, Design & Architecture Museum"/>
+</way>
+</osm>

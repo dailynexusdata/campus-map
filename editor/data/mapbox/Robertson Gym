@@ -1,0 +1,45 @@
+<osm version="0.6" generator="CGImap 0.8.5 (40779 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221239778" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:47Z" user="sctrojan79" uid="2601744">
+<nd ref="2302865895"/>
+<nd ref="2302865896"/>
+<nd ref="2302865894"/>
+<nd ref="2302865897"/>
+<nd ref="2302865898"/>
+<nd ref="2302865902"/>
+<nd ref="2302865900"/>
+<nd ref="2302865901"/>
+<nd ref="2302865899"/>
+<nd ref="2302865903"/>
+<nd ref="2302865907"/>
+<nd ref="2302865905"/>
+<nd ref="2302865904"/>
+<nd ref="2302865906"/>
+<nd ref="2302865909"/>
+<nd ref="2302865908"/>
+<nd ref="2302865911"/>
+<nd ref="2302865912"/>
+<nd ref="2302865910"/>
+<nd ref="2302865878"/>
+<nd ref="2302865877"/>
+<nd ref="2302865879"/>
+<nd ref="2302865881"/>
+<nd ref="2302865880"/>
+<nd ref="2302865882"/>
+<nd ref="2302865888"/>
+<nd ref="2302865883"/>
+<nd ref="2302865884"/>
+<nd ref="2302865885"/>
+<nd ref="2302865887"/>
+<nd ref="2302865889"/>
+<nd ref="2302865886"/>
+<nd ref="2302865891"/>
+<nd ref="2302865892"/>
+<nd ref="2302865890"/>
+<nd ref="2302865893"/>
+<nd ref="2302865895"/>
+<tag k="building" v="university"/>
+<tag k="leisure" v="sports_centre"/>
+<tag k="name" v="Rob Gym"/>
+<tag k="ref" v="533"/>
+</way>
+</osm>

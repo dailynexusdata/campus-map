@@ -1,0 +1,44 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3072465 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404493" visible="true" version="3" changeset="105052227" timestamp="2021-05-20T22:00:05Z" user="omnibeet" uid="10145113">
+<nd ref="2304275520"/>
+<nd ref="2304275519"/>
+<nd ref="2304275513"/>
+<nd ref="2304275514"/>
+<nd ref="2304275517"/>
+<nd ref="2304275527"/>
+<nd ref="2304275515"/>
+<nd ref="8751292193"/>
+<nd ref="2304275536"/>
+<nd ref="8751292196"/>
+<nd ref="2304275523"/>
+<nd ref="2304275528"/>
+<nd ref="2304275526"/>
+<nd ref="2304275542"/>
+<nd ref="2304275530"/>
+<nd ref="2304275532"/>
+<nd ref="2304275533"/>
+<nd ref="2304275534"/>
+<nd ref="2304275540"/>
+<nd ref="2304275543"/>
+<nd ref="2304275535"/>
+<nd ref="2304275541"/>
+<nd ref="2304275539"/>
+<nd ref="2304275537"/>
+<nd ref="2304275538"/>
+<nd ref="2304275468"/>
+<nd ref="2304275470"/>
+<nd ref="2304275473"/>
+<nd ref="2304275478"/>
+<nd ref="2304275484"/>
+<nd ref="2304275471"/>
+<nd ref="2304275474"/>
+<nd ref="2304275477"/>
+<nd ref="2304275476"/>
+<nd ref="2304275472"/>
+<nd ref="2304275480"/>
+<nd ref="2304275482"/>
+<nd ref="2304275469"/>
+<nd ref="2304275481"/>
+<nd ref="2304275520"/>
+</way>
+</osm>

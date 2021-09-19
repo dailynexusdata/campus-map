@@ -1,0 +1,23 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1026370 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221239597" visible="true" version="4" changeset="96228301" timestamp="2020-12-22T04:38:08Z" user="clarke22" uid="703694">
+<nd ref="2302864168"/>
+<nd ref="2302864353"/>
+<nd ref="2302864123"/>
+<nd ref="2302864128"/>
+<nd ref="2302864116"/>
+<nd ref="8250597653"/>
+<nd ref="8250597654"/>
+<nd ref="8250597652"/>
+<nd ref="8250597651"/>
+<nd ref="2302864122"/>
+<nd ref="2302864126"/>
+<nd ref="2302864110"/>
+<nd ref="2302864162"/>
+<nd ref="2302864141"/>
+<nd ref="2302864168"/>
+<tag k="amenity" v="theatre"/>
+<tag k="building" v="yes"/>
+<tag k="name" v="Pollock Theater"/>
+<tag k="ref" v="277"/>
+</way>
+</osm>

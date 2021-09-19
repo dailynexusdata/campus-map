@@ -1,0 +1,792 @@
+[
+  {
+    "key": "Anthropology",
+    "values": [
+      { "building": "Campbell Hall", "count": 2, "total": 19 },
+      { "building": "South Hall", "count": 5, "total": 19 },
+      { "building": "Remote instruction", "count": 5, "total": 19 },
+      { "building": "Girvetz Hall", "count": 2, "total": 19 },
+      { "building": "Broida Hall", "count": 1, "total": 19 },
+      { "building": "Building 387", "count": 1, "total": 19 },
+      { "building": "HSSB", "count": 2, "total": 19 },
+      { "building": "Arts Building", "count": 1, "total": 19 }
+    ]
+  },
+  {
+    "key": "Art",
+    "values": [
+      { "building": "Chemistry Building", "count": 1, "total": 28 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 28 },
+      { "building": "Webb Hall", "count": 1, "total": 28 },
+      { "building": "Arts Building", "count": 16, "total": 28 },
+      { "building": "Remote instruction", "count": 1, "total": 28 },
+      { "building": "Creative Studies", "count": 7, "total": 28 },
+      { "building": "Buchanan Hall", "count": 1, "total": 28 }
+    ]
+  },
+  {
+    "key": "Art History",
+    "values": [
+      { "building": "Remote instruction", "count": 6, "total": 23 },
+      { "building": "IV Theatre", "count": 1, "total": 23 },
+      { "building": "Buchanan Hall", "count": 3, "total": 23 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 23 },
+      { "building": "Arts Building", "count": 10, "total": 23 },
+      { "building": "TD-W", "count": 1, "total": 23 },
+      { "building": "HSSB", "count": 1, "total": 23 }
+    ]
+  },
+  {
+    "key": "Asian American Studies",
+    "values": [
+      { "building": "Remote instruction", "count": 7, "total": 18 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 18 },
+      { "building": "Girvetz Hall", "count": 6, "total": 18 },
+      { "building": "HSSB", "count": 2, "total": 18 },
+      { "building": "TD-E", "count": 1, "total": 18 },
+      { "building": "TD-W", "count": 1, "total": 18 }
+    ]
+  },
+  {
+    "key": "Astronomy",
+    "values": [
+      { "building": "Broida Hall", "count": 1, "total": 2 },
+      { "building": "HSSB", "count": 1, "total": 2 }
+    ]
+  },
+  {
+    "key": "Biology (Creative Studies)",
+    "values": [{ "building": "Creative Studies", "count": 2, "total": 2 }]
+  },
+  { "key": "Biomolecular Science and Engineering", "values": [] },
+  {
+    "key": "Black Studies",
+    "values": [
+      { "building": "TD-W", "count": 1, "total": 15 },
+      { "building": "Remote instruction", "count": 9, "total": 15 },
+      { "building": "North Hall", "count": 2, "total": 15 },
+      { "building": "Chemistry Building", "count": 1, "total": 15 },
+      { "building": "HSSB", "count": 1, "total": 15 },
+      { "building": "South Hall", "count": 1, "total": 15 }
+    ]
+  },
+  {
+    "key": "Chemical Engineering",
+    "values": [{ "building": "ENGR2", "count": 11, "total": 11 }]
+  },
+  {
+    "key": "Chemistry and Biochemistry",
+    "values": [
+      { "building": "Chemistry Building", "count": 10, "total": 38 },
+      { "building": "Buchanan Hall", "count": 4, "total": 38 },
+      { "building": "Phelps Hall", "count": 10, "total": 38 },
+      { "building": "Creative Studies", "count": 1, "total": 38 },
+      { "building": "Education Building", "count": 1, "total": 38 },
+      { "building": "ENGR2", "count": 1, "total": 38 },
+      { "building": "Girvetz Hall", "count": 4, "total": 38 },
+      { "building": "North Hall", "count": 1, "total": 38 },
+      { "building": "Psychology Building", "count": 1, "total": 38 },
+      { "building": "Remote instruction", "count": 1, "total": 38 },
+      { "building": "LSB", "count": 2, "total": 38 },
+      { "building": "Webb Hall", "count": 2, "total": 38 }
+    ]
+  },
+  {
+    "key": "Chicano Studies",
+    "values": [
+      { "building": "IV Theatre", "count": 1, "total": 11 },
+      { "building": "South Hall", "count": 4, "total": 11 },
+      { "building": "Phelps Hall", "count": 3, "total": 11 },
+      { "building": "Remote instruction", "count": 1, "total": 11 },
+      { "building": "Girvetz Hall", "count": 2, "total": 11 }
+    ]
+  },
+  {
+    "key": "Chinese",
+    "values": [
+      { "building": "HSSB", "count": 4, "total": 15 },
+      { "building": "Girvetz Hall", "count": 4, "total": 15 },
+      { "building": "North Hall", "count": 1, "total": 15 },
+      { "building": "Ellison Hall", "count": 2, "total": 15 },
+      { "building": "Phelps Hall", "count": 3, "total": 15 },
+      { "building": "Arts Building", "count": 1, "total": 15 }
+    ]
+  },
+  {
+    "key": "Classics",
+    "values": [
+      { "building": "LSB", "count": 1, "total": 10 },
+      { "building": "HSSB", "count": 5, "total": 10 },
+      { "building": "Remote instruction", "count": 1, "total": 10 },
+      { "building": "Psychology Building", "count": 2, "total": 10 },
+      { "building": "Phelps Hall", "count": 1, "total": 10 }
+    ]
+  },
+  {
+    "key": "Communication",
+    "values": [
+      { "building": "Chemistry Building", "count": 1, "total": 24 },
+      { "building": "Psychology Building", "count": 3, "total": 24 },
+      { "building": "Harold Frank Hall", "count": 2, "total": 24 },
+      { "building": "Buchanan Hall", "count": 1, "total": 24 },
+      { "building": "Phelps Hall", "count": 5, "total": 24 },
+      { "building": "TD-W", "count": 1, "total": 24 },
+      { "building": "ICA", "count": 1, "total": 24 },
+      { "building": "Webb Hall", "count": 3, "total": 24 },
+      { "building": "Broida Hall", "count": 2, "total": 24 },
+      { "building": "HSSB", "count": 2, "total": 24 },
+      { "building": "Girvetz Hall", "count": 1, "total": 24 },
+      { "building": "Remote instruction", "count": 1, "total": 24 },
+      { "building": "SSMS", "count": 1, "total": 24 }
+    ]
+  },
+  {
+    "key": "Comparative Literature",
+    "values": [
+      { "building": "LSB", "count": 1, "total": 17 },
+      { "building": "Chemistry Building", "count": 1, "total": 17 },
+      { "building": "Girvetz Hall", "count": 4, "total": 17 },
+      { "building": "IV Theatre", "count": 1, "total": 17 },
+      { "building": "Phelps Hall", "count": 4, "total": 17 },
+      { "building": "Buchanan Hall", "count": 2, "total": 17 },
+      { "building": "Ellison Hall", "count": 1, "total": 17 },
+      { "building": "HSSB", "count": 1, "total": 17 },
+      { "building": "Remote instruction", "count": 2, "total": 17 }
+    ]
+  },
+  {
+    "key": "Computer Science",
+    "values": [
+      { "building": "Phelps Hall", "count": 6, "total": 26 },
+      { "building": "Remote instruction", "count": 1, "total": 26 },
+      { "building": "LSB", "count": 1, "total": 26 },
+      { "building": "Chemistry Building", "count": 4, "total": 26 },
+      { "building": "North Hall", "count": 4, "total": 26 },
+      { "building": "Psychology Building", "count": 3, "total": 26 },
+      { "building": "Ellison Hall", "count": 1, "total": 26 },
+      { "building": "IV Theatre", "count": 1, "total": 26 },
+      { "building": "South Hall", "count": 2, "total": 26 },
+      { "building": "HSSB", "count": 2, "total": 26 },
+      { "building": "Buchanan Hall", "count": 1, "total": 26 }
+    ]
+  },
+  {
+    "key": "Computing (Creative Studies)",
+    "values": [{ "building": "Creative Studies", "count": 3, "total": 3 }]
+  },
+  {
+    "key": "Counseling, Clinical, School Psychology",
+    "values": [
+      { "building": "Education Building", "count": 5, "total": 9 },
+      { "building": "No room needed", "count": 1, "total": 9 },
+      { "building": "Buchanan Hall", "count": 1, "total": 9 },
+      { "building": "IV Theatre", "count": 1, "total": 9 },
+      { "building": "Broida Hall", "count": 1, "total": 9 }
+    ]
+  },
+  {
+    "key": "Dance",
+    "values": [
+      { "building": "Remote instruction", "count": 1, "total": 24 },
+      { "building": "TD-W", "count": 10, "total": 24 },
+      { "building": "HSSB", "count": 12, "total": 24 },
+      { "building": "Phelps Hall", "count": 1, "total": 24 }
+    ]
+  },
+  {
+    "key": "Earth Science",
+    "values": [
+      { "building": "Girvetz Hall", "count": 1, "total": 21 },
+      { "building": "Embarcadero Hall", "count": 4, "total": 21 },
+      { "building": "Phelps Hall", "count": 3, "total": 21 },
+      { "building": "Webb Hall", "count": 5, "total": 21 },
+      { "building": "PSB-S", "count": 8, "total": 21 }
+    ]
+  },
+  {
+    "key": "East Asian Cultural Studies",
+    "values": [
+      { "building": "Buchanan Hall", "count": 1, "total": 2 },
+      { "building": "Girvetz Hall", "count": 1, "total": 2 }
+    ]
+  },
+  {
+    "key": "Ecology, Evolution & Marine Biology",
+    "values": [
+      { "building": "BSIF", "count": 12, "total": 43 },
+      { "building": "Girvetz Hall", "count": 6, "total": 43 },
+      { "building": "Ellison Hall", "count": 1, "total": 43 },
+      { "building": "IV Theatre", "count": 1, "total": 43 },
+      { "building": "Harder Stadium", "count": 6, "total": 43 },
+      { "building": "Chemistry Building", "count": 1, "total": 43 },
+      { "building": "Harold Frank Hall", "count": 2, "total": 43 },
+      { "building": "Buchanan Hall", "count": 2, "total": 43 },
+      { "building": "Phelps Hall", "count": 3, "total": 43 },
+      { "building": "PSB-S", "count": 1, "total": 43 },
+      { "building": "SSMS", "count": 2, "total": 43 },
+      { "building": "MLAB", "count": 1, "total": 43 },
+      { "building": "Remote instruction", "count": 1, "total": 43 },
+      { "building": "Webb Hall", "count": 1, "total": 43 },
+      { "building": "Psychology Building", "count": 1, "total": 43 },
+      { "building": "Noble Hall", "count": 1, "total": 43 },
+      { "building": "Building 387", "count": 1, "total": 43 }
+    ]
+  },
+  {
+    "key": "Economics",
+    "values": [
+      { "building": "Campbell Hall", "count": 15, "total": 85 },
+      { "building": "Embarcadero Hall", "count": 2, "total": 85 },
+      { "building": "Buchanan Hall", "count": 4, "total": 85 },
+      { "building": "North Hall", "count": 17, "total": 85 },
+      { "building": "Remote instruction", "count": 13, "total": 85 },
+      { "building": "Ellison Hall", "count": 10, "total": 85 },
+      { "building": "Arts Building", "count": 5, "total": 85 },
+      { "building": "IV Theatre", "count": 1, "total": 85 },
+      { "building": "Music Building", "count": 2, "total": 85 },
+      { "building": "HSSB", "count": 2, "total": 85 },
+      { "building": "Harold Frank Hall", "count": 1, "total": 85 },
+      { "building": "TD-W", "count": 1, "total": 85 },
+      { "building": "Phelps Hall", "count": 3, "total": 85 },
+      { "building": "Girvetz Hall", "count": 4, "total": 85 },
+      { "building": "Chemistry Building", "count": 2, "total": 85 },
+      { "building": "Webb Hall", "count": 3, "total": 85 }
+    ]
+  },
+  {
+    "key": "Education",
+    "values": [
+      { "building": "Buchanan Hall", "count": 1, "total": 19 },
+      { "building": "Education Building", "count": 15, "total": 19 },
+      { "building": "Remote instruction", "count": 1, "total": 19 },
+      { "building": "Girvetz Hall", "count": 1, "total": 19 },
+      { "building": "Webb Hall", "count": 1, "total": 19 }
+    ]
+  },
+  {
+    "key": "Electrical Computer Engineering",
+    "values": [
+      { "building": "Chemistry Building", "count": 1, "total": 37 },
+      { "building": "Harold Frank Hall", "count": 10, "total": 37 },
+      { "building": "Phelps Hall", "count": 8, "total": 37 },
+      { "building": "ESB", "count": 2, "total": 37 },
+      { "building": "Buchanan Hall", "count": 2, "total": 37 },
+      { "building": "Girvetz Hall", "count": 2, "total": 37 },
+      { "building": "Remote instruction", "count": 2, "total": 37 },
+      { "building": "HSSB", "count": 5, "total": 37 },
+      { "building": "South Hall", "count": 2, "total": 37 },
+      { "building": "Psychology Building", "count": 1, "total": 37 },
+      { "building": "Webb Hall", "count": 1, "total": 37 },
+      { "building": "Arts Building", "count": 1, "total": 37 }
+    ]
+  },
+  {
+    "key": "Engineering Sciences",
+    "values": [
+      { "building": "Psychology Building", "count": 1, "total": 6 },
+      { "building": "Girvetz Hall", "count": 4, "total": 6 },
+      { "building": "Arts Building", "count": 1, "total": 6 }
+    ]
+  },
+  {
+    "key": "English",
+    "values": [
+      { "building": "Chemistry Building", "count": 1, "total": 30 },
+      { "building": "South Hall", "count": 11, "total": 30 },
+      { "building": "Buchanan Hall", "count": 2, "total": 30 },
+      { "building": "Campbell Hall", "count": 1, "total": 30 },
+      { "building": "KERR HALL", "count": 2, "total": 30 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 30 },
+      { "building": "Remote instruction", "count": 2, "total": 30 },
+      { "building": "Ellison Hall", "count": 1, "total": 30 },
+      { "building": "Girvetz Hall", "count": 7, "total": 30 },
+      { "building": "HSSB", "count": 1, "total": 30 },
+      { "building": "Arts Building", "count": 1, "total": 30 }
+    ]
+  },
+  {
+    "key": "Environmental Studies",
+    "values": [
+      { "building": "Music Building", "count": 1, "total": 34 },
+      { "building": "Bren Hall", "count": 4, "total": 34 },
+      { "building": "HSSB", "count": 4, "total": 34 },
+      { "building": "IV Theatre", "count": 1, "total": 34 },
+      { "building": "Harder Stadium", "count": 4, "total": 34 },
+      { "building": "Buchanan Hall", "count": 3, "total": 34 },
+      { "building": "Building 387", "count": 3, "total": 34 },
+      { "building": "Embarcadero Hall", "count": 2, "total": 34 },
+      { "building": "North Hall", "count": 1, "total": 34 },
+      { "building": "Girvetz Hall", "count": 6, "total": 34 },
+      { "building": "Broida Hall", "count": 1, "total": 34 },
+      { "building": "Psychology Building", "count": 1, "total": 34 },
+      { "building": "Harold Frank Hall", "count": 1, "total": 34 },
+      { "building": "Ellison Hall", "count": 1, "total": 34 },
+      { "building": "KERR HALL", "count": 1, "total": 34 }
+    ]
+  },
+  {
+    "key": "Exercise & Sport Studies",
+    "values": [
+      { "building": "Remote instruction", "count": 8, "total": 18 },
+      { "building": "Recreation Center", "count": 8, "total": 18 },
+      { "building": "TD-W", "count": 2, "total": 18 }
+    ]
+  },
+  {
+    "key": "Exercise Sport",
+    "values": [{ "building": "Robertson Gym", "count": 7, "total": 7 }]
+  },
+  {
+    "key": "Feminist Studies",
+    "values": [
+      { "building": "Embarcadero Hall", "count": 2, "total": 10 },
+      { "building": "Chemistry Building", "count": 1, "total": 10 },
+      { "building": "Ellison Hall", "count": 1, "total": 10 },
+      { "building": "Phelps Hall", "count": 2, "total": 10 },
+      { "building": "Girvetz Hall", "count": 4, "total": 10 }
+    ]
+  },
+  {
+    "key": "Film and Media Studies",
+    "values": [
+      { "building": "Pollock Theater", "count": 11, "total": 29 },
+      { "building": "SSMS", "count": 11, "total": 29 },
+      { "building": "Buchanan Hall", "count": 3, "total": 29 },
+      { "building": "IV Theatre", "count": 2, "total": 29 },
+      { "building": "Music Building", "count": 2, "total": 29 }
+    ]
+  },
+  {
+    "key": "French",
+    "values": [
+      { "building": "HSSB", "count": 16, "total": 40 },
+      { "building": "Remote instruction", "count": 16, "total": 40 },
+      { "building": "Girvetz Hall", "count": 2, "total": 40 },
+      { "building": "South Hall", "count": 1, "total": 40 },
+      { "building": "IV Theatre", "count": 1, "total": 40 },
+      { "building": "Phelps Hall", "count": 1, "total": 40 },
+      { "building": "LSB", "count": 2, "total": 40 },
+      { "building": "Buchanan Hall", "count": 1, "total": 40 }
+    ]
+  },
+  {
+    "key": "Geography",
+    "values": [
+      { "building": "Remote instruction", "count": 4, "total": 18 },
+      { "building": "Buchanan Hall", "count": 2, "total": 18 },
+      { "building": "Broida Hall", "count": 1, "total": 18 },
+      { "building": "South Hall", "count": 1, "total": 18 },
+      { "building": "Girvetz Hall", "count": 1, "total": 18 },
+      { "building": "Ellison Hall", "count": 8, "total": 18 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 18 }
+    ]
+  },
+  {
+    "key": "German",
+    "values": [
+      { "building": "Girvetz Hall", "count": 10, "total": 18 },
+      { "building": "Phelps Hall", "count": 7, "total": 18 },
+      { "building": "Arts Building", "count": 1, "total": 18 }
+    ]
+  },
+  {
+    "key": "Global Studies",
+    "values": [
+      { "building": "IV Theatre", "count": 2, "total": 11 },
+      { "building": "Remote instruction", "count": 1, "total": 11 },
+      { "building": "Buchanan Hall", "count": 2, "total": 11 },
+      { "building": "Girvetz Hall", "count": 2, "total": 11 },
+      { "building": "North Hall", "count": 1, "total": 11 },
+      { "building": "Phelps Hall", "count": 2, "total": 11 },
+      { "building": "SSMS", "count": 1, "total": 11 }
+    ]
+  },
+  {
+    "key": "Greek",
+    "values": [{ "building": "HSSB", "count": 3, "total": 3 }]
+  },
+  {
+    "key": "Hebrew",
+    "values": [{ "building": "HSSB", "count": 1, "total": 1 }]
+  },
+  {
+    "key": "History",
+    "values": [
+      { "building": "IV Theatre", "count": 3, "total": 37 },
+      { "building": "Arts Building", "count": 3, "total": 37 },
+      { "building": "LSB", "count": 4, "total": 37 },
+      { "building": "Girvetz Hall", "count": 12, "total": 37 },
+      { "building": "HSSB", "count": 6, "total": 37 },
+      { "building": "Remote instruction", "count": 2, "total": 37 },
+      { "building": "Psychology Building", "count": 1, "total": 37 },
+      { "building": "Chemistry Building", "count": 1, "total": 37 },
+      { "building": "TD-W", "count": 2, "total": 37 },
+      { "building": "Ellison Hall", "count": 3, "total": 37 }
+    ]
+  },
+  {
+    "key": "Interdisciplinary",
+    "values": [
+      { "building": "TD-W", "count": 6, "total": 36 },
+      { "building": "Ellison Hall", "count": 1, "total": 36 },
+      { "building": "HSSB", "count": 15, "total": 36 },
+      { "building": "Remote instruction", "count": 3, "total": 36 },
+      { "building": "Creative Studies", "count": 3, "total": 36 },
+      { "building": "Arts Building", "count": 1, "total": 36 },
+      { "building": "Phelps Hall", "count": 4, "total": 36 },
+      { "building": "Girvetz Hall", "count": 2, "total": 36 },
+      { "building": "South Hall", "count": 1, "total": 36 }
+    ]
+  },
+  {
+    "key": "Italian",
+    "values": [
+      { "building": "Girvetz Hall", "count": 1, "total": 37 },
+      { "building": "Remote instruction", "count": 18, "total": 37 },
+      { "building": "HSSB", "count": 12, "total": 37 },
+      { "building": "Phelps Hall", "count": 4, "total": 37 },
+      { "building": "North Hall", "count": 1, "total": 37 },
+      { "building": "Buchanan Hall", "count": 1, "total": 37 }
+    ]
+  },
+  {
+    "key": "Japanese",
+    "values": [
+      { "building": "HSSB", "count": 8, "total": 16 },
+      { "building": "Girvetz Hall", "count": 6, "total": 16 },
+      { "building": "Education Building", "count": 1, "total": 16 },
+      { "building": "North Hall", "count": 1, "total": 16 }
+    ]
+  },
+  {
+    "key": "Korean",
+    "values": [
+      { "building": "HSSB", "count": 1, "total": 3 },
+      { "building": "Girvetz Hall", "count": 2, "total": 3 }
+    ]
+  },
+  {
+    "key": "Latin",
+    "values": [
+      { "building": "HSSB", "count": 4, "total": 5 },
+      { "building": "Girvetz Hall", "count": 1, "total": 5 }
+    ]
+  },
+  {
+    "key": "Latin American and Iberian Studies",
+    "values": [
+      { "building": "Remote instruction", "count": 3, "total": 6 },
+      { "building": "LSB", "count": 1, "total": 6 },
+      { "building": "Phelps Hall", "count": 2, "total": 6 }
+    ]
+  },
+  {
+    "key": "Linguistics",
+    "values": [
+      { "building": "Girvetz Hall", "count": 19, "total": 63 },
+      { "building": "Remote instruction", "count": 19, "total": 63 },
+      { "building": "HSSB", "count": 10, "total": 63 },
+      { "building": "South Hall", "count": 5, "total": 63 },
+      { "building": "Building 387", "count": 1, "total": 63 },
+      { "building": "Phelps Hall", "count": 3, "total": 63 },
+      { "building": "Music Building", "count": 1, "total": 63 },
+      { "building": "Buchanan Hall", "count": 1, "total": 63 },
+      { "building": "TD-W", "count": 2, "total": 63 },
+      { "building": "Psychology Building", "count": 1, "total": 63 },
+      { "building": "IV Theatre", "count": 1, "total": 63 }
+    ]
+  },
+  {
+    "key": "Materials",
+    "values": [
+      { "building": "Phelps Hall", "count": 1, "total": 5 },
+      { "building": "Ellison Hall", "count": 1, "total": 5 },
+      { "building": "Buchanan Hall", "count": 1, "total": 5 },
+      { "building": "Remote instruction", "count": 1, "total": 5 },
+      { "building": "Girvetz Hall", "count": 1, "total": 5 }
+    ]
+  },
+  {
+    "key": "Mathematics",
+    "values": [
+      { "building": "Buchanan Hall", "count": 1, "total": 50 },
+      { "building": "Music Building", "count": 1, "total": 50 },
+      { "building": "LSB", "count": 2, "total": 50 },
+      { "building": "Remote instruction", "count": 1, "total": 50 },
+      { "building": "Girvetz Hall", "count": 3, "total": 50 },
+      { "building": "Campbell Hall", "count": 2, "total": 50 },
+      { "building": "TD-W", "count": 6, "total": 50 },
+      { "building": "Harold Frank Hall", "count": 1, "total": 50 },
+      { "building": "IV Theatre", "count": 1, "total": 50 },
+      { "building": "Phelps Hall", "count": 20, "total": 50 },
+      { "building": "South Hall", "count": 3, "total": 50 },
+      { "building": "Creative Studies", "count": 5, "total": 50 },
+      { "building": "North Hall", "count": 2, "total": 50 },
+      { "building": "Arts Building", "count": 2, "total": 50 }
+    ]
+  },
+  {
+    "key": "Mechanical Engineering",
+    "values": [
+      { "building": "South Hall", "count": 1, "total": 21 },
+      { "building": "HSSB", "count": 3, "total": 21 },
+      { "building": "Girvetz Hall", "count": 3, "total": 21 },
+      { "building": "Remote instruction", "count": 2, "total": 21 },
+      { "building": "Webb Hall", "count": 1, "total": 21 },
+      { "building": "ENGR2", "count": 3, "total": 21 },
+      { "building": "Psychology Building", "count": 1, "total": 21 },
+      { "building": "Ellison Hall", "count": 1, "total": 21 },
+      { "building": "Buchanan Hall", "count": 2, "total": 21 },
+      { "building": "Arts Building", "count": 1, "total": 21 },
+      { "building": "North Hall", "count": 1, "total": 21 },
+      { "building": "ESB", "count": 1, "total": 21 },
+      { "building": "Phelps Hall", "count": 1, "total": 21 }
+    ]
+  },
+  {
+    "key": "Media Arts and Technology",
+    "values": [{ "building": "Arts Building", "count": 1, "total": 1 }]
+  },
+  { "key": "Medieval Studies", "values": [] },
+  {
+    "key": "Middle East Studies",
+    "values": [{ "building": "Psychology Building", "count": 1, "total": 1 }]
+  },
+  {
+    "key": "Military Science",
+    "values": [
+      { "building": "Phelps Hall", "count": 6, "total": 9 },
+      { "building": "Building 451", "count": 2, "total": 9 },
+      { "building": "Recreation Center", "count": 1, "total": 9 }
+    ]
+  },
+  {
+    "key": "Molecular, Cellular & Develop. Biology",
+    "values": [
+      { "building": "Campbell Hall", "count": 2, "total": 31 },
+      { "building": "Broida Hall", "count": 4, "total": 31 },
+      { "building": "Buchanan Hall", "count": 3, "total": 31 },
+      { "building": "BSIF", "count": 8, "total": 31 },
+      { "building": "Psychology Building", "count": 1, "total": 31 },
+      { "building": "MLAB", "count": 2, "total": 31 },
+      { "building": "HSSB", "count": 1, "total": 31 },
+      { "building": "Music Building", "count": 1, "total": 31 },
+      { "building": "LSB", "count": 5, "total": 31 },
+      { "building": "Girvetz Hall", "count": 2, "total": 31 },
+      { "building": "Phelps Hall", "count": 2, "total": 31 }
+    ]
+  },
+  {
+    "key": "Music",
+    "values": [
+      { "building": "Music Building", "count": 23, "total": 26 },
+      { "building": "Creative Studies", "count": 2, "total": 26 },
+      { "building": "HSSB", "count": 1, "total": 26 }
+    ]
+  },
+  {
+    "key": "Music Performance Laboratories",
+    "values": [
+      { "building": "Music Building", "count": 9, "total": 11 },
+      { "building": "DEPT", "count": 2, "total": 11 }
+    ]
+  },
+  {
+    "key": "Philosophy",
+    "values": [
+      { "building": "Buchanan Hall", "count": 2, "total": 21 },
+      { "building": "Music Building", "count": 1, "total": 21 },
+      { "building": "Embarcadero Hall", "count": 1, "total": 21 },
+      { "building": "Remote instruction", "count": 6, "total": 21 },
+      { "building": "North Hall", "count": 2, "total": 21 },
+      { "building": "Phelps Hall", "count": 4, "total": 21 },
+      { "building": "Girvetz Hall", "count": 5, "total": 21 }
+    ]
+  },
+  {
+    "key": "Physics",
+    "values": [
+      { "building": "Broida Hall", "count": 50, "total": 104 },
+      { "building": "Trailer 942", "count": 35, "total": 104 },
+      { "building": "Chemistry Building", "count": 1, "total": 104 },
+      { "building": "Ellison Hall", "count": 2, "total": 104 },
+      { "building": "Building 387", "count": 2, "total": 104 },
+      { "building": "Buchanan Hall", "count": 4, "total": 104 },
+      { "building": "Girvetz Hall", "count": 2, "total": 104 },
+      { "building": "Phelps Hall", "count": 2, "total": 104 },
+      { "building": "LSB", "count": 1, "total": 104 },
+      { "building": "Music Building", "count": 1, "total": 104 },
+      { "building": "South Hall", "count": 2, "total": 104 },
+      { "building": "Arts Building", "count": 1, "total": 104 },
+      { "building": "Psychology Building", "count": 1, "total": 104 }
+    ]
+  },
+  {
+    "key": "Political Science",
+    "values": [
+      { "building": "Psychology Building", "count": 1, "total": 14 },
+      { "building": "Buchanan Hall", "count": 1, "total": 14 },
+      { "building": "Remote instruction", "count": 1, "total": 14 },
+      { "building": "Phelps Hall", "count": 4, "total": 14 },
+      { "building": "Chemistry Building", "count": 1, "total": 14 },
+      { "building": "North Hall", "count": 2, "total": 14 },
+      { "building": "Education Building", "count": 1, "total": 14 },
+      { "building": "IV Theatre", "count": 1, "total": 14 },
+      { "building": "Harold Frank Hall", "count": 1, "total": 14 },
+      { "building": "Girvetz Hall", "count": 1, "total": 14 }
+    ]
+  },
+  {
+    "key": "Portuguese",
+    "values": [
+      { "building": "Remote instruction", "count": 5, "total": 11 },
+      { "building": "Girvetz Hall", "count": 1, "total": 11 },
+      { "building": "South Hall", "count": 1, "total": 11 },
+      { "building": "HSSB", "count": 4, "total": 11 }
+    ]
+  },
+  {
+    "key": "Psychology",
+    "values": [
+      { "building": "Campbell Hall", "count": 1, "total": 26 },
+      { "building": "Harold Frank Hall", "count": 4, "total": 26 },
+      { "building": "Remote instruction", "count": 3, "total": 26 },
+      { "building": "South Hall", "count": 2, "total": 26 },
+      { "building": "IV Theatre", "count": 1, "total": 26 },
+      { "building": "Chemistry Building", "count": 1, "total": 26 },
+      { "building": "Buchanan Hall", "count": 6, "total": 26 },
+      { "building": "TD-W", "count": 1, "total": 26 },
+      { "building": "Psychology Building", "count": 1, "total": 26 },
+      { "building": "Broida Hall", "count": 2, "total": 26 },
+      { "building": "Girvetz Hall", "count": 1, "total": 26 },
+      { "building": "LSB", "count": 1, "total": 26 },
+      { "building": "Arts Building", "count": 1, "total": 26 },
+      { "building": "HSSB", "count": 1, "total": 26 }
+    ]
+  },
+  {
+    "key": "Religious Studies",
+    "values": [
+      { "building": "HSSB", "count": 17, "total": 35 },
+      { "building": "Buchanan Hall", "count": 4, "total": 35 },
+      { "building": "Education Building", "count": 1, "total": 35 },
+      { "building": "Psychology Building", "count": 1, "total": 35 },
+      { "building": "Phelps Hall", "count": 5, "total": 35 },
+      { "building": "North Hall", "count": 1, "total": 35 },
+      { "building": "Chemistry Building", "count": 1, "total": 35 },
+      { "building": "Girvetz Hall", "count": 3, "total": 35 },
+      { "building": "Building 387", "count": 1, "total": 35 },
+      { "building": "Arts Building", "count": 1, "total": 35 }
+    ]
+  },
+  { "key": "Renaissance Studies", "values": [] },
+  {
+    "key": "Russian",
+    "values": [
+      { "building": "HSSB", "count": 4, "total": 8 },
+      { "building": "Girvetz Hall", "count": 1, "total": 8 },
+      { "building": "Remote instruction", "count": 2, "total": 8 },
+      { "building": "Buchanan Hall", "count": 1, "total": 8 }
+    ]
+  },
+  {
+    "key": "Slavic",
+    "values": [
+      { "building": "Girvetz Hall", "count": 1, "total": 3 },
+      { "building": "Phelps Hall", "count": 2, "total": 3 }
+    ]
+  },
+  {
+    "key": "Sociology",
+    "values": [
+      { "building": "IV Theatre", "count": 1, "total": 28 },
+      { "building": "HSSB", "count": 9, "total": 28 },
+      { "building": "Phelps Hall", "count": 5, "total": 28 },
+      { "building": "SSMS", "count": 2, "total": 28 },
+      { "building": "TD-W", "count": 1, "total": 28 },
+      { "building": "Buchanan Hall", "count": 3, "total": 28 },
+      { "building": "North Hall", "count": 2, "total": 28 },
+      { "building": "Harold Frank Hall", "count": 2, "total": 28 },
+      { "building": "Campbell Hall", "count": 1, "total": 28 },
+      { "building": "Webb Hall", "count": 1, "total": 28 },
+      { "building": "Ellison Hall", "count": 1, "total": 28 }
+    ]
+  },
+  {
+    "key": "Spanish",
+    "values": [
+      { "building": "Remote instruction", "count": 29, "total": 54 },
+      { "building": "HSSB", "count": 9, "total": 54 },
+      { "building": "North Hall", "count": 1, "total": 54 },
+      { "building": "Girvetz Hall", "count": 5, "total": 54 },
+      { "building": "South Hall", "count": 1, "total": 54 },
+      { "building": "Phelps Hall", "count": 5, "total": 54 },
+      { "building": "TD-W", "count": 2, "total": 54 },
+      { "building": "Arts Building", "count": 2, "total": 54 }
+    ]
+  },
+  {
+    "key": "Speech & Hearing Sciences",
+    "values": [{ "building": "Harder Stadium", "count": 1, "total": 1 }]
+  },
+  {
+    "key": "Statistics & Applied Probability",
+    "values": [
+      { "building": "IV Theatre", "count": 5, "total": 29 },
+      { "building": "TD-W", "count": 1, "total": 29 },
+      { "building": "Remote instruction", "count": 5, "total": 29 },
+      { "building": "Campbell Hall", "count": 1, "total": 29 },
+      { "building": "Ellison Hall", "count": 1, "total": 29 },
+      { "building": "Psychology Building", "count": 5, "total": 29 },
+      { "building": "Chemistry Building", "count": 1, "total": 29 },
+      { "building": "Buchanan Hall", "count": 5, "total": 29 },
+      { "building": "North Hall", "count": 1, "total": 29 },
+      { "building": "LSB", "count": 1, "total": 29 },
+      { "building": "HSSB", "count": 1, "total": 29 },
+      { "building": "South Hall", "count": 1, "total": 29 },
+      { "building": "Girvetz Hall", "count": 1, "total": 29 }
+    ]
+  },
+  {
+    "key": "Technology Management",
+    "values": [
+      { "building": "Embarcadero Hall", "count": 1, "total": 8 },
+      { "building": "Phelps Hall", "count": 4, "total": 8 },
+      { "building": "Psychology Building", "count": 1, "total": 8 },
+      { "building": "TD-W", "count": 1, "total": 8 },
+      { "building": "Girvetz Hall", "count": 1, "total": 8 }
+    ]
+  },
+  {
+    "key": "Theater",
+    "values": [
+      { "building": "Remote instruction", "count": 2, "total": 32 },
+      { "building": "HSSB", "count": 5, "total": 32 },
+      { "building": "TD-E", "count": 10, "total": 32 },
+      { "building": "TD-W", "count": 12, "total": 32 },
+      { "building": "Embarcadero Hall", "count": 2, "total": 32 },
+      { "building": "Phelps Hall", "count": 1, "total": 32 }
+    ]
+  },
+  {
+    "key": "Writing",
+    "values": [
+      { "building": "Phelps Hall", "count": 25, "total": 130 },
+      { "building": "HSSB", "count": 54, "total": 130 },
+      { "building": "Remote instruction", "count": 35, "total": 130 },
+      { "building": "South Hall", "count": 9, "total": 130 },
+      { "building": "Building 387", "count": 1, "total": 130 },
+      { "building": "Girvetz Hall", "count": 2, "total": 130 },
+      { "building": "LSB", "count": 2, "total": 130 },
+      { "building": "Buchanan Hall", "count": 1, "total": 130 },
+      { "building": "SSMS", "count": 1, "total": 130 }
+    ]
+  },
+  {
+    "key": "Writing & Literature (Creative Studies)",
+    "values": [
+      { "building": "Creative Studies", "count": 10, "total": 11 },
+      { "building": "Girvetz Hall", "count": 1, "total": 11 }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+<osm version="0.6" generator="CGImap 0.8.5 (723083 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="355809608" visible="true" version="10" changeset="105812054" timestamp="2021-06-04T05:11:26Z" user="jrpear" uid="11683918">
+<nd ref="4119713429"/>
+<nd ref="2304323449"/>
+<nd ref="2304323466"/>
+<nd ref="2304323470"/>
+<nd ref="2304323471"/>
+<nd ref="2304323478"/>
+<nd ref="2302046005"/>
+<nd ref="2304323468"/>
+<nd ref="2304323473"/>
+<nd ref="2304323485"/>
+<nd ref="2304323474"/>
+<nd ref="2304323472"/>
+<nd ref="2304323481"/>
+<nd ref="2304323483"/>
+<nd ref="2304323488"/>
+<nd ref="2304323479"/>
+<nd ref="2304323475"/>
+<nd ref="2304323486"/>
+<nd ref="2304323477"/>
+<nd ref="2304323482"/>
+<nd ref="2304323489"/>
+<nd ref="2304323480"/>
+<nd ref="2304323428"/>
+<nd ref="2286344499"/>
+<nd ref="2304323411"/>
+<nd ref="2304323412"/>
+<nd ref="4613281524"/>
+<nd ref="4613281523"/>
+<nd ref="2304323476"/>
+<nd ref="2304323487"/>
+<nd ref="2304323484"/>
+<nd ref="2304323452"/>
+<nd ref="6854474726"/>
+<nd ref="2304323459"/>
+<nd ref="2304323460"/>
+<nd ref="2304323463"/>
+<nd ref="4119713393"/>
+<nd ref="4119713390"/>
+<nd ref="4119713457"/>
+<nd ref="4119713425"/>
+<nd ref="4119713426"/>
+<nd ref="4119713427"/>
+<nd ref="4119713533"/>
+<nd ref="4119713534"/>
+<nd ref="4119713546"/>
+<nd ref="4119713444"/>
+<nd ref="4119713440"/>
+<nd ref="4119713518"/>
+<nd ref="4119713424"/>
+<nd ref="4119713423"/>
+<nd ref="4119713445"/>
+<nd ref="4119713448"/>
+<nd ref="4119713525"/>
+<nd ref="4119713498"/>
+<nd ref="4119713553"/>
+<nd ref="4119713551"/>
+<nd ref="4119713552"/>
+<nd ref="4119713430"/>
+<nd ref="4119713429"/>
+<tag k="addr:housename" v="525"/>
+<tag k="alt_name" v="UCSB Library"/>
+<tag k="amenity" v="library"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Davidson Library"/>
+<tag k="operator" v="University of California, Santa Barbara"/>
+<tag k="ref" v="525"/>
+<tag k="website" v="https://www.library.ucsb.edu/"/>
+</way>
+</osm>

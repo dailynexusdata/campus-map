@@ -1,0 +1,33 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3072465 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221235843" visible="true" version="3" changeset="105260152" timestamp="2021-05-25T04:52:31Z" user="clarke22" uid="703694">
+<nd ref="2302834519"/>
+<nd ref="2302834517"/>
+<nd ref="2302834521"/>
+<nd ref="2302834523"/>
+<nd ref="2302834528"/>
+<nd ref="2302834525"/>
+<nd ref="8763275767"/>
+<nd ref="2302834530"/>
+<nd ref="2302834532"/>
+<nd ref="2302834534"/>
+<nd ref="2302834537"/>
+<nd ref="2302834539"/>
+<nd ref="2302834543"/>
+<nd ref="2302834541"/>
+<nd ref="2302834545"/>
+<nd ref="2302834547"/>
+<nd ref="2302834549"/>
+<nd ref="2302834551"/>
+<nd ref="2302834554"/>
+<nd ref="2302834556"/>
+<nd ref="2302834558"/>
+<nd ref="2302834560"/>
+<nd ref="2302834562"/>
+<nd ref="2302834564"/>
+<nd ref="2302834566"/>
+<nd ref="2302834519"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Marine Science Institute"/>
+<tag k="ref" v="555"/>
+</way>
+</osm>

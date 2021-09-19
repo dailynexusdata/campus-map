@@ -1,0 +1,13 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3875661 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="815557200" visible="true" version="1" changeset="86586330" timestamp="2020-06-12T22:22:58Z" user="escallic" uid="2110789">
+<nd ref="7616805196"/>
+<nd ref="7616805197"/>
+<nd ref="7616805198"/>
+<nd ref="7616805200"/>
+<nd ref="7616805199"/>
+<nd ref="7616805201"/>
+<nd ref="7616805203"/>
+<nd ref="7616805202"/>
+<nd ref="7616805196"/>
+</way>
+</osm>

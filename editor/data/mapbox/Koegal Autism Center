@@ -1,0 +1,29 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3037020 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221239595" visible="true" version="3" changeset="96476071" timestamp="2020-12-27T09:08:38Z" user="gscholz" uid="109705">
+<nd ref="2302864200"/>
+<nd ref="2302864208"/>
+<nd ref="2302864220"/>
+<nd ref="2302864214"/>
+<nd ref="2302864209"/>
+<nd ref="2302864212"/>
+<nd ref="2302864218"/>
+<nd ref="2302864213"/>
+<nd ref="2302864217"/>
+<nd ref="2302864221"/>
+<nd ref="2302864222"/>
+<nd ref="2302864226"/>
+<nd ref="2302864224"/>
+<nd ref="2302864223"/>
+<nd ref="2302864225"/>
+<nd ref="2302864235"/>
+<nd ref="2302864243"/>
+<nd ref="2302864229"/>
+<nd ref="2302864234"/>
+<nd ref="2302864239"/>
+<nd ref="2302864237"/>
+<nd ref="2302864200"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Koegl Autism Center"/>
+<tag k="ref" v="275"/>
+</way>
+</osm>

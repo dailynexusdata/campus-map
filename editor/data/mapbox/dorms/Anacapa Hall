@@ -1,0 +1,39 @@
+osm version="0.6" generator="CGImap 0.8.5 (1229566 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221409403" visible="true" version="4" changeset="88479221" timestamp="2020-07-24T22:31:01Z" user="clarke22" uid="703694">
+<nd ref="2304318972"/>
+<nd ref="2304318967"/>
+<nd ref="2304318973"/>
+<nd ref="2304318968"/>
+<nd ref="2304318970"/>
+<nd ref="2304318971"/>
+<nd ref="2304318969"/>
+<nd ref="2304318974"/>
+<nd ref="2304318980"/>
+<nd ref="2304318975"/>
+<nd ref="2304318979"/>
+<nd ref="2304318976"/>
+<nd ref="2304318978"/>
+<nd ref="2304318977"/>
+<nd ref="2304318991"/>
+<nd ref="2304318994"/>
+<nd ref="2304318995"/>
+<nd ref="2304318999"/>
+<nd ref="2304318990"/>
+<nd ref="2304318998"/>
+<nd ref="2304318996"/>
+<nd ref="2304318993"/>
+<nd ref="2302045920"/>
+<nd ref="2304318997"/>
+<nd ref="2304318992"/>
+<nd ref="2304318989"/>
+<nd ref="2304319002"/>
+<nd ref="2304319003"/>
+<nd ref="2304319006"/>
+<nd ref="2304319005"/>
+<nd ref="2304319000"/>
+<nd ref="2304318972"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="Anacapa Hall"/>
+<tag k="ref" v="547"/>
+</way>
+</osm>

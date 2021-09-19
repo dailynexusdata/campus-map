@@ -1,0 +1,50 @@
+<osm version="0.6" generator="CGImap 0.8.5 (182816 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221401192" visible="true" version="6" changeset="109425509" timestamp="2021-08-09T19:16:59Z" user="omnibeet" uid="10145113">
+<nd ref="2304248161"/>
+<nd ref="2304248162"/>
+<nd ref="2304248164"/>
+<nd ref="2304248165"/>
+<nd ref="448112224"/>
+<nd ref="2304248166"/>
+<nd ref="2304248214"/>
+<nd ref="8392118309"/>
+<nd ref="8994053664"/>
+<nd ref="8994053663"/>
+<nd ref="8994053662"/>
+<nd ref="8994053661"/>
+<nd ref="8994053660"/>
+<nd ref="2304248170"/>
+<nd ref="2304248171"/>
+<nd ref="8392118302"/>
+<nd ref="8419359344"/>
+<nd ref="2304248172"/>
+<nd ref="2304248173"/>
+<nd ref="2304248174"/>
+<nd ref="2304248176"/>
+<nd ref="2304248175"/>
+<nd ref="2304248177"/>
+<nd ref="2304248194"/>
+<nd ref="2304248178"/>
+<nd ref="2304248180"/>
+<nd ref="2304248179"/>
+<nd ref="2304248182"/>
+<nd ref="2304248181"/>
+<nd ref="2304248184"/>
+<nd ref="2304248183"/>
+<nd ref="2304248185"/>
+<nd ref="2304248186"/>
+<nd ref="2304248187"/>
+<nd ref="2304248188"/>
+<nd ref="2304248189"/>
+<nd ref="8392118288"/>
+<nd ref="2304248190"/>
+<nd ref="2304248204"/>
+<nd ref="2304248206"/>
+<nd ref="2304248207"/>
+<nd ref="2304248161"/>
+<tag k="amenity" v="food_court"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Carrillo Dining Commons"/>
+<tag k="ref" v="562"/>
+</way>
+</osm>

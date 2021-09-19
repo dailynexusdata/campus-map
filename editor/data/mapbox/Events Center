@@ -1,0 +1,61 @@
+<osm version="0.6" generator="CGImap 0.8.5 (797153 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221236752" visible="true" version="4" changeset="67286249" timestamp="2019-02-17T17:20:12Z" user="b-jazz-bot" uid="9451067">
+<nd ref="2302856704"/>
+<nd ref="2302856699"/>
+<nd ref="2302856709"/>
+<nd ref="2302856701"/>
+<nd ref="2302856706"/>
+<nd ref="2302856711"/>
+<nd ref="2302856713"/>
+<nd ref="2302856717"/>
+<nd ref="2302856715"/>
+<nd ref="2302856726"/>
+<nd ref="2302856719"/>
+<nd ref="2302856721"/>
+<nd ref="2302856730"/>
+<nd ref="2302856732"/>
+<nd ref="2302856723"/>
+<nd ref="2302856736"/>
+<nd ref="2302856734"/>
+<nd ref="2302856728"/>
+<nd ref="2302856677"/>
+<nd ref="2302856738"/>
+<nd ref="2302856747"/>
+<nd ref="2302856759"/>
+<nd ref="2302856658"/>
+<nd ref="2302856664"/>
+<nd ref="2302856675"/>
+<nd ref="2302856655"/>
+<nd ref="2302856679"/>
+<nd ref="2302856682"/>
+<nd ref="2302856686"/>
+<nd ref="2302856688"/>
+<nd ref="2302856684"/>
+<nd ref="2302856690"/>
+<nd ref="2302856692"/>
+<nd ref="2302856695"/>
+<nd ref="2302856660"/>
+<nd ref="2302856651"/>
+<nd ref="2302856653"/>
+<nd ref="2307237122"/>
+<nd ref="2302856662"/>
+<nd ref="2302856666"/>
+<nd ref="2302856671"/>
+<nd ref="2302856669"/>
+<nd ref="2302856673"/>
+<nd ref="2302856697"/>
+<nd ref="2302856741"/>
+<nd ref="2302856743"/>
+<nd ref="2302856749"/>
+<nd ref="2302856745"/>
+<nd ref="2302856757"/>
+<nd ref="2302856751"/>
+<nd ref="2302856753"/>
+<nd ref="2302856755"/>
+<nd ref="2302856704"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Events Center (Thunderdome)"/>
+<tag k="ref" v="505"/>
+<tag k="website" v="https://www.eventscenter.ucsb.edu/index.php"/>
+</way>
+</osm>

@@ -1,0 +1,13 @@
+<osm version="0.6" generator="CGImap 0.8.5 (951091 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221236165" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:44Z" user="sctrojan79" uid="2601744">
+<nd ref="2302838936"/>
+<nd ref="2302838930"/>
+<nd ref="2302838932"/>
+<nd ref="2302838935"/>
+<nd ref="2302838936"/>
+<tag k="building" v="university"/>
+<tag k="height" v="53"/>
+<tag k="name" v="Storke Tower"/>
+<tag k="ref" v="589"/>
+</way>
+</osm>

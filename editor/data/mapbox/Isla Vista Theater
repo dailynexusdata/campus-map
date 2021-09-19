@@ -1,0 +1,40 @@
+<osm version="0.6" generator="CGImap 0.8.5 (4101334 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="38171690" visible="true" version="7" changeset="86900210" timestamp="2020-06-20T05:09:20Z" user="escallic" uid="2110789">
+<nd ref="6070195411"/>
+<nd ref="449488914"/>
+<nd ref="449488913"/>
+<nd ref="449488912"/>
+<nd ref="3453869009"/>
+<nd ref="3453869010"/>
+<nd ref="3453869011"/>
+<nd ref="3453869012"/>
+<nd ref="3453869013"/>
+<nd ref="3453869014"/>
+<nd ref="3453869015"/>
+<nd ref="3453869016"/>
+<nd ref="3453869017"/>
+<nd ref="3453869008"/>
+<nd ref="3453869018"/>
+<nd ref="3453869020"/>
+
+<nd ref="3453869019"/>
+<nd ref="6070195411"/>
+
+<tag k="addr:city" v="Isla Vista"/>
+<tag k="addr:housenumber" v="960"/>
+<tag k="addr:postcode" v="93117"/>
+<tag k="addr:state" v="CA"/>
+<tag k="addr:street" v="Embarcadero Del Norte"/>
+<tag k="amenity" v="university"/>
+<tag k="building" v="yes"/>
+<tag k="building:levels" v="1"/>
+<tag k="ele" v="15"/>
+<tag k="gnis:county_name" v="Santa Barbara"/>
+<tag k="gnis:feature_id" v="1665573"/>
+<tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944"/>
+<tag k="gnis:reviewed" v="no"/>
+<tag k="name" v="Isla Vista Theater"/>
+<tag k="source" v="USGS Geonames"/>
+<tag k="wikidata" v="Q44868173"/>
+</way>
+</osm>

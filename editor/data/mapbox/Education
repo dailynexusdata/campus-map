@@ -1,0 +1,84 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3131911 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221239593" visible="true" version="3" changeset="96374014" timestamp="2020-12-24T09:35:59Z" user="gscholz" uid="109705">
+<nd ref="2302864200"/>
+<nd ref="2302864237"/>
+<nd ref="2302864236"/>
+<nd ref="2302864228"/>
+<nd ref="2302864230"/>
+<nd ref="2302864233"/>
+<nd ref="2302864246"/>
+<nd ref="2302864231"/>
+<nd ref="2302864232"/>
+<nd ref="2302864240"/>
+<nd ref="2302864242"/>
+<nd ref="2302864241"/>
+<nd ref="2302864244"/>
+<nd ref="2302864245"/>
+<nd ref="2302864247"/>
+<nd ref="2302864259"/>
+<nd ref="2302864262"/>
+<nd ref="2302864268"/>
+<nd ref="2302864248"/>
+<nd ref="2302864254"/>
+<nd ref="2302864257"/>
+<nd ref="2302864258"/>
+<nd ref="2302864274"/>
+<nd ref="2302864271"/>
+<nd ref="2302864269"/>
+<nd ref="2302864278"/>
+<nd ref="2302864251"/>
+<nd ref="2302864253"/>
+<nd ref="2302864249"/>
+<nd ref="2302864275"/>
+<nd ref="2302864280"/>
+<nd ref="2302864252"/>
+<nd ref="2302864279"/>
+<nd ref="2302864256"/>
+<nd ref="2302864277"/>
+<nd ref="2302864250"/>
+<nd ref="2302864261"/>
+<nd ref="2302864273"/>
+<nd ref="2302864255"/>
+<nd ref="2302864319"/>
+<nd ref="2302864321"/>
+<nd ref="2302864323"/>
+<nd ref="2302864325"/>
+<nd ref="2302864326"/>
+<nd ref="2302864328"/>
+<nd ref="2302864329"/>
+<nd ref="2302864327"/>
+<nd ref="2302864383"/>
+<nd ref="2302864284"/>
+<nd ref="2302864345"/>
+<nd ref="2302864291"/>
+<nd ref="2302864087"/>
+<nd ref="2302864333"/>
+<nd ref="2302864332"/>
+<nd ref="2302864336"/>
+<nd ref="2302864343"/>
+<nd ref="2302864064"/>
+<nd ref="2302864075"/>
+<nd ref="2302864282"/>
+<nd ref="2302864292"/>
+<nd ref="2302864295"/>
+<nd ref="2302864392"/>
+<nd ref="2302864396"/>
+<nd ref="2302864405"/>
+<nd ref="2302864403"/>
+<nd ref="2302864413"/>
+<nd ref="2302864419"/>
+<nd ref="2302864421"/>
+<nd ref="2302864429"/>
+<nd ref="2302864435"/>
+<nd ref="2302864441"/>
+<nd ref="2302864445"/>
+<nd ref="2302864451"/>
+<nd ref="2302864455"/>
+<nd ref="2302864068"/>
+<nd ref="2302864066"/>
+<nd ref="2302864200"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Education"/>
+<tag k="ref" v="275"/>
+</way>
+</osm>

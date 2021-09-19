@@ -1,0 +1,49 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1192230 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221241521" visible="true" version="5" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+<nd ref="2302882673"/>
+<nd ref="2302882661"/>
+<nd ref="2302882658"/>
+<nd ref="2302882710"/>
+<nd ref="8253592444"/>
+<nd ref="2302882670"/>
+<nd ref="2302882678"/>
+<nd ref="2302882683"/>
+<nd ref="2302882690"/>
+<nd ref="2302882680"/>
+<nd ref="2302882696"/>
+<nd ref="2302882705"/>
+<nd ref="2302882713"/>
+<nd ref="2302882702"/>
+<nd ref="2302882707"/>
+<nd ref="2302882699"/>
+<nd ref="2302882740"/>
+<nd ref="2302882723"/>
+<nd ref="2302882732"/>
+<nd ref="2302882735"/>
+<nd ref="2302882737"/>
+<nd ref="2302882743"/>
+<nd ref="2302882726"/>
+<nd ref="2302882406"/>
+<nd ref="2302882425"/>
+<nd ref="2302882386"/>
+<nd ref="2302882413"/>
+<nd ref="2302882716"/>
+<nd ref="2302882720"/>
+<nd ref="2302882757"/>
+<nd ref="2302882389"/>
+<nd ref="2302882410"/>
+<nd ref="2302882416"/>
+<nd ref="2302882419"/>
+<nd ref="2302882392"/>
+<nd ref="2302882395"/>
+<nd ref="2302882398"/>
+<nd ref="2302882401"/>
+<nd ref="2302882435"/>
+<nd ref="2302882429"/>
+<nd ref="2302882432"/>
+<nd ref="2302882673"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Physical Sciences North"/>
+<tag k="ref" v="657"/>
+</way>
+</osm>

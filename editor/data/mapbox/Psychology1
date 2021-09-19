@@ -1,0 +1,13 @@
+<osm version="0.6" generator="CGImap 0.8.5 (752218 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234147" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:42Z" user="sctrojan79" uid="2601744">
+<nd ref="2302819489"/>
+<nd ref="2302819490"/>
+<nd ref="2302819491"/>
+<nd ref="2302819492"/>
+<nd ref="2302819489"/>
+
+<tag k="building" v="university"/>
+<tag k="name" v="Psychology"/>
+<tag k="ref" v="551"/>
+</way>
+</osm>

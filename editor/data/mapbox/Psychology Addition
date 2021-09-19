@@ -1,0 +1,26 @@
+<osm version="0.6" generator="CGImap 0.8.5 (816937 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221234146" visible="true" version="3" changeset="88372420" timestamp="2020-07-23T00:21:00Z" user="clarke22" uid="703694">
+<nd ref="2302819493"/>
+<nd ref="2302819494"/>
+<nd ref="2302819505"/>
+<nd ref="2302819495"/>
+<nd ref="2302819496"/>
+<nd ref="2302819510"/>
+<nd ref="2302819498"/>
+<nd ref="2302819497"/>
+<nd ref="2302819499"/>
+<nd ref="2302819501"/>
+<nd ref="7738481793"/>
+<nd ref="2302819504"/>
+<nd ref="2302819506"/>
+<nd ref="2302819507"/>
+<nd ref="2302819509"/>
+<nd ref="2302819513"/>
+<nd ref="2302819512"/>
+<nd ref="2302819514"/>
+<nd ref="2302819493"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Psychology Addition"/>
+<tag k="ref" v="251"/>
+</way>
+</osm>

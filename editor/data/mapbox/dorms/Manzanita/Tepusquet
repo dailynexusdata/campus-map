@@ -1,0 +1,28 @@
+<osm version="0.6" generator="CGImap 0.8.5 (65476 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221407236" visible="true" version="5" changeset="99197812" timestamp="2021-02-12T22:13:53Z" user="omnibeet" uid="10145113">
+<nd ref="8419385392"/>
+<nd ref="8419385393"/>
+<nd ref="8419385394"/>
+<nd ref="8419385391"/>
+<nd ref="2304299321"/>
+<nd ref="2304299327"/>
+<nd ref="2304299319"/>
+<nd ref="8419385363"/>
+<nd ref="2304299325"/>
+<nd ref="8419385400"/>
+<nd ref="2304299326"/>
+<nd ref="2304299320"/>
+<nd ref="8419385382"/>
+<nd ref="2304299328"/>
+<nd ref="2304299324"/>
+<nd ref="2304299322"/>
+<nd ref="2304299323"/>
+<nd ref="2304299329"/>
+<nd ref="2304299330"/>
+<nd ref="8419385392"/>
+<tag k="building" v="dormitory"/>
+<tag k="layer" v="1"/>
+<tag k="name" v="Tepusquet"/>
+<tag k="ref" v="886"/>
+</way>
+</osm>

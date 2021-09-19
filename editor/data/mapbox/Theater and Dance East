@@ -1,0 +1,24 @@
+<osm version="0.6" generator="CGImap 0.8.5 (18180 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221403272" visible="true" version="4" changeset="102242587" timestamp="2021-04-03T16:04:25Z" user="omnibeet" uid="10145113">
+<nd ref="2304265347"/>
+<nd ref="2304265309"/>
+<nd ref="2304265365"/>
+<nd ref="2304265367"/>
+<nd ref="2304265368"/>
+<nd ref="8589896693"/>
+<nd ref="2304265371"/>
+<nd ref="2304265369"/>
+<nd ref="2304265370"/>
+<nd ref="8589896694"/>
+<nd ref="2304265373"/>
+<nd ref="2304265372"/>
+<nd ref="2304265375"/>
+<nd ref="2304265374"/>
+<nd ref="2304265376"/>
+<nd ref="2304265377"/>
+<nd ref="2304265347"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Theater and Dance East"/>
+<tag k="ref" v="554"/>
+</way>
+</osm>

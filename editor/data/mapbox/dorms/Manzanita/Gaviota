@@ -1,0 +1,24 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1192616 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221407230" visible="true" version="4" changeset="99197812" timestamp="2021-02-12T22:13:53Z" user="omnibeet" uid="10145113">
+<nd ref="2304299315"/>
+<nd ref="2304299317"/>
+<nd ref="8419394119"/>
+<nd ref="2304299307"/>
+<nd ref="2304299309"/>
+<nd ref="2304299310"/>
+<nd ref="2304299311"/>
+<nd ref="2304299312"/>
+<nd ref="8419394130"/>
+<nd ref="2304299314"/>
+<nd ref="8419394124"/>
+<nd ref="2324936077"/>
+<nd ref="2304299313"/>
+<nd ref="8419394123"/>
+<nd ref="8419394126"/>
+<nd ref="2304299316"/>
+<nd ref="2304299315"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="Gaviota"/>
+<tag k="ref" v="882"/>
+</way>
+</osm>

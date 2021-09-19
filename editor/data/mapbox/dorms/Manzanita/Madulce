@@ -1,0 +1,26 @@
+<osm version="0.6" generator="CGImap 0.8.5 (272371 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221401190" visible="true" version="4" changeset="99202500" timestamp="2021-02-13T04:43:54Z" user="omnibeet" uid="10145113">
+<nd ref="2304248209"/>
+<nd ref="2304248210"/>
+<nd ref="2304248211"/>
+<nd ref="8419722372"/>
+<nd ref="2304248212"/>
+<nd ref="2304248213"/>
+<nd ref="8419722387"/>
+<nd ref="8419722373"/>
+<nd ref="2304248215"/>
+<nd ref="2304248216"/>
+<nd ref="8419722347"/>
+<nd ref="2304248217"/>
+<nd ref="2304248218"/>
+<nd ref="2304248219"/>
+<nd ref="2304248195"/>
+<nd ref="2304248221"/>
+<nd ref="8419722344"/>
+<nd ref="2304248220"/>
+<nd ref="2304248209"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="Madulce"/>
+<tag k="ref" v="892"/>
+</way>
+</osm>

@@ -1,0 +1,11 @@
+<osm version="0.6" generator="CGImap 0.8.5 (241872 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="453275410" visible="true" version="1" changeset="43637815" timestamp="2016-11-14T12:14:04Z" user="Юкатан" uid="3885962">
+<nd ref="4500313777"/>
+<nd ref="4500313778"/>
+<nd ref="4500313779"/>
+<nd ref="4500313780"/>
+<nd ref="4500313777"/>
+<tag k="leisure" v="pitch"/>
+<tag k="sport" v="soccer"/>
+</way>
+</osm>

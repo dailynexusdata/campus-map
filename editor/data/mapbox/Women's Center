@@ -1,0 +1,42 @@
+<osm version="0.6" generator="CGImap 0.8.5 (150807 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221238562" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:46Z" user="sctrojan79" uid="2601744">
+<nd ref="2302861395"/>
+<nd ref="2302861397"/>
+<nd ref="2302861396"/>
+<nd ref="2302861399"/>
+<nd ref="2302861398"/>
+<nd ref="2302861265"/>
+<nd ref="2302861267"/>
+<nd ref="2302861278"/>
+<nd ref="2302861320"/>
+<nd ref="2302861271"/>
+<nd ref="2302861275"/>
+<nd ref="2302861316"/>
+<nd ref="2302861301"/>
+<nd ref="2302861273"/>
+<nd ref="2302861289"/>
+<nd ref="2302861295"/>
+<nd ref="2302861293"/>
+<nd ref="2302861284"/>
+<nd ref="2302861269"/>
+<nd ref="2302861291"/>
+<nd ref="2302861312"/>
+<nd ref="2302861303"/>
+<nd ref="2302861286"/>
+<nd ref="2302861309"/>
+<nd ref="2302861322"/>
+<nd ref="2302861314"/>
+<nd ref="2302861299"/>
+<nd ref="2302861307"/>
+<nd ref="2302861297"/>
+<nd ref="2302861282"/>
+<nd ref="2302861318"/>
+<nd ref="2302861280"/>
+<nd ref="2302861305"/>
+<nd ref="2302861324"/>
+<nd ref="2302861395"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Women's Center"/>
+<tag k="ref" v="434"/>
+</way>
+</osm>

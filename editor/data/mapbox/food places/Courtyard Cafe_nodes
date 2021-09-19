@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.5 (2870290 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="34.4146900" minlon="-119.8409300" maxlat="34.4150500" maxlon="-119.8401300"/>
+ <node id="362769267" visible="true" version="5" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4158111" lon="-119.8407539"/>
+ <node id="362769270" visible="true" version="5" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148240" lon="-119.8407489"/>
+ <node id="362769275" visible="true" version="5" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148263" lon="-119.8403338"/>
+ <node id="448126024" visible="true" version="3" changeset="45225254" timestamp="2017-01-16T20:05:44Z" user="sctrojan79" uid="2601744" lat="34.4142277" lon="-119.8409939">
+  <tag k="highway" v="turning_circle"/>
+ </node>
+ <node id="449337278" visible="true" version="4" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4158114" lon="-119.8403375"/>
+ <node id="449339773" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4158107" lon="-119.8406402">
+  <tag k="amenity" v="parking_entrance"/>
+  <tag k="parking" v="multi-storey"/>
+ </node>
+ <node id="449491439" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4154595" lon="-119.8402787">
+  <tag k="entrance" v="yes"/>
+ </node>
+ <node id="449491440" visible="true" version="1" changeset="1961264" timestamp="2009-07-28T05:15:27Z" user="crazysim" uid="149748" lat="34.4149070" lon="-119.8402623"/>
+ <node id="449491441" visible="true" version="2" changeset="88479221" timestamp="2020-07-24T22:31:01Z" user="clarke22" uid="703694" lat="34.4146988" lon="-119.8400184"/>
+ <node id="449491442" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:05:45Z" user="sctrojan79" uid="2601744" lat="34.4146978" lon="-119.8404753"/>
+ <node id="449491498" visible="true" version="1" changeset="1961264" timestamp="2009-07-28T05:15:30Z" user="crazysim" uid="149748" lat="34.4146992" lon="-119.8408698"/>
+ <node id="449491499" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:05:45Z" user="sctrojan79" uid="2601744" lat="34.4142803" lon="-119.8408767"/>
+ <node id="450541305" visible="true" version="4" changeset="88479221" timestamp="2020-07-24T22:31:01Z" user="clarke22" uid="703694" lat="34.4145085" lon="-119.8396893"/>
+ <node id="539709163" visible="true" version="4" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4154323" lon="-119.8408148"/>
+ <node id="664135014" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147954" lon="-119.8407504"/>
+ <node id="664135015" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147289" lon="-119.8407509"/>
+ <node id="664135016" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147349" lon="-119.8400265"/>
+ <node id="664135017" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147731" lon="-119.8396969"/>
+ <node id="664135018" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148422" lon="-119.8396825"/>
+ <node id="664135019" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147956" lon="-119.8401628"/>
+ <node id="1470418542" visible="true" version="1" changeset="9578354" timestamp="2011-10-17T03:20:05Z" user="Paul Bartsch" uid="207488" lat="34.4147335" lon="-119.8404967">
+  <tag k="emergency" v="fire_hydrant"/>
+ </node>
+ <node id="1576521635" visible="true" version="1" changeset="10289205" timestamp="2012-01-04T09:54:39Z" user="crazysim" uid="149748" lat="34.4147014" lon="-119.8395890"/>
+ <node id="2303043183" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4157878" lon="-119.8403361"/>
+ <node id="2303043184" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4154559" lon="-119.8403323"/>
+ <node id="3806920257" visible="true" version="2" changeset="70214283" timestamp="2019-05-14T02:33:21Z" user="fpdotmonkey" uid="9944545" lat="34.4148738" lon="-119.8405306">
+  <tag k="amenity" v="cafe"/>
+  <tag k="cuisine" v="Yoshinoya;cafe"/>
+  <tag k="internet_access" v="wlan"/>
+  <tag k="name" v="Courtyard Cafe"/>
+  <tag k="opening_hours" v="Mo-Fr 07:30-17:15"/>
+  <tag k="outdoor_seating" v="yes"/>
+ </node>
+ <node id="4572796580" visible="true" version="1" changeset="44677123" timestamp="2016-12-26T08:29:44Z" user="DecadentHeart" uid="5013960" lat="34.4146693" lon="-119.8408713"/>
+ <node id="4572796691" visible="true" version="2" changeset="44677414" timestamp="2016-12-26T08:49:26Z" user="DecadentHeart" uid="5013960" lat="34.4146738" lon="-119.8408711"/>
+ <node id="4612618461" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147296" lon="-119.8404706"/>
+ <node id="4612618462" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148081" lon="-119.8403072"/>
+ <node id="6471419923" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147000" lon="-119.8410480"/>
+ <node id="6471419924" visible="true" version="1" changeset="70214283" timestamp="2019-05-14T02:33:19Z" user="fpdotmonkey" uid="9944545" lat="34.4146994" lon="-119.8409123"/>
+ <node id="6471419950" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148244" lon="-119.8396775"/>
+ <node id="6471419951" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147989" lon="-119.8400735"/>
+ <node id="6471419952" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147270" lon="-119.8401185"/>
+ <node id="6471419953" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147953" lon="-119.8403207"/>
+ <node id="6471419954" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147290" lon="-119.8404384"/>
+ <node id="6471419956" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147291" lon="-119.8405479"/>
+ <node id="7745564235" visible="true" version="1" changeset="88479221" timestamp="2020-07-24T22:31:01Z" user="clarke22" uid="703694" lat="34.4146127" lon="-119.8398957"/>
+ <node id="8253580205" visible="true" version="1" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147451" lon="-119.8405473"/>
+ <node id="8253580206" visible="true" version="1" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147456" lon="-119.8404904"/>
+ <node id="8253580207" visible="true" version="1" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4148051" lon="-119.8403940"/>
+ <node id="8253580216" visible="true" version="1" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694" lat="34.4147981" lon="-119.8408416"/>
+ <node id="8921188012" visible="true" version="1" changeset="108012884" timestamp="2021-07-15T04:47:20Z" user="phanisab" uid="13620315" lat="34.4142749" lon="-119.8408880"/>
+ <node id="8921209027" visible="true" version="1" changeset="108012884" timestamp="2021-07-15T04:47:20Z" user="phanisab" uid="13620315" lat="34.4145602" lon="-119.8397912"/>
+ <way id="38165950" visible="true" version="9" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+  <nd ref="449337278"/>
+  <nd ref="449339773"/>
+  <nd ref="362769267"/>
+  <nd ref="362769270"/>
+  <nd ref="362769275"/>
+  <nd ref="2303043184"/>
+  <nd ref="2303043183"/>
+  <nd ref="449337278"/>
+  <tag k="amenity" v="parking"/>
+  <tag k="building" v="yes"/>
+  <tag k="capacity" v="606"/>
+  <tag k="capacity:disabled" v="yes"/>
+  <tag k="fee" v="yes"/>
+  <tag k="name" v="Lot 10"/>
+  <tag k="parking" v="multi-storey"/>
+ </way>
+ <way id="38172781" visible="true" version="5" changeset="108012884" timestamp="2021-07-15T04:47:20Z" user="phanisab" uid="13620315">
+  <nd ref="449491439"/>
+  <nd ref="449491440"/>
+  <nd ref="449491441"/>
+  <nd ref="7745564235"/>
+  <nd ref="8921209027"/>
+  <nd ref="450541305"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="38172782" visible="true" version="4" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+  <nd ref="449491440"/>
+  <nd ref="4612618462"/>
+  <nd ref="8253580207"/>
+  <nd ref="4612618461"/>
+  <nd ref="449491442"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="38172801" visible="true" version="5" changeset="108012884" timestamp="2021-07-15T04:47:20Z" user="phanisab" uid="13620315">
+  <nd ref="449491498"/>
+  <nd ref="4572796691"/>
+  <nd ref="4572796580"/>
+  <nd ref="449491499"/>
+  <nd ref="8921188012"/>
+  <nd ref="448126024"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="43080023" visible="true" version="2" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+  <nd ref="539709163"/>
+  <nd ref="8253580216"/>
+  <nd ref="449491498"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="52116194" visible="true" version="4" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+  <nd ref="664135014"/>
+  <nd ref="664135015"/>
+  <nd ref="6471419956"/>
+  <nd ref="8253580205"/>
+  <nd ref="8253580206"/>
+  <nd ref="6471419954"/>
+  <nd ref="6471419952"/>
+  <nd ref="664135016"/>
+  <nd ref="664135017"/>
+  <nd ref="6471419950"/>
+  <nd ref="664135018"/>
+  <nd ref="6471419951"/>
+  <nd ref="664135019"/>
+  <nd ref="6471419953"/>
+  <nd ref="664135014"/>
+  <tag k="landuse" v="grass"/>
+ </way>
+ <way id="689799725" visible="true" version="1" changeset="70214283" timestamp="2019-05-14T02:33:20Z" user="fpdotmonkey" uid="9944545">
+  <nd ref="6471419923"/>
+  <nd ref="6471419924"/>
+  <tag k="bicycle" v="no"/>
+  <tag k="handrail" v="yes"/>
+  <tag k="highway" v="steps"/>
+  <tag k="incline" v="down"/>
+  <tag k="layer" v="-1"/>
+  <tag k="note" v="There's also a ramp"/>
+  <tag k="step_count" v="3"/>
+  <tag k="surface" v="concrete"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="689799728" visible="true" version="3" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+  <nd ref="6471419924"/>
+  <nd ref="449491498"/>
+  <nd ref="449491442"/>
+  <nd ref="449491441"/>
+  <nd ref="1576521635"/>
+  <tag k="bicycle" v="dismount"/>
+  <tag k="highway" v="footway"/>
+  <tag k="name" v="Kirby Crossing"/>
+  <tag k="surface" v="concrete"/>
+ </way>
+</osm>

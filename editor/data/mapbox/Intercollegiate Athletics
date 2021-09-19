@@ -1,0 +1,61 @@
+<osm version="0.6" generator="CGImap 0.8.5 (230407 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221240007" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:47Z" user="sctrojan79" uid="2601744">
+<nd ref="2302868209"/>
+<nd ref="2302868205"/>
+<nd ref="2302868202"/>
+<nd ref="2302868203"/>
+<nd ref="2302868207"/>
+<nd ref="2302868211"/>
+<nd ref="2302868212"/>
+<nd ref="2302868217"/>
+<nd ref="2302868214"/>
+<nd ref="2302868216"/>
+<nd ref="2302868220"/>
+<nd ref="2302868218"/>
+<nd ref="2302868219"/>
+<nd ref="2302868221"/>
+<nd ref="2302868237"/>
+<nd ref="2302868223"/>
+<nd ref="2302868225"/>
+<nd ref="2302868227"/>
+<nd ref="2302868238"/>
+<nd ref="2302868233"/>
+<nd ref="2302868228"/>
+<nd ref="2302868231"/>
+<nd ref="2302868235"/>
+<nd ref="2302868236"/>
+<nd ref="2302868180"/>
+<nd ref="2302868184"/>
+<nd ref="2302868170"/>
+<nd ref="2302868161"/>
+<nd ref="2302868182"/>
+<nd ref="2302868186"/>
+<nd ref="2302868172"/>
+<nd ref="2302868176"/>
+<nd ref="2302868164"/>
+<nd ref="2302868166"/>
+<nd ref="2302868168"/>
+<nd ref="2302868174"/>
+<nd ref="2302868178"/>
+<nd ref="2302868159"/>
+<nd ref="2302868189"/>
+<nd ref="2302868200"/>
+<nd ref="2302868195"/>
+<nd ref="2302868196"/>
+<nd ref="2302868191"/>
+<nd ref="2302868193"/>
+<nd ref="2302868190"/>
+<nd ref="2302868199"/>
+<nd ref="2302868194"/>
+<nd ref="2302868198"/>
+<nd ref="2302868192"/>
+<nd ref="2302868187"/>
+<nd ref="2302868188"/>
+<nd ref="2302868209"/>
+<tag k="building" v="university"/>
+<tag k="building:levels" v="2"/>
+<tag k="name" v="Intercollegiate Athletics"/>
+<tag k="ref" v="243"/>
+<tag k="website" v="http://ucsb.prestosports.com/information/dare_to_be_great/capital_projects/ica"/>
+</way>
+</osm>

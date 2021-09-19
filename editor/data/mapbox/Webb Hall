@@ -1,0 +1,30 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1015084 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221242396" visible="true" version="3" changeset="45225254" timestamp="2017-01-16T20:06:51Z" user="sctrojan79" uid="2601744">
+<nd ref="2302889394"/>
+<nd ref="2302889398"/>
+<nd ref="2302889385"/>
+<nd ref="2302889392"/>
+<nd ref="2302889390"/>
+<nd ref="2302889387"/>
+<nd ref="2302889396"/>
+<nd ref="2302889375"/>
+<nd ref="2302889383"/>
+<nd ref="2302889379"/>
+<nd ref="2302889381"/>
+<nd ref="2302889399"/>
+<nd ref="2302889415"/>
+<nd ref="2302889401"/>
+<nd ref="2302889409"/>
+<nd ref="2302889403"/>
+<nd ref="2302889413"/>
+<nd ref="2302889411"/>
+<nd ref="2302889394"/>
+<tag k="building" v="university"/>
+<tag k="building:levels" v="2"/>
+<tag k="description" v="UCSB Department of Earth Sciences"/>
+<tag k="name" v="Webb Hall"/>
+<tag k="ref" v="526"/>
+<tag k="website" v="http://www.geol.ucsb.edu/"/>
+<tag k="wheelchair" v="yes"/>
+</way>
+</osm>

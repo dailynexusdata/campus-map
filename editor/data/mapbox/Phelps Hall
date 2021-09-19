@@ -1,0 +1,27 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1191627 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221241134" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:50Z" user="sctrojan79" uid="2601744">
+<nd ref="2302878028"/>
+<nd ref="2302878026"/>
+<nd ref="2302878027"/>
+<nd ref="2302878033"/>
+<nd ref="2302878032"/>
+<nd ref="2302878030"/>
+<nd ref="2302878031"/>
+<nd ref="2302878037"/>
+<nd ref="2302878034"/>
+<nd ref="2302878035"/>
+<nd ref="2302878039"/>
+<nd ref="2302878038"/>
+<nd ref="2302878041"/>
+<nd ref="2302878044"/>
+<nd ref="2302878043"/>
+<nd ref="2302878045"/>
+<nd ref="2302878042"/>
+<nd ref="2302878040"/>
+<nd ref="2302878046"/>
+<nd ref="2302878047"/>
+<nd ref="2302878048"/>
+<nd ref="2302878049"/>
+<nd ref="2302878028"/>
+</way>
+</osm>

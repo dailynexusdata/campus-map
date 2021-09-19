@@ -1,0 +1,24 @@
+<osm version="0.6" generator="CGImap 0.8.5 (267815 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404881" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:58Z" user="sctrojan79" uid="2601744">
+<nd ref="2304279449"/>
+<nd ref="2304279452"/>
+<nd ref="2304279446"/>
+<nd ref="2304279450"/>
+<nd ref="2304279451"/>
+<nd ref="2304279448"/>
+<nd ref="2304279447"/>
+<nd ref="2304279414"/>
+<nd ref="2304279424"/>
+<nd ref="2304279431"/>
+<nd ref="2304279433"/>
+<nd ref="2304279418"/>
+<nd ref="2304279419"/>
+<nd ref="2304279423"/>
+<nd ref="2304279426"/>
+<nd ref="2304279432"/>
+<nd ref="2304279449"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Old Gym"/>
+<tag k="ref" v="479"/>
+</way>
+</osm>

@@ -1,0 +1,52 @@
+<osm version="0.6" generator="CGImap 0.8.5 (279229 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221240083" visible="true" version="3" changeset="55315793" timestamp="2018-01-10T08:53:33Z" user="escallic" uid="2110789">
+<nd ref="2302869090"/>
+<nd ref="2302869089"/>
+<nd ref="2302869091"/>
+<nd ref="2302869095"/>
+<nd ref="2302869092"/>
+<nd ref="2302869096"/>
+<nd ref="2302869098"/>
+<nd ref="2302869100"/>
+<nd ref="2302869093"/>
+<nd ref="2302869094"/>
+<nd ref="2302869097"/>
+<nd ref="2302869103"/>
+<nd ref="2302869101"/>
+<nd ref="2297382987"/>
+<nd ref="2302869104"/>
+<nd ref="2302869124"/>
+<nd ref="2302869107"/>
+<nd ref="2302869121"/>
+<nd ref="2302869105"/>
+<nd ref="2302869106"/>
+<nd ref="2302869108"/>
+<nd ref="2302869110"/>
+<nd ref="2297382996"/>
+<nd ref="2302869118"/>
+<nd ref="2302869120"/>
+<nd ref="2302869123"/>
+<nd ref="2302869112"/>
+<nd ref="2302869113"/>
+<nd ref="5330821605"/>
+<nd ref="2302869115"/>
+<nd ref="2302869109"/>
+<nd ref="2302869114"/>
+<nd ref="648483575"/>
+<nd ref="2302869125"/>
+<nd ref="2302869116"/>
+<nd ref="2302869111"/>
+<nd ref="2302869126"/>
+<nd ref="2302869130"/>
+<nd ref="2302869132"/>
+<nd ref="2302869141"/>
+<nd ref="2302869129"/>
+<nd ref="2302869138"/>
+<nd ref="2302869140"/>
+<nd ref="2302869135"/>
+<nd ref="2302869136"/>
+<nd ref="2302869131"/>
+<nd ref="2302869142"/>
+<nd ref="2302869090"/>
+</way>
+</osm>

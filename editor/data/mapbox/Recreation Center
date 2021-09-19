@@ -1,0 +1,40 @@
+<osm version="0.6" generator="CGImap 0.8.5 (221666 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221240266" visible="true" version="3" changeset="88477835" timestamp="2020-07-24T21:23:55Z" user="clarke22" uid="703694">
+<nd ref="2302871144"/>
+<nd ref="2302870840"/>
+<nd ref="2302871171"/>
+<nd ref="2302871136"/>
+<nd ref="2302871175"/>
+<nd ref="2302871178"/>
+<nd ref="2302870683"/>
+<nd ref="2302871269"/>
+<nd ref="7745456567"/>
+<nd ref="2302871119"/>
+<nd ref="2302871131"/>
+<nd ref="2302870972"/>
+<nd ref="7745456565"/>
+<nd ref="7745456566"/>
+<nd ref="2302871155"/>
+<nd ref="2302870698"/>
+<nd ref="2302870941"/>
+<nd ref="7745456564"/>
+<nd ref="2302870943"/>
+<nd ref="2302870947"/>
+<nd ref="2302870949"/>
+<nd ref="2302871215"/>
+<nd ref="2302871232"/>
+<nd ref="2302871241"/>
+<nd ref="2302871242"/>
+<nd ref="2302871243"/>
+<nd ref="2302871244"/>
+<nd ref="7745456563"/>
+<nd ref="2302871129"/>
+<nd ref="2302870999"/>
+<nd ref="2302871078"/>
+<nd ref="2302871144"/>
+<tag k="building" v="university"/>
+<tag k="leisure" v="sports_centre"/>
+<tag k="name" v="Recreation Center"/>
+<tag k="ref" v="516"/>
+</way>
+</osm>

@@ -1,0 +1,32 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1191458 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221409402" visible="true" version="4" changeset="75617177" timestamp="2019-10-13T08:22:41Z" user="omnibeet" uid="10145113">
+<nd ref="2304319001"/>
+<nd ref="2304319004"/>
+<nd ref="2304319007"/>
+<nd ref="2304319008"/>
+<nd ref="2304319013"/>
+<nd ref="2304319016"/>
+<nd ref="2304319015"/>
+<nd ref="2304319014"/>
+<nd ref="6874996412"/>
+<nd ref="2304319009"/>
+<nd ref="2304319017"/>
+<nd ref="6874996413"/>
+<nd ref="2304319011"/>
+<nd ref="2304319010"/>
+<nd ref="2304319012"/>
+<nd ref="2302045895"/>
+<nd ref="2304318984"/>
+<nd ref="2304318982"/>
+<nd ref="2304318987"/>
+<nd ref="2304318988"/>
+<nd ref="2304318981"/>
+<nd ref="2304318983"/>
+<nd ref="2304318986"/>
+<nd ref="2304318985"/>
+<nd ref="2304319001"/>
+<tag k="addr:housename" v="527"/>
+<tag k="building" v="dormitory"/>
+<tag k="name" v="Santa Rosa Hall"/>
+</way>
+</osm>

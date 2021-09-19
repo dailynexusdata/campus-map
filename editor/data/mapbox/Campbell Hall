@@ -1,0 +1,85 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1254317 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221241233" visible="true" version="4" changeset="88479221" timestamp="2020-07-24T22:31:01Z" user="clarke22" uid="703694">
+<nd ref="2302878957"/>
+<nd ref="2302878956"/>
+<nd ref="2302878955"/>
+<nd ref="2302878960"/>
+<nd ref="2302878953"/>
+<nd ref="2302878952"/>
+<nd ref="2302878958"/>
+<nd ref="2302878923"/>
+<nd ref="2302878925"/>
+<nd ref="2302878920"/>
+<nd ref="2302878921"/>
+<nd ref="2302878918"/>
+<nd ref="2302878919"/>
+<nd ref="2302878926"/>
+<nd ref="2302878936"/>
+<nd ref="2302878928"/>
+<nd ref="2302878927"/>
+<nd ref="2302878929"/>
+<nd ref="2302878934"/>
+<nd ref="2302878933"/>
+<nd ref="2302878932"/>
+<nd ref="2302878931"/>
+<nd ref="2302878930"/>
+<nd ref="2302878935"/>
+<nd ref="2302878937"/>
+<nd ref="2302878940"/>
+<nd ref="2302878938"/>
+<nd ref="2302878939"/>
+<nd ref="2302878943"/>
+<nd ref="2302878942"/>
+<nd ref="2302878944"/>
+<nd ref="2302878947"/>
+<nd ref="2302878945"/>
+<nd ref="2302878946"/>
+<nd ref="2302878948"/>
+<nd ref="2302878949"/>
+<nd ref="2302878966"/>
+<nd ref="2302878962"/>
+<nd ref="2302878963"/>
+<nd ref="2302878967"/>
+<nd ref="2302878969"/>
+<nd ref="7745554541"/>
+<nd ref="7745554543"/>
+<nd ref="2302878972"/>
+<nd ref="2302878971"/>
+<nd ref="2302878965"/>
+<nd ref="2302878970"/>
+<nd ref="2302878973"/>
+<nd ref="2302878968"/>
+<nd ref="2302878964"/>
+<nd ref="2302878974"/>
+<nd ref="2302878975"/>
+<nd ref="2302878977"/>
+<nd ref="2302878978"/>
+<nd ref="2302878981"/>
+<nd ref="2302878987"/>
+<nd ref="2302878992"/>
+<nd ref="2302878993"/>
+<nd ref="2302878994"/>
+<nd ref="2302878995"/>
+<nd ref="2302878996"/>
+<nd ref="2302878997"/>
+<nd ref="2302878998"/>
+<nd ref="2302878986"/>
+<nd ref="2302878984"/>
+<nd ref="2302878983"/>
+<nd ref="2302878980"/>
+<nd ref="2302878979"/>
+<nd ref="2302878982"/>
+<nd ref="2302878985"/>
+<nd ref="2302878989"/>
+<nd ref="2302878988"/>
+<nd ref="2302878990"/>
+<nd ref="2302878991"/>
+<nd ref="2302878950"/>
+<nd ref="2302878951"/>
+<nd ref="2302878957"/>
+<tag k="building" v="university"/>
+<tag k="building:levels" v="1"/>
+<tag k="name" v="Campbell Hall"/>
+<tag k="ref" v="538"/>
+</way>
+</osm>

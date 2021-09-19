@@ -1,0 +1,15 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3559486 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="38140510" visible="true" version="5" changeset="64130444" timestamp="2018-11-02T23:32:28Z" user="escallic" uid="2110789">
+<nd ref="448887216"/>
+<nd ref="448887217"/>
+<nd ref="448887218"/>
+<nd ref="448887219"/>
+<nd ref="448887216"/>
+<tag k="amenity" v="parking"/>
+<tag k="capacity" v="139"/>
+<tag k="capacity:disabled" v="yes"/>
+<tag k="fee" v="yes"/>
+<tag k="name" v="Lot 14"/>
+<tag k="parking" v="surface"/>
+</way>
+</osm>

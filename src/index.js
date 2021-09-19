@@ -5,14 +5,20 @@ import "leaflet/dist/leaflet.css";
 
 import COLORS from "./colors";
 
-import makeLectureLocations from "./lectureLocations";
+import makeLectureLocationsMap from "./lectureLocationsMap";
+import makeParkingLocations from "./parkingLocationsMap";
+import makeDormsDiningLocations from "./dormsDiningLocations";
+
+import drawBuildings from "./buildings";
+
+import autoComplete from "./autocomplete";
 
 const container = d3.select("#campusMapSearch");
 
-container.html(`<div id="map" style='width: 600px; height: 500px;'></div>
-<div style="width: 600px; display: flex; justify-content: flex-end; margin: 10px">
-    <button id="switchMapButton" class='campusMapButton'>Switch Map</button>
-</div>`);
+// container.html(`<div id="map" style='width: 600px; height: 500px;'></div>
+// <div style="width: 600px; display: flex; justify-content: flex-end; margin: 10px">
+//     <button id="switchMapButton" class='campusMapButton'>Switch Map</button>
+// </div>`);
 
 const simpleMap = L.tileLayer(
   "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
@@ -36,8 +42,8 @@ const state = {
   map: null,
   // startId: 212,
   // endId: 25,
-  startId: 76,
-  endId: 34,
+  startId: 212,
+  endId: 25,
   queue: [],
 };
 
@@ -104,6 +110,7 @@ const setupMap = (data) => {
   // add svg over the map:
   state.map.addLayer(simpleMap);
   L.svg().addTo(state.map);
+
   const overlay = d3.select(state.map.getPanes().overlayPane);
   state.svg = overlay.select("svg");
 
@@ -213,8 +220,8 @@ const getPath = (startId, endId, data) => {
   q.push(startId);
   visited.add((startId, 0));
   const links = data.bikePath.links;
-  console.log(getChildren(startId, data));
-  console.log(startId, endId);
+  //console.log(getChildren(startId,data));
+  //console.log(startId,endId);
   while (q.length > 0) {
     //Get next node in the queue
     const node = q.shift();
@@ -226,7 +233,10 @@ const getPath = (startId, endId, data) => {
     //If it is the end id then you found the path
     //with the least weight
     if (node === endId) {
-      console.log(prev);
+      //console.log(prev);
+      var path = getMap(prev, startId, endId);
+      //Testing getDist func
+      console.log(getPathDist(path, data));
       return getMap(prev, startId, endId);
     }
     //Otherwise add the children to the queue
@@ -244,10 +254,13 @@ const getPath = (startId, endId, data) => {
     visited.add(node);
     q.sort((a, b) => (weights[a] > weights[b] ? 1 : -1));
   }
+  var path = getMap(prev, startId, endId);
+  //Testing getDist func
+  console.log(getPathDist(path, data));
   // output the id's of the nodes to visit
   // this gets passed directly into the drawPath() function
   //console.log(prev);
-  return getMap(prev, startId, endId);
+  return path;
 };
 
 // idk if this is a good idea
@@ -269,14 +282,16 @@ const update = () => {
     pathCache.path = getPath(state.startId, state.endId, state.data);
   }
   drawPath(pathCache.path, state.data);
+
+  drawBuildings(state.map, state.svg, state.data.buildings);
 };
 
 (async () => {
   const data = await d3.json("editor/data/data.json"); // I just have fake data to test
 
-  setupMap(data);
+  // setupMap(data);
   state.data = data;
-  update();
+  // update();
 
   // setTimeout(() => {
   //   state.startId = 212;
@@ -338,6 +353,35 @@ const getRelation = (parent, child, data) => {
 
 (async () => {
   const mapData = await d3.json("dist/buildings.json");
-  const goldData = null; //await d3.json("dist/goldBuildings.json");
-  makeLectureLocations(goldData, mapData);
+  const goldData = await d3.json("dist/department_lecture_locations.json");
+  const names = await d3.json("editor/data/lectureNames.json");
+  const fullyOnline = await d3.json("dist/lectures_fully_online.json");
+  const partiallyOnline = await d3.json("dist/lectures_partially_online.json");
+  makeLectureLocationsMap(goldData, mapData, fullyOnline, partiallyOnline);
+
+  const parkingData = await d3.json("dist/parkingLots.json");
+  makeParkingLocations(null, parkingData);
+
+  const dormsDiningData = await d3.json("dist/dormsAndDining.json");
+  makeDormsDiningLocations(null, dormsDiningData);
+
+  autoComplete(names, (selected) => {
+    console.log(state.data.buildings);
+    const geom = state.data.buildings.find((d) => d.name === selected);
+    drawBuildings(state.map, state.svg, [geom]);
+  });
 })();
+//Helper Function, given a path returns the distance
+//If path doesn't exist then -1 is returned
+const getPathDist = (path, data) => {
+  const links = data.bikePath.links;
+  var currDist = 0;
+  for (var i = 0; i < path.length - 1; i++) {
+    if (getRelation(path[i], path[i + 1], data) === -1) {
+      return -1;
+    }
+    currDist += getRelation(path[i], path[i + 1], data);
+  }
+  var currArr = [currDist];
+  return currArr;
+};

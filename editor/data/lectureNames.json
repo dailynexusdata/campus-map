@@ -1,0 +1,422 @@
+[
+  {
+    "geometryName": "Arts Building",
+    "goldName": "Arts Building",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Art, Design & Architecture Museum",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "BioEngineering",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Biological Sciences",
+    "goldName": "BSIF",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "",
+    "others": [],
+    "category": ["Biology II", "_lh"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "",
+    "others": [],
+    "category": ["Biology II", "_lh"]
+  },
+  {
+    "geometryName": "Bren Hall",
+    "goldName": "Bren Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Broida Hall",
+    "goldName": "Broida Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Buchanan Hall",
+    "goldName": "Buchanan Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Building 387",
+    "goldName": "Building 387",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Building 300",
+    "goldName": "Building 300",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Campbell Hall",
+    "goldName": "Campbell Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Campus Pool",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Cheadle Hall",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Chemistry",
+    "goldName": "Chemistry Building",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "College of Creative Studies",
+    "goldName": "Creative Studies",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Counseling & Career Services",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Davidson Library",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Education",
+    "goldName": "Education",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "El Centro",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Elings Hall",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Ellison Hall",
+    "goldName": "Ellison Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Engineering II",
+    "goldName": "ENGR2",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "ESB",
+    "others": [],
+    "category": ["Engineering Science", "_lh"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "ESB",
+    "others": [],
+    "category": ["Engineering Science", "_lh"]
+  },
+  {
+    "geometryName": "Events Center",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Girvetz Hall",
+    "goldName": "Girvetz Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Harold Frank Hall",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Humanities and Social Sciences Building",
+    "goldName": "HSSB",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Intercollegiate Athletics",
+    "goldName": "ICA",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Kerr Hall",
+    "goldName": "KERR Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Koegal Autism Center",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Kohn Hall",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Life Sciences",
+    "goldName": "LSB",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "",
+    "others": [],
+    "category": ["Loma Pelona Center", "_other"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "",
+    "others": [],
+    "category": ["Loma Pelona Center", "_other"]
+  },
+  {
+    "geometryName": "",
+    "goldName": "",
+    "others": [],
+    "category": ["Loma Pelona Center", "_other"]
+  },
+  {
+    "geometryName": "Marine Science Institute",
+    "goldName": "MLAB",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Marine Science Research",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Materials Research Laboratory",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Multicultural Center",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Music",
+    "goldName": "Music Building",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Noble Hall",
+    "goldName": "Noble Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "North Hall",
+    "goldName": "North Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Old Gym",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Phelps Hall",
+    "goldName": "Phelps Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Physical Sciences North",
+    "goldName": "PSB-N",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Physical Sciences South",
+    "goldName": "PSB-S",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Pollock Theater",
+    "goldName": "Pollock Theater",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Psychology",
+    "goldName": "Psychology Building",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Psychology Addition",
+    "goldName": "",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "_Psychology",
+    "goldName": "Psychology Building",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Recreation Center",
+    "goldName": "Recreation Center",
+    "others": ["reccen", "rec cen"],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Robertson Gym",
+    "goldName": "Robertson Gym",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Social Sciences and Media Studies",
+    "goldName": "SSMS",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "South Hall",
+    "goldName": "South Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Storke Tower",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Student Affairs Administrative Serves Building",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Student Health Center",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Student Resource Building",
+    "goldName": "",
+    "others": [],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "The Club & Guest House",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Theater and Dance East",
+    "goldName": "TD-E",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Theater and Dance West",
+    "goldName": "TD-W",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "University Center",
+    "goldName": "",
+    "others": [],
+    "category": ["_other"]
+  },
+  {
+    "geometryName": "Webb Hall",
+    "goldName": "Webb Hall",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Women's Center",
+    "goldName": "",
+    "others": ["Building 434"],
+    "category": ["_student_resources"]
+  },
+  {
+    "geometryName": "Building 477",
+    "goldName": "Building 477",
+    "others": [""],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Embarcadero Hall",
+    "goldName": "Embarcadero Hall",
+    "others": [""],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Isla Vista Theater",
+    "goldName": "IV Theatre",
+    "others": [""],
+    "category": ["_lh"]
+  },
+  {
+    "geometryName": "Trailer 942",
+    "goldName": "Trailer 942",
+    "others": [""],
+    "category": ["_lh"]
+  }
+]

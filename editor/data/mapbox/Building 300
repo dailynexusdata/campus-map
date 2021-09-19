@@ -1,0 +1,12 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3005559 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404882" visible="true" version="3" changeset="88395618" timestamp="2020-07-23T09:52:55Z" user="clarke22" uid="703694">
+<nd ref="2304279430"/>
+<nd ref="2304279437"/>
+<nd ref="2304279415"/>
+<nd ref="2304279416"/>
+<nd ref="2304279430"/>
+<tag k="building" v="university"/>
+<tag k="name" v="CSO (bike registration)"/>
+<tag k="ref" v="300"/>
+</way>
+</osm>

@@ -1,0 +1,7 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.5 (2870290 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<nd ref="448803339" visible="true" version="2" changeset="56778309" timestamp="2018-03-01T07:23:34Z" user="Thomas_Hervey" uid="1664013" lat="34.4156123" lon="-119.8446974">
+<tag k="name" v="The Corner Store"/>
+<tag k="shop" v="convenience"/>
+</nd>
+</osm>

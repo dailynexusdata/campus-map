@@ -1,0 +1,20 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3854226 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="38165950" visible="true" version="9" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+<nd ref="449337278"/>
+<nd ref="2303043183"/>
+<nd ref="2303043184"/>
+<nd ref="362769275"/>
+<nd ref="362769270"/>
+<nd ref="362769267"/>
+
+<nd ref="449339773"/>
+<nd ref="449337278"/>
+<tag k="amenity" v="parking"/>
+<tag k="building" v="yes"/>
+<tag k="capacity" v="606"/>
+<tag k="capacity:disabled" v="yes"/>
+<tag k="fee" v="yes"/>
+<tag k="name" v="Lot 10"/>
+<tag k="parking" v="multi-storey"/>
+</way>
+</osm>

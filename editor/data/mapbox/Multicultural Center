@@ -1,0 +1,34 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1465331 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221235914" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:44Z" user="sctrojan79" uid="2601744">
+<nd ref="2302835541"/>
+<nd ref="2302835525"/>
+<nd ref="2302835528"/>
+<nd ref="2302835542"/>
+<nd ref="2302835524"/>
+<nd ref="2302835540"/>
+<nd ref="2302835521"/>
+<nd ref="2302835523"/>
+<nd ref="2302835535"/>
+<nd ref="2302835537"/>
+<nd ref="2302835526"/>
+<nd ref="2302835529"/>
+<nd ref="2302835533"/>
+<nd ref="2302835536"/>
+<nd ref="2302835538"/>
+<nd ref="2302835522"/>
+<nd ref="2302835532"/>
+<nd ref="2302835539"/>
+<nd ref="2302835534"/>
+<nd ref="2302835527"/>
+<nd ref="2302835531"/>
+<nd ref="2302835543"/>
+<nd ref="2302835547"/>
+<nd ref="2302835544"/>
+<nd ref="2302835545"/>
+<nd ref="2302835546"/>
+<nd ref="2302835541"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Multicultural Center"/>
+<tag k="ref" v="558"/>
+</way>
+</osm>

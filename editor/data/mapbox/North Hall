@@ -1,0 +1,26 @@
+<osm version="0.6" generator="CGImap 0.8.5 (797153 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404652" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:58Z" user="sctrojan79" uid="2601744">
+<nd ref="2304277596"/>
+<nd ref="2304277603"/>
+<nd ref="2304277574"/>
+<nd ref="2304277573"/>
+<nd ref="2304277578"/>
+<nd ref="2304277575"/>
+<nd ref="2304277582"/>
+<nd ref="2304277587"/>
+<nd ref="2304277576"/>
+<nd ref="2304277585"/>
+<nd ref="2304277586"/>
+<nd ref="2304277583"/>
+<nd ref="2304277577"/>
+<nd ref="2304277580"/>
+<nd ref="2304277588"/>
+<nd ref="2304277584"/>
+<nd ref="2304277579"/>
+<nd ref="2304277581"/>
+<nd ref="2304277596"/>
+<tag k="building" v="university"/>
+<tag k="name" v="North Hall"/>
+<tag k="ref" v="535"/>
+</way>
+</osm>

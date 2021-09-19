@@ -1,0 +1,28 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.5 (2068301 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221259487" visible="true" version="2" changeset="45225254" timestamp="2017-01-16T20:06:53Z" user="sctrojan79" uid="2601744">
+<nd ref="2303051356"/>
+<nd ref="2303051366"/>
+<nd ref="2303051352"/>
+<nd ref="2303051360"/>
+<nd ref="2303051357"/>
+<nd ref="2303051362"/>
+<nd ref="2303051367"/>
+<nd ref="2303051365"/>
+<nd ref="2303051375"/>
+<nd ref="2303051378"/>
+<nd ref="2303051376"/>
+<nd ref="2303051371"/>
+<nd ref="2303051373"/>
+<nd ref="2303051377"/>
+<nd ref="2303051368"/>
+<nd ref="2303051374"/>
+<nd ref="2303051370"/>
+<nd ref="2303051372"/>
+<nd ref="2303051356"/>
+<tag k="amenity" v="cafe"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Coral Tree Cafe"/>
+<tag k="ref" v="532"/>
+</way>
+</osm>

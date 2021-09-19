@@ -1,0 +1,85 @@
+<osm version="0.6" generator="CGImap 0.8.5 (3925862 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221403275" visible="true" version="3" changeset="45225254" timestamp="2017-01-16T20:06:56Z" user="sctrojan79" uid="2601744">
+<nd ref="2304265384"/>
+<nd ref="2304265378"/>
+<nd ref="2304265380"/>
+<nd ref="2304265382"/>
+<nd ref="2304265388"/>
+<nd ref="2304265386"/>
+<nd ref="2304265389"/>
+<nd ref="2304265383"/>
+<nd ref="2304265379"/>
+<nd ref="2304265381"/>
+<nd ref="2304265385"/>
+<nd ref="2304265479"/>
+<nd ref="2304265460"/>
+<nd ref="2304265519"/>
+<nd ref="2304265269"/>
+<nd ref="2304265560"/>
+<nd ref="2304265573"/>
+<nd ref="2304265357"/>
+<nd ref="2304265445"/>
+<nd ref="2304265556"/>
+<nd ref="2304265561"/>
+<nd ref="2304265578"/>
+<nd ref="2304265580"/>
+<nd ref="2304265633"/>
+<nd ref="2304265302"/>
+<nd ref="2304265352"/>
+<nd ref="2304265498"/>
+<nd ref="2304265511"/>
+<nd ref="2304265551"/>
+<nd ref="2304265554"/>
+<nd ref="2304265557"/>
+<nd ref="2304265563"/>
+<nd ref="2304265568"/>
+<nd ref="2304265571"/>
+<nd ref="2304265576"/>
+<nd ref="2304265575"/>
+<nd ref="2304265587"/>
+<nd ref="2304265593"/>
+<nd ref="2304265600"/>
+<nd ref="2304265609"/>
+<nd ref="2304265617"/>
+<nd ref="2304265627"/>
+<nd ref="2304265631"/>
+<nd ref="2304265640"/>
+<nd ref="2304265641"/>
+<nd ref="2304265204"/>
+<nd ref="2304265206"/>
+<nd ref="2304265216"/>
+<nd ref="2304265218"/>
+<nd ref="2304265497"/>
+<nd ref="2304265502"/>
+<nd ref="2304265504"/>
+<nd ref="2304265509"/>
+<nd ref="2304265512"/>
+<nd ref="2304265518"/>
+<nd ref="2304265523"/>
+<nd ref="2304265521"/>
+<nd ref="2304265524"/>
+<nd ref="2304265528"/>
+<nd ref="2304265531"/>
+<nd ref="2304265533"/>
+<nd ref="2304265536"/>
+<nd ref="2304265537"/>
+<nd ref="2304265540"/>
+<nd ref="2304265543"/>
+<nd ref="2304265545"/>
+<nd ref="2304265547"/>
+<nd ref="2304265584"/>
+<nd ref="2304265585"/>
+<nd ref="2304265588"/>
+<nd ref="2304265590"/>
+<nd ref="2304265597"/>
+<nd ref="2304265604"/>
+<nd ref="2304265606"/>
+<nd ref="2304265611"/>
+<nd ref="2304265610"/>
+<nd ref="2304265616"/>
+<nd ref="2304265384"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Theater and Dance West"/>
+<tag k="ref" v="223"/>
+</way>
+</osm>

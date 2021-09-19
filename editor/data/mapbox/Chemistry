@@ -1,0 +1,23 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1477518 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221241519" visible="true" version="4" changeset="96294083" timestamp="2020-12-23T05:02:49Z" user="clarke22" uid="703694">
+<nd ref="2302882604"/>
+<nd ref="2302882652"/>
+<nd ref="2302882606"/>
+<nd ref="2302882637"/>
+<nd ref="2302882621"/>
+<nd ref="8253592444"/>
+<nd ref="2302882710"/>
+<nd ref="2302882658"/>
+<nd ref="2302882631"/>
+<nd ref="2303113680"/>
+<nd ref="2302882612"/>
+<nd ref="2302882618"/>
+<nd ref="2302882664"/>
+<nd ref="2302882686"/>
+<nd ref="2302882693"/>
+<nd ref="2302882604"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Chemistry"/>
+<tag k="ref" v="557"/>
+</way>
+</osm>

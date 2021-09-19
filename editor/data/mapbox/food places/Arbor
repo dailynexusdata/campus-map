@@ -1,0 +1,35 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.5 (3016258 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221404491" visible="true" version="5" changeset="96296467" timestamp="2020-12-23T05:44:59Z" user="gscholz" uid="109705">
+<nd ref="2304275588"/>
+<nd ref="2304275604"/>
+<nd ref="2304275596"/>
+<nd ref="2304275590"/>
+<nd ref="2304275602"/>
+<nd ref="2304275592"/>
+<nd ref="2304275591"/>
+<nd ref="2304275593"/>
+<nd ref="2304275608"/>
+<nd ref="2304275610"/>
+<nd ref="2304275605"/>
+<nd ref="2304275594"/>
+<nd ref="2304275603"/>
+<nd ref="2304275599"/>
+<nd ref="2304275607"/>
+<nd ref="2304275598"/>
+<nd ref="8250597681"/>
+<nd ref="8250597682"/>
+<nd ref="2304277131"/>
+<nd ref="2304277114"/>
+<nd ref="2304275558"/>
+<nd ref="2304275619"/>
+<nd ref="8250597680"/>
+<nd ref="2304275548"/>
+<nd ref="2304275549"/>
+<nd ref="2304275588"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Arbor"/>
+<tag k="ref" v="501"/>
+<tag k="shop" v="convenience"/>
+</way>
+</osm>

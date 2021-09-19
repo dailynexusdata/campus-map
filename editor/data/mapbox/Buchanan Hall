@@ -1,0 +1,33 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1191318 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="221258374" visible="true" version="3" changeset="56778309" timestamp="2018-03-01T07:23:34Z" user="Thomas_Hervey" uid="1664013">
+<nd ref="2303038358"/>
+<nd ref="2303038368"/>
+<nd ref="2303038370"/>
+<nd ref="2303038374"/>
+<nd ref="2303038377"/>
+<nd ref="2303038366"/>
+<nd ref="2303038361"/>
+<nd ref="2303038364"/>
+<nd ref="2303038375"/>
+<nd ref="2303038378"/>
+<nd ref="2303038359"/>
+<nd ref="2303038381"/>
+<nd ref="2303038382"/>
+<nd ref="2303038362"/>
+<nd ref="2303038367"/>
+<nd ref="2303038369"/>
+<nd ref="2303038372"/>
+<nd ref="2303038373"/>
+<nd ref="2303038376"/>
+<nd ref="2303038379"/>
+<nd ref="2303038360"/>
+<nd ref="2303038363"/>
+<nd ref="2303038383"/>
+<nd ref="2303038380"/>
+<nd ref="2968156973"/>
+<nd ref="2303038358"/>
+<tag k="building" v="university"/>
+<tag k="name" v="Buchanan Hall"/>
+<tag k="ref" v="573"/>
+</way>
+</osm>

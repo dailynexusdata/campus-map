@@ -1,0 +1,31 @@
+<osm version="0.6" generator="CGImap 0.8.5 (1934518 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<way id="49425356" visible="true" version="5" changeset="96761201" timestamp="2021-01-01T08:33:34Z" user="omnibeet" uid="10145113">
+<nd ref="627784063"/>
+<nd ref="2296459015"/>
+<nd ref="2296459014"/>
+<nd ref="2296459013"/>
+<nd ref="2296459012"/>
+<nd ref="2296459011"/>
+<nd ref="627784067"/>
+<nd ref="627784071"/>
+<nd ref="2296459004"/>
+<nd ref="2296459009"/>
+<nd ref="2296459010"/>
+<nd ref="627784072"/>
+<nd ref="627784074"/>
+<nd ref="2296459018"/>
+<nd ref="2296459021"/>
+<nd ref="8280425536"/>
+<nd ref="2296459020"/>
+<nd ref="2296459019"/>
+<nd ref="2296459017"/>
+<nd ref="2296459016"/>
+<nd ref="627784076"/>
+<nd ref="627784063"/>
+<tag k="amenity" v="parking"/>
+<tag k="disabled_spaces" v="yes"/>
+<tag k="fee" v="yes"/>
+<tag k="name" v="Lot 22"/>
+<tag k="parking" v="surface"/>
+</way>
+</osm>
