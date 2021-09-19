@@ -2,6 +2,7 @@ import * as d3 from "d3";
 
 const make = (data, selectMap) => {
   const inputBar = d3.select("#laby-camus-map-interactive-auto-complete");
+  inputBar.selectAll("*").remove();
 
   const input = inputBar.append("input");
 

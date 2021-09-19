@@ -77,7 +77,7 @@ const makePlot = (goldData, mapData) => {
     .text((d) => d)
     .style("border", "2px solid black")
     .style("border-radius", "5px")
-    .style("margin", "0 10px")
+    .style("margin", "5px")
     .style("padding", "5px 10px")
     .style("font-size", "12pt")
     .style("cursor", "pointer");
@@ -137,7 +137,7 @@ const makePlot = (goldData, mapData) => {
     .attr("fill", "#4DD080")
     .attr("fill-opacity", 0.3);
 
-  console.log(mapData.features);
+  // console.log(mapData.features);
 
   const text = svg
     .selectAll(".parkingLotsText")

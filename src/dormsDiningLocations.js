@@ -71,7 +71,7 @@ const makePlot = (goldData, mapData) => {
   // the current selected department is just the first one
   // const department = goldData[0];
 
-  console.log(mapData);
+  // console.log(mapData);
 
   const catColor = {
     dining: "red",

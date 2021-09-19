@@ -158,7 +158,7 @@ const makeScrollingList = (data, area, size, title) => {
 };
 
 const makePlot = (goldData, mapData, fullyOnline, partiallyOnline) => {
-  console.log(mapData);
+  // console.log(mapData);
 
   const size = {
     height: 600,

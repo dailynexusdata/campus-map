@@ -20,8 +20,6 @@ const addBuildingCircles = (map, svg, buildings) => {
     .x((d) => getLatLng(map, d).x)
     .y((d) => getLatLng(map, d).y);
 
-  console.log(buildings);
-
   svg
     .selectAll(".buildingArea")
     .data(buildings)
@@ -32,7 +30,6 @@ const addBuildingCircles = (map, svg, buildings) => {
           .attr("class", "buildingArea")
           .attr("d", (d) => buildingArea(d.geometry))
           .attr("fill", (d) => {
-            console.log(d);
             return colors[
               d.category.filter((d) => Object.keys(colors).includes(d))[0]
             ];
