@@ -1,13 +1,13 @@
 [
   {
-    "geometryName": "Arts Building",
-    "goldName": "Arts Building",
+    "geometryName": "Art, Design & Architecture Museum",
+    "goldName": "",
     "others": [],
     "category": ["_lh"]
   },
   {
-    "geometryName": "Art, Design & Architecture Museum",
-    "goldName": "",
+    "geometryName": "Arts Building",
+    "goldName": "Arts Building",
     "others": [],
     "category": ["_lh"]
   },
@@ -27,13 +27,13 @@
     "geometryName": "",
     "goldName": "",
     "others": [],
-    "category": ["Biology II", "_lh"]
+    "category": ["Biology II"]
   },
   {
     "geometryName": "",
     "goldName": "",
     "others": [],
-    "category": ["Biology II", "_lh"]
+    "category": ["Biology II"]
   },
   {
     "geometryName": "Bren Hall",
@@ -54,15 +54,21 @@
     "category": ["_lh"]
   },
   {
+    "geometryName": "Building 300",
+    "goldName": "Building 300",
+    "others": [],
+    "category": ["_lh"]
+  },
+  {
     "geometryName": "Building 387",
     "goldName": "Building 387",
     "others": [],
     "category": ["_lh"]
   },
   {
-    "geometryName": "Building 300",
-    "goldName": "Building 300",
-    "others": [],
+    "geometryName": "Building 477",
+    "goldName": "Building 477",
+    "others": [""],
     "category": ["_lh"]
   },
   {
@@ -108,6 +114,198 @@
     "category": ["_student_resources"]
   },
   {
+    "geometryName": "Carrillo Dining Commons",
+    "goldName": "",
+    "others": [],
+    "category": ["dining halls"]
+  },
+  {
+    "geometryName": "De La Guerra Dining Commons",
+    "goldName": "",
+    "others": [],
+    "category": ["dining halls"]
+  },
+  {
+    "geometryName": "Ortega Dining Commons",
+    "goldName": "",
+    "others": [],
+    "category": ["dining halls"]
+  },
+  {
+    "geometryName": "Portola Dining Commons",
+    "goldName": "",
+    "others": [],
+    "category": ["dining halls"]
+  },
+  {
+    "geometryName": "Anacapa Hall",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Manzanita",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "San Miguel",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "San Nicolas",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "San Rafael",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "San Rafael",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "San Rafael",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Santa Catalina",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Santa Catalina",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Santa Catalina",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Santa Cruz",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
+    "geometryName": "Santa Rosa",
+    "goldName": "",
+    "others": [],
+    "category": ["dorms"]
+  },
+  {
     "geometryName": "Education",
     "goldName": "Education",
     "others": [],
@@ -132,6 +330,12 @@
     "category": ["_lh"]
   },
   {
+    "geometryName": "Embarcadero Hall",
+    "goldName": "Embarcadero Hall",
+    "others": [""],
+    "category": ["_lh"]
+  },
+  {
     "geometryName": "Engineering II",
     "goldName": "ENGR2",
     "others": [],
@@ -139,15 +343,15 @@
   },
   {
     "geometryName": "",
-    "goldName": "ESB",
+    "goldName": "",
     "others": [],
-    "category": ["Engineering Science", "_lh"]
+    "category": ["Engineering Science"]
   },
   {
     "geometryName": "",
-    "goldName": "ESB",
+    "goldName": "",
     "others": [],
-    "category": ["Engineering Science", "_lh"]
+    "category": ["Engineering Science"]
   },
   {
     "geometryName": "Events Center",
@@ -156,10 +360,52 @@
     "category": ["_other"]
   },
   {
+    "geometryName": "Arbor",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
+    "geometryName": "Coral Tree Cafe",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
+    "geometryName": "Courtyard Cafe",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
+    "geometryName": "Summit Cafe",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
+    "geometryName": "Tenaya Market",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
+    "geometryName": "The Corner Store",
+    "goldName": "",
+    "others": [],
+    "category": ["food places"]
+  },
+  {
     "geometryName": "Girvetz Hall",
     "goldName": "Girvetz Hall",
     "others": [],
     "category": ["_lh"]
+  },
+  {
+    "geometryName": "Harder Stadium",
+    "goldName": "",
+    "others": [],
+    "category": []
   },
   {
     "geometryName": "Harold Frank Hall",
@@ -178,6 +424,12 @@
     "goldName": "ICA",
     "others": [],
     "category": ["_other"]
+  },
+  {
+    "geometryName": "Isla Vista Theater",
+    "goldName": "IV Theatre",
+    "others": [""],
+    "category": ["_lh"]
   },
   {
     "geometryName": "Kerr Hall",
@@ -207,19 +459,19 @@
     "geometryName": "",
     "goldName": "",
     "others": [],
-    "category": ["Loma Pelona Center", "_other"]
+    "category": ["Loma Pelona Center"]
   },
   {
     "geometryName": "",
     "goldName": "",
     "others": [],
-    "category": ["Loma Pelona Center", "_other"]
+    "category": ["Loma Pelona Center"]
   },
   {
     "geometryName": "",
     "goldName": "",
     "others": [],
-    "category": ["Loma Pelona Center", "_other"]
+    "category": ["Loma Pelona Center"]
   },
   {
     "geometryName": "Marine Science Institute",
@@ -270,6 +522,138 @@
     "category": ["_other"]
   },
   {
+    "geometryName": "Lot 1",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 10",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 11",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 11",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 12",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 14",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 16",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 18",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 19",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 2",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 22",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 22",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 23",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 24",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 27",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 29",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 3",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 4",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 5",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 6",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 8",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
+    "geometryName": "Lot 9",
+    "goldName": "",
+    "others": [],
+    "category": ["parking lots"]
+  },
+  {
     "geometryName": "Phelps Hall",
     "goldName": "Phelps Hall",
     "others": [],
@@ -306,10 +690,10 @@
     "category": ["_lh"]
   },
   {
-    "geometryName": "_Psychology",
-    "goldName": "Psychology Building",
+    "geometryName": "Psychology1",
+    "goldName": "",
     "others": [],
-    "category": ["_lh"]
+    "category": []
   },
   {
     "geometryName": "Recreation Center",
@@ -378,9 +762,15 @@
     "category": ["_lh"]
   },
   {
+    "geometryName": "Trailer 942",
+    "goldName": "Trailer 942",
+    "others": [""],
+    "category": ["_lh"]
+  },
+  {
     "geometryName": "University Center",
     "goldName": "",
-    "others": [],
+    "others": ["Ucen"],
     "category": ["_other"]
   },
   {
@@ -394,29 +784,5 @@
     "goldName": "",
     "others": ["Building 434"],
     "category": ["_student_resources"]
-  },
-  {
-    "geometryName": "Building 477",
-    "goldName": "Building 477",
-    "others": [""],
-    "category": ["_lh"]
-  },
-  {
-    "geometryName": "Embarcadero Hall",
-    "goldName": "Embarcadero Hall",
-    "others": [""],
-    "category": ["_lh"]
-  },
-  {
-    "geometryName": "Isla Vista Theater",
-    "goldName": "IV Theatre",
-    "others": [""],
-    "category": ["_lh"]
-  },
-  {
-    "geometryName": "Trailer 942",
-    "goldName": "Trailer 942",
-    "others": [""],
-    "category": ["_lh"]
   }
 ]

@@ -82,6 +82,11 @@ $("#bikeLotEntranceButton").on("click", function () {
   setButtonGreen(this, state.bikeLotEntranceSelection);
 });
 
+$("#buildingEntranceButton").on("click", function () {
+  state.buildingEntranceSelection = !state.buildingEntranceSelection;
+  setButtonGreen(this, state.buildingEntranceSelection);
+});
+
 $("#bikeLotExitButton").on("click", function () {
   state.bikeLotExitSelection = !state.bikeLotExitSelection;
   setButtonGreen(this, state.bikeLotExitSelection);

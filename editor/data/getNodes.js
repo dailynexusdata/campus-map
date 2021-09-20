@@ -47,14 +47,21 @@ const openFile = (fileName) => {
   //   console.log(nodes, output);
   // }
   // console.log(nodes, output);
+  console.log(fileName.name, fileName.group);
 
   const bldg = {
     geometryName: !fileName.name.match(/^_/) ? fileName.name : "",
     goldName: "",
     others: [],
-    category: fileName.group !== fileName.name ? [fileName.group] : [],
+    category:
+      fileName.group !== fileName.name &&
+      !["food places", "parking lots", "dining halls", "dorms"].includes(
+        fileName.group
+      )
+        ? [fileName.group]
+        : [],
   };
-  buildingNames.push(bldg);
+  buildingNames.push({ ...bldg, ...goldName });
 
   geometry.push({
     geometry: output.geometry.map(({ lat, lng }) => ({ lat, lng })),
@@ -73,14 +80,15 @@ const allFeatures = fs
   // .filter((d) => d !== "College of Creative Studies")
   // .filter((d) => d !== "Portola Dining Commons")
   // .filter((d) => d === "Manzanita")
-  // .filter((d) => d !== "parking lots")
-  .filter(
-    (d) =>
-      d === "dorms" ||
-      d === "dining halls" ||
-      d === "University Center" ||
-      d === "food places"
-  )
+  // .filter((d) => d === "food places")
+  // .filter((d) => d === "parking lots")
+  // .filter(
+  //   (d) =>
+  //     d === "dorms" ||
+  //     d === "dining halls" ||
+  //     d === "University Center" ||
+  //     d === "food places"
+  // )
   .map((building) => {
     const pth = path.join(__dirname, "mapbox", building);
     if (fs.lstatSync(pth).isDirectory()) {
@@ -112,9 +120,9 @@ const allFeatures = fs
   });
 
 const final = convertGEOJSON(allFeatures);
-fs.writeFileSync("../../dist/dormsAndDining.json", JSON.stringify(final));
-// fs.writeFileSync("../../dist/geometry.json", JSON.stringify(geometry));
-// fs.writeFileSync(
-//   "../../dist/buildingNames.json",
-//   JSON.stringify(buildingNames)
-// );
+// fs.writeFileSync("../../dist/dormsAndDining.json", JSON.stringify(final));
+fs.writeFileSync("../../dist/geometry.json", JSON.stringify(geometry));
+fs.writeFileSync(
+  "../../dist/buildingNames.json",
+  JSON.stringify(buildingNames)
+);

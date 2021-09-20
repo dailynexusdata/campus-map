@@ -60,6 +60,15 @@ const addWalkingPathNode = ({ lat, lng }) => {
   data.walkingPath.nodes.push(nde);
 };
 
+const getBuildingInside = (point) => {
+  let pos = -1;
+  const p1 = data.buildings.find(({ geometry }, i) => {
+    pos = i;
+    return inside(point, geometry);
+  });
+  return [p1, pos];
+};
+
 const walkingPathLine = d3
   .line()
   .x((d) => getLatLng(d).x)
@@ -101,6 +110,15 @@ const addWalkingPathBubbles = () => {
               if (insideLot) {
                 data.bikeLot[insideLotPos].exit = d.id;
                 d.bikeLot = insideLot.id;
+                console.log("Successfully selected lot!");
+              } else {
+                alert("node is not inside a bikepath lot!");
+              }
+            } else if (state.buildingEntranceSelection) {
+              const [insideLot, insideLotPos] = getBuildingInside(d);
+              if (insideLot) {
+                data.buildings[insideLotPos].entrance = d.id;
+                d.building = insideLot.id;
                 console.log("Successfully selected lot!");
               } else {
                 alert("node is not inside a bikepath lot!");
@@ -150,7 +168,6 @@ const addWalkingPathBubbles = () => {
           .attr("stroke-width", 5)
           .attr("stroke", "#FFD580")
           .attr("pointer-events", "visible")
-          .attr("fill", "purple")
           .lower() // put under the circles
           .on("click", (event, { source, target }) => {
             if (state.deleteWalkingLink) {

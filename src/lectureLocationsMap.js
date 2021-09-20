@@ -53,7 +53,9 @@ const selectDept = (leaflet, map, svg, size) => {
           .style("pointer-events", "visible")
           .attr("stroke", "black")
           .attr("fill", "red")
-          .attr("fill-opacity", 0.5)
+          .attr("fill-opacity", (d) => {
+            return Math.min(1, (2 * d.data.count) / d.data.total);
+          })
           .raise();
       },
       (update) => {
@@ -64,8 +66,14 @@ const selectDept = (leaflet, map, svg, size) => {
       (exit) => exit.remove()
     );
 
+  const bottomTextLocations = [
+    "Girvetz Hall",
+    "Buchanan Hall",
+    "Life Sciences",
+  ];
+
   const getTextPositioning = (d) => {
-    if (["Girvetz Hall", "Buchanan Hall"].includes(d.properties.name)) {
+    if (bottomTextLocations.includes(d.properties.name)) {
       return polygon(d.geometry.coordinates).getBounds().getSouthWest();
     }
 
@@ -98,9 +106,7 @@ const selectDept = (leaflet, map, svg, size) => {
           .attr("y", (d) => {
             return (
               getLatLngObj(leaflet, getTextPositioning(d)).y +
-              (["Girvetz Hall", "Buchanan Hall"].includes(d.properties.name)
-                ? +10
-                : -2)
+              (bottomTextLocations.includes(d.properties.name) ? +14 : -2)
             );
           });
       },
@@ -125,7 +131,8 @@ const selectDept = (leaflet, map, svg, size) => {
                 ? +10
                 : -2)
             );
-          }) - 5;
+          })
+          .raise();
       },
       (exit) => exit.remove()
     );

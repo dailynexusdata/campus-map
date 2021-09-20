@@ -19,6 +19,7 @@ const state = {
   deleteWalkingPath: false,
   addWalkingLink: false,
   deleteWalkingLink: false,
+  buildingEntranceSelection: false,
 };
 
 let data = null;

@@ -1,10 +1,13 @@
 import * as d3 from "d3";
 
-const make = (data, selectMap) => {
-  const inputBar = d3.select("#laby-camus-map-interactive-auto-complete");
+const make = (data, id, selectMap) => {
+  const inputBar = d3.select("#" + id);
   inputBar.selectAll("*").remove();
 
-  const input = inputBar.append("input");
+  const input = inputBar
+    .append("input")
+    .style("width", "190px")
+    .style("font-size", "12pt");
 
   const datalist = inputBar
     .append("datalist")
@@ -14,7 +17,14 @@ const make = (data, selectMap) => {
 
   const expanded = data
     .map((d) =>
-      [...new Set([d.goldName, d.geometryName, ...d.category, ...d.others])]
+      [
+        ...new Set([
+          d.goldName,
+          d.geometryName,
+          ...(d.geometryName === "" ? d.category : []),
+          ...d.others,
+        ]),
+      ]
         .filter((d) => d)
         .map((b) => ({
           val: b,
@@ -41,9 +51,9 @@ const make = (data, selectMap) => {
 
   input.on("input", (event) => {
     const val = event.target.value;
-    const option = datalist.select(`[value='${val}']`).attr("data-value");
-
-    selectMap(option);
+    const option = datalist.select(`[value='${val}']`);
+    if (option._groups[0][0] !== undefined)
+      selectMap(option.attr("data-value"));
   });
 
   input.on("click", (event) => {

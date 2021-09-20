@@ -1,5 +1,4 @@
 import * as d3 from "d3";
-import * as L from "leaflet";
 import "./styles.scss";
 import "leaflet/dist/leaflet.css";
 
@@ -9,9 +8,8 @@ import makeDormsDiningLocations from "./dormsDiningLocations";
 
 import makeMap from "./map";
 
-// idk if this is a good idea
 (async () => {
-  const data = await d3.json("editor/data/data.json"); // I just have fake data to test
+  const data = await d3.json("editor/data/data.json");
   const names = await d3.json("editor/data/lectureNames.json");
   makeMap(data, names);
 

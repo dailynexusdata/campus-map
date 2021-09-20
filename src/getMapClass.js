@@ -1,5 +1,6 @@
 import * as L from "leaflet";
 import * as d3 from "d3";
+import $ from "jquery";
 
 class GetMap {
   constructor(
