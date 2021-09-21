@@ -52,9 +52,9 @@ const getPath = (startId, endId, pathType, data) => {
   const visited = new Set();
   const prev = {};
   const weights = {};
+  weights[startId] = 0;
   q.push(startId);
   //   visited.add((startId, 0));
-  visited.add(0);
   //console.log(getChildren(startId,data));
   //console.log(startId,endId);
   while (q.length > 0) {
@@ -84,7 +84,7 @@ const getPath = (startId, endId, pathType, data) => {
     //Add the unvisited children to the queue
     q = q.concat(newChildren);
     visited.add(node);
-    // q.sort((a, b) => (weights[a] > weights[b] ? 1 : -1));
+    q.sort((a, b) => (weights[a] > weights[b] ? 1 : -1));
   }
   return getMap(prev, startId, endId);
 };
