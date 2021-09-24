@@ -2,19 +2,20 @@ import * as d3 from "d3";
 import { polygon } from "leaflet";
 import GetMap from "./getMapClass";
 
+// https://i.pinimg.com/originals/cb/22/c6/cb22c6dd0d7d3eec12826c5c7af210d3.jpg
 const parkingDesignations = {
   "Lot 1": ["S", "R", "A"],
-  "Lot 2": ["B1", "M"],
+  "Lot 2": ["B1"], // M ?
   "Lot 3": ["S", "A", "M"],
   "Lot 4": ["S", "A"],
-  "Lot 5": ["S", "A", "M"],
-  "Lot 6": ["S", "A"],
+  "Lot 5": ["S", "A", "M", "Meter"], // coastal
+  "Lot 6": ["S", "A", "Meter"], // coastal
   "Lot 8": ["V", "Meter"],
   "Lot 9": ["S", "A"],
-  "Lot 10": ["S", "A"],
+  "Lot 10": ["S", "A", "Meter", "M"], // coastal
   "Lot 11": ["S", "A", "M"],
   "Lot 12": ["S", "A", "R", "Meter"],
-  "Lot 14": ["S", "A", "R", "Meter"],
+  "Lot 14": ["S", "A", "R"],
   "Lot 16": ["C", "S", "A"],
   "Lot 18": ["C", "S", "A", "M"],
   "Lot 19": ["S", "A"],

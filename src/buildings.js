@@ -38,9 +38,10 @@ const addBuildingCircles = (map, svg, buildings) => {
           .attr("d", (d) => buildingArea(d.geometry))
           .attr("class", "buildingArea")
           .attr("fill", (d) => {
-            return colors[
-              d.category.filter((d) => Object.keys(colors).includes(d))[0]
-            ];
+            return "blue";
+            // return colors[
+            //   d.category.filter((d) => Object.keys(colors).includes(d))[0]
+            // ];
           });
       },
       (update) => {

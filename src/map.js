@@ -117,8 +117,7 @@ const getChildren = (parentID, pathType, data) => {
     }
   }
   //console.log(children);
-  children.sort((a, b) => (a[1] > b[1] ? 1 : -1));
-  return children.map((x) => x[0]);
+  return children.sort((a, b) => (a[1] > b[1] ? 1 : -1)).map((x) => x[0]);
 };
 
 //Helper function to decode map
@@ -272,10 +271,12 @@ const drawPath = (path, data, pathType) => {
         enter
           .append("circle")
           .attr("class", "nodes")
-          .attr("fill", COLORS[pathType])
+          .attr("fill", "#89CFF0")
+          //   .attr("fill", COLORS[pathType])
           .attr("cx", (d) => getLatLng(d).x)
           .attr("cy", (d) => getLatLng(d).y)
-          .attr("r", 2.5);
+          .attr("r", 2.5)
+          .lower();
       },
       (update) => {
         update
@@ -302,13 +303,15 @@ const drawPath = (path, data, pathType) => {
       (enter) => {
         enter
           .append("line")
-          .attr("stroke", COLORS[pathType])
+          .attr("stroke", "#89CFF0")
+          //   .attr("stroke", COLORS[pathType])
           .attr("stroke-width", 5)
           .attr("class", "links")
           .attr("x1", (d) => getLatLng(d.prev).x)
           .attr("y1", (d) => getLatLng(d.prev).y)
           .attr("x2", (d) => getLatLng(d.curr).x)
-          .attr("y2", (d) => getLatLng(d.curr).y);
+          .attr("y2", (d) => getLatLng(d.curr).y)
+          .lower();
       },
       (update) => {
         update
@@ -457,37 +460,32 @@ const state = {
 
 const locationTable = () => {
   //   console.log(state.selectedBuildings.filter((d) => d));
-  if (pathCache[0]) {
-    console.log(getPathDist(pathCache[0], "walkingPath", state.data));
-  }
-
-  return;
-  if (state.selectedBuildings.includes(null)) {
-    return;
-  }
-  console.log(pathCache);
-  console.log(getPathDist(pathCache, "walkingPath", state.data));
-
-  const tbl = d3
-    .select("#camus-map-start-end-table")
-    .selectAll("div")
-    .data(state.selectedBuildings, (d) => d[0].name);
-
-  tbl.enter().append("");
-
-  //   tbl
-  //     .enter()
-  //     .append("div")
-  //     .style("height", "60px")
-  //     .style("width", "100%")
-  //     .style("margin", "10px 0")
-  //     .style("border", "0.2px solid #d3d3d3")
-  //     .text((d) => {
-  //       //   console.log(d);
-  //       return d[0].name;
-  //     });
-
-  tbl.exit().remove();
+  //   if (pathCache[0]) {
+  //     console.log(getPathDist(pathCache[0], "walkingPath", state.data));
+  //   }
+  //   return;
+  //   if (state.selectedBuildings.includes(null)) {
+  //     return;
+  //   }
+  //   console.log(pathCache);
+  //   console.log(getPathDist(pathCache, "walkingPath", state.data));
+  //   const tbl = d3
+  //     .select("#camus-map-start-end-table")
+  //     .selectAll("div")
+  //     .data(state.selectedBuildings, (d) => d[0].name);
+  //   tbl.enter().append("");
+  //   //   tbl
+  //   //     .enter()
+  //   //     .append("div")
+  //   //     .style("height", "60px")
+  //   //     .style("width", "100%")
+  //   //     .style("margin", "10px 0")
+  //   //     .style("border", "0.2px solid #d3d3d3")
+  //   //     .text((d) => {
+  //   //       //   console.log(d);
+  //   //       return d[0].name;
+  //   //     });
+  //   tbl.exit().remove();
 };
 
 // const makeFeature = (building) => {
@@ -518,6 +516,50 @@ const locationTable = () => {
 //   };
 // };
 
+const kmToMi = (km) => {
+  return km / 1.60934;
+};
+
+const walkingTime = () => {
+  if (pathCache[0] === undefined) {
+    return;
+  }
+  const container = d3.select("#camus-map-walking-distance-time");
+
+  const distM = getPathDist(pathCache[0], "walkingPath", state.data) * 1000;
+
+  console.log(distM);
+  //   container.style("height", "100px");
+
+  container
+    .append("p")
+    .text(`Distance: ${Math.round(kmToMi(distM / 1000) * 100) / 100}mi`);
+
+  const ttw = container.append("div");
+  const startingSpeed = 1.4;
+  const timeContainer = ttw
+    .append("p")
+    .text(`Estimated time: ${Math.round(distM / startingSpeed / 60)} minutes.`);
+
+  ttw.append("p").text("Walking Speed: ");
+
+  const timeInput = ttw
+    .append("input")
+    .attr("type", "range")
+    .attr("min", 1)
+    .attr("max", 2)
+    .attr("value", startingSpeed)
+    .attr("step", 0.01);
+
+  timeInput.on("input", (event) => {
+    console.log(kmToMi(event.target.value / 1000) * 3600);
+    timeContainer.text(
+      `Estimated time: ${Math.round(distM / event.target.value / 60)} minutes.`
+    );
+  });
+  //   timeInput.attr("value", 1.4);
+};
+
 const pathBetweenBuildings = () => {
   //   console.log("PATH BETWEEN BUILDINGS");
 
@@ -526,11 +568,17 @@ const pathBetweenBuildings = () => {
     return;
   }
 
-  let start = state.selectedBuildings[0].find((d) => d.entrance);
-  let end = state.selectedBuildings[1].find((d) => d.entrance);
-
+  // let start = state.selectedBuildings[0].find((d) => d.entrance);
+  // let end = state.selectedBuildings[1].find((d) => d.entrance);
+  let start = state.data["walkingPath"].nodes.find(
+    (d) => d.id === state.selectedBuildings[0][0].entrance
+  );
+  let end = state.data["walkingPath"].nodes.find(
+    (d) => d.id === state.selectedBuildings[1][0].entrance
+  );
+  console.log({ start, end });
   //   console.log(state.selectedBuildings.map((d) => d.entrance));
-  if (!start || !end) {
+  if (start === undefined || end === undefined) {
     const [pointA, pointB] = state.selectedBuildings.map((d) =>
       polygon(d[0].geometry).getBounds().getCenter()
     );
@@ -538,7 +586,7 @@ const pathBetweenBuildings = () => {
     let closestNodeA = [start];
     let closestNodeB = [end];
 
-    if (!start) {
+    if (start === undefined) {
       closestNodeA = state.data["walkingPath"].nodes
         .sort((acc, p) => {
           const pDistance = distance(p, pointA);
@@ -548,7 +596,7 @@ const pathBetweenBuildings = () => {
         .slice(0, 3);
     }
 
-    if (!end) {
+    if (end === undefined) {
       closestNodeB = state.data["walkingPath"].nodes
         .sort((acc, p) => {
           const pDistance = distance(p, pointB);
@@ -557,31 +605,34 @@ const pathBetweenBuildings = () => {
         })
         .slice(0, 3);
     }
-    const { start: s, end: e } = closestNodeA
-      .map((a) =>
-        closestNodeB.map((b) => ({
-          start: a.id,
-          end: b.id,
-          dist: getPathDist(
-            getPath(a.id, b.id, "walkingPath", state.data),
-            "walkingPath",
-            state.data
-          ),
-        }))
-      )
-      .reduce((a, b) => [...a, ...b])
-      .sort((a, b) => b.dist - a.dist)[0];
+    // console.log({ start, end });
+    // const { start: s, end: e } = closestNodeA
+    //   .map((a) =>
+    //     closestNodeB.map((b) => ({
+    //       start: a.id,
+    //       end: b.id,
+    //       dist: getPathDist(
+    //         getPath(a.id, b.id, "walkingPath", state.data),
+    //         "walkingPath",
+    //         state.data
+    //       ),
+    //     }))
+    //   )
+    //   .reduce((a, b) => [...a, ...b])
+    //   .sort((a, b) => b.dist - a.dist)[0];
 
-    if (!start) start = { entrance: s };
-    if (!end) end = { entrance: e };
+    if (start === undefined) start = closestNodeA[0];
+    if (end === undefined) end = closestNodeB[0];
   }
+
   state.paths = [
     {
-      startId: start.entrance,
-      endId: end.entrance,
+      startId: start.id,
+      endId: end.id,
       type: "walkingPath",
     },
   ];
+  console.log(state.path);
   update();
 };
 
@@ -609,58 +660,57 @@ const makeMap = (data, names) => {
   [state.map, state.svg] = new GetMap("campusMapSearchMap");
 
   const lotQ = [];
-  state.map.on("click", function (e) {
-    return;
-    //Make check for bikepath, if so use find bikelot func and draw
-    //otherwise continue as normal
+  //   state.map.on("click", function (e) {
+  //     //Make check for bikepath, if so use find bikelot func and draw
+  //     //otherwise continue as normal
 
-    if (state.pathType === "bikePath") {
-      //First define a queue for the bikeLots (make this apart of state later on)
+  //     if (state.pathType === "bikePath") {
+  //       //First define a queue for the bikeLots (make this apart of state later on)
 
-      //Then call the func to find the closest bike lot to the latlng
-      const clickedLot = closestLot(e.latlng.lat, e.latlng.lng, state.data);
-      lotQ.push(clickedLot);
-      console.log(lotQ);
-      state.biking_queue.push(data.bikeLot[clickedLot].entrance);
+  //       //Then call the func to find the closest bike lot to the latlng
+  //       const clickedLot = closestLot(e.latlng.lat, e.latlng.lng, state.data);
+  //       lotQ.push(clickedLot);
+  //       console.log(lotQ);
+  //       state.biking_queue.push(data.bikeLot[clickedLot].entrance);
 
-      const closestNode = data["walkingPath"].nodes.reduce((acc, p) => {
-        const pDistance = distance(p, e.latlng);
-        const accDistance = distance(acc, e.latlng);
-        return accDistance < pDistance ? acc : p;
-      });
+  //       const closestNode = data["walkingPath"].nodes.reduce((acc, p) => {
+  //         const pDistance = distance(p, e.latlng);
+  //         const accDistance = distance(acc, e.latlng);
+  //         return accDistance < pDistance ? acc : p;
+  //       });
 
-      state.walking_queue_1.push(closestNode);
-      if (state.biking_queue.length === 2) {
-        state.startId_1 = state.walking_queue_1[0].id;
-        state.endId_1 = nearestWalkingNodeLot(lotQ[0], data).id;
-        state.startId_2 = state.biking_queue[0];
-        state.endId_2 = state.biking_queue[1];
-        state.startId_3 = nearestWalkingNodeLot(lotQ[1], data).id;
-        state.endId_3 = state.walking_queue_1[1].id;
-        state.biking_queue = [];
-        state.walking_queue_1 = [];
-        state.walking_queue_2 = [];
-        // console.log(state);
-        // debugger;
-        update();
-      }
-    } else {
-      const closestNode = data[state.pathType].nodes.reduce((acc, p) => {
-        const pDistance = distance(p, e.latlng);
-        const accDistance = distance(acc, e.latlng);
-        return accDistance < pDistance ? acc : p;
-      });
-      state.walking_queue_1.push(closestNode);
-      if (state.walking_queue_1.length === 2) {
-        state.startId_1 = state.walking_queue_1[0].id;
-        state.endId_1 = state.walking_queue_1[1].id;
-        state.walking_queue_1 = [];
-        update();
-      }
-    }
-    clicks.push([e.latlng, 20]);
-    clickAnimation(clicks);
-  });
+  //       state.walking_queue_1.push(closestNode);
+  //       if (state.biking_queue.length === 2) {
+  //         state.startId_1 = state.walking_queue_1[0].id;
+  //         state.endId_1 = nearestWalkingNodeLot(lotQ[0], data).id;
+  //         state.startId_2 = state.biking_queue[0];
+  //         state.endId_2 = state.biking_queue[1];
+  //         state.startId_3 = nearestWalkingNodeLot(lotQ[1], data).id;
+  //         state.endId_3 = state.walking_queue_1[1].id;
+  //         state.biking_queue = [];
+  //         state.walking_queue_1 = [];
+  //         state.walking_queue_2 = [];
+  //         // console.log(state);
+  //         // debugger;
+  //         update();
+  //       }
+  //     } else {
+  //       const closestNode = data[state.pathType].nodes.reduce((acc, p) => {
+  //         const pDistance = distance(p, e.latlng);
+  //         const accDistance = distance(acc, e.latlng);
+  //         return accDistance < pDistance ? acc : p;
+  //       });
+  //       state.walking_queue_1.push(closestNode);
+  //       if (state.walking_queue_1.length === 2) {
+  //         state.startId_1 = state.walking_queue_1[0].id;
+  //         state.endId_1 = state.walking_queue_1[1].id;
+  //         state.walking_queue_1 = [];
+  //         update();
+  //       }
+  //     }
+  //     clicks.push([e.latlng, 20]);
+  //     clickAnimation(clicks);
+  //   });
 
   // call update function when move map
   // from index.js
@@ -681,7 +731,8 @@ const makeMap = (data, names) => {
   selBar.append("p").text("to").style("margin", "0 10px");
   selBar.append("div").attr("id", "laby-camus-map-interactive-auto-complete2");
 
-  inputArea.append("div").attr("id", "camus-map-start-end-table");
+  //   inputArea.append("div").attr("id", "camus-map-start-end-table");
+  inputArea.append("div").attr("id", "camus-map-walking-distance-time");
 
   autoComplete(
     names,
@@ -700,7 +751,8 @@ const makeMap = (data, names) => {
       state.map.setView([34.411937314426886, -119.84639883041383], 15.4);
       drawBuildings(state.map, state.svg, state.selectedBuildings);
       pathBetweenBuildings();
-      locationTable();
+      // locationTable();
+      // walkingTime();
     }
   );
 
@@ -708,6 +760,7 @@ const makeMap = (data, names) => {
     names,
     "laby-camus-map-interactive-auto-complete2",
     (selected) => {
+      console.log("selected2", { selected });
       const geom = state.data.buildings.filter(
         (d) =>
           d.name === selected ||
@@ -721,7 +774,8 @@ const makeMap = (data, names) => {
       state.map.setView([34.411937314426886, -119.84639883041383], 15.4);
       drawBuildings(state.map, state.svg, state.selectedBuildings);
       pathBetweenBuildings();
-      locationTable();
+      // locationTable();
+      // walkingTime();
     }
   );
   update();

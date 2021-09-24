@@ -59,9 +59,13 @@ const selectDept = (leaflet, map, svg, size) => {
           .raise();
       },
       (update) => {
-        update.attr("d", (d) => {
-          return path(d.geometry.coordinates[0]);
-        });
+        update
+          .attr("d", (d) => {
+            return path(d.geometry.coordinates[0]);
+          })
+          .attr("fill-opacity", (d) => {
+            return Math.min(1, (2 * d.data.count) / d.data.total);
+          });
       },
       (exit) => exit.remove()
     );

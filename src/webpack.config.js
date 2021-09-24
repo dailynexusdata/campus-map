@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV == "production";
 const config = {
   entry: "./index.js",
   output: {
-    filename: "bundle.js",
+    filename: "campus-map-bundle.js",
     path: path.resolve(__dirname, "../dist"),
   },
   plugins: [
