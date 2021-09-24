@@ -98,7 +98,7 @@
   {
     "geometryName": "College of Creative Studies",
     "goldName": "Creative Studies",
-    "others": [],
+    "others": ["CCS"],
     "category": ["_lh"]
   },
   {
