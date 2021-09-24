@@ -62,6 +62,7 @@ const getPath = (startId, endId, pathType, data) => {
     const node = q.shift();
     //Check if it has been visted, if so skip
     if (visited.has(node)) {
+      // console.log("continue");
       continue;
     }
     //If it is the end id then you found the path
@@ -72,6 +73,7 @@ const getPath = (startId, endId, pathType, data) => {
     //Otherwise add the children to the queue
     const newChildren = [];
     for (const child of getChildren(node, pathType, data)) {
+      // console.log("CHILD");
       //Add Children to queue with weight included
       if (!visited.has(child)) {
         prev[child] = node;
@@ -86,6 +88,8 @@ const getPath = (startId, endId, pathType, data) => {
     visited.add(node);
     q.sort((a, b) => (weights[a] > weights[b] ? 1 : -1));
   }
+
+  // console.log("OUT");
   return getMap(prev, startId, endId);
 };
 
@@ -122,11 +126,18 @@ const getChildren = (parentID, pathType, data) => {
 
 //Helper function to decode map
 const getMap = (resMap, start, end) => {
-  var path = [];
-  path.push(end);
-  while (!path.includes(start)) {
+  const path = [end];
+  const maxItr = 6000;
+
+  let i = 0;
+  for (; i < maxItr && !path.includes(start); ++i) {
     path.push(resMap[path[path.length - 1]]);
   }
+
+  if (i === maxItr) {
+    return [];
+  }
+
   return path.reverse();
 };
 
@@ -289,10 +300,11 @@ const drawPath = (path, data, pathType) => {
   const connections = [];
 
   // combine consecutive points together to be able to create lines
-  points.reduce((prev, curr) => {
-    connections.push({ prev, curr });
-    return curr;
-  });
+  if (points.length > 0)
+    points.reduce((prev, curr) => {
+      connections.push({ prev, curr });
+      return curr;
+    });
 
   //   console.log(connections);
 
@@ -414,7 +426,7 @@ const update = () => {
         state.data
       )
     );
-
+    console.log("DRAWING");
     drawPath(pathCache[0], state.data, state.paths[0].type);
   }
 };
@@ -624,7 +636,7 @@ const pathBetweenBuildings = () => {
     if (start === undefined) start = closestNodeA[0];
     if (end === undefined) end = closestNodeB[0];
   }
-
+  // console.log({ start, end });
   state.paths = [
     {
       startId: start.id,
@@ -632,7 +644,6 @@ const pathBetweenBuildings = () => {
       type: "walkingPath",
     },
   ];
-  console.log(state.path);
   update();
 };
 
@@ -760,7 +771,7 @@ const makeMap = (data, names) => {
     names,
     "laby-camus-map-interactive-auto-complete2",
     (selected) => {
-      console.log("selected2", { selected });
+      // console.log("selected2", { selected });
       const geom = state.data.buildings.filter(
         (d) =>
           d.name === selected ||
