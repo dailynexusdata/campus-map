@@ -133,6 +133,11 @@ const addWalkingPathBubbles = () => {
           .attr("cy", (d) => getLatLng(d).y)
     );
 
+  console.log(
+    "MAIN PATHS",
+    data.walkingPath.links.filter((d) => d.main !== undefined && d.main)
+  );
+
   state.svg
     .selectAll(".walkingPathLink")
     .data(data.walkingPath.links)
@@ -166,16 +171,22 @@ const addWalkingPathBubbles = () => {
             return getLatLng(point).y;
           })
           .attr("stroke-width", 5)
-          .attr("stroke", "#FFD580")
+          .attr("stroke", (d) => {
+            return d.main !== undefined && d.main ? "green" : "#FFD580";
+          })
           .attr("pointer-events", "visible")
           .lower() // put under the circles
-          .on("click", (event, { source, target }) => {
+          .on("click", (event, d) => {
+            const { source, target } = d;
             if (state.deleteWalkingLink) {
               data.walkingPath.links = data.walkingPath.links.filter(
                 ({ source: s1, target: t1 }) => {
                   return source !== s1 || target !== t1;
                 }
               );
+            } else if (state.walkingPathMain) {
+              d.main = !d.main;
+              console.log(d);
             }
             update();
           }),
@@ -198,6 +209,12 @@ const addWalkingPathBubbles = () => {
               ({ id }) => id === d.target
             );
             return getLatLng(point).x;
+          })
+          .attr("stroke", (d) => {
+            if (d.main !== undefined && d.main) {
+              console.log("HEREREKASLDJL ALSD \n\n\n");
+            }
+            return d.main !== undefined && d.main ? "green" : "#FFD580";
           })
           .attr("y2", (d) => {
             const point = data.walkingPath.nodes.find(

@@ -20,6 +20,7 @@ const state = {
   addWalkingLink: false,
   deleteWalkingLink: false,
   buildingEntranceSelection: false,
+  walkingPathMain: false,
 };
 
 let data = null;

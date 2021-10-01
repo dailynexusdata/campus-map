@@ -116,6 +116,11 @@ $("#walkingPathNodeAddButton").on("click", function () {
   setButtonGreen(this, state.addWalkingPath);
 });
 
+$("#walkingPathMainButton").on("click", function () {
+  state.walkingPathMain = !state.walkingPathMain;
+  setButtonGreen(this, state.walkingPathMain);
+});
+
 $("#walkingPathNodeDeleteButton").on("click", function () {
   state.deleteWalkingPath = !state.deleteWalkingPath;
   setButtonGreen(this, state.deleteWalkingPath);
