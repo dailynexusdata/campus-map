@@ -160,7 +160,7 @@ const getRelation = (parent, child, pathType, data) => {
   const links = data[pathType].links;
   for (var i = 0; i < links.length; i++) {
     if (links[i].source === parent && links[i].target === child && links[i].main === true) {
-      return links[i].distance + 0.5;
+      return links[i].distance - 0.025;
     }
     else if (links[i].source === parent && links[i].target === child){
       return links[i].distance;
